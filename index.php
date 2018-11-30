@@ -1,24 +1,27 @@
-<script>
+<!doctype html>
 
-function getCours(str) {
-    var xmlhttp = new XMLHttpRequest();
+<html lang="fr">
 
-    xmlhttp.onreadystatechange = function() {
-		
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("reponse").innerHTML = this.responseText;
-        }
-		else {
-			document.getElementById("reponse").innerHTML = "<h1>Une erreur est survenue !</h1>"
-		}
-    };
+<?php require_once("include/head.php"); ?>
 
-    xmlhttp.open("GET", "parseur.php", true);
-    xmlhttp.send();
-}
+<body>
 
-getCours();
-
-</script>
-
-<span id="reponse"></span>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between navbar-toggleable-md">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="">
+<?php
+date_default_timezone_set('Europe/Paris');
+setlocale(LC_TIME, 'fr_FR.utf8','fra');
+echo strftime("%A %d %B %Y");
+?>
+            </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <img src="images/index.png" width="150px">
+            </li>
+        </ul>
+    </nav>
+    <span id="reponse"></span>
+</body>
+</html>
