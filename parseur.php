@@ -17,17 +17,18 @@ $coursTest = parser($data);
 
 echo "<h1>Non trié</h1>";
 
+echo "<table class='table table-striped text-center'>";
 foreach($coursTest as $cours) {
-	echo "Groupe : ".$cours->getGroupe()."</br>";
-	echo "Nom : ".$cours->getNom()."</br>";
-	echo "Horaire début : ".$cours->getHoraireDebut()."</br>";
-	echo "Horaire fin : ".$cours->getHoraireFin()."</br>";
-	echo "Salle : ".$cours->getSalle()."</br>";
-	echo "Professeur : ".$cours->getProfesseur()."</br>";
-	echo "Jour : ".$cours->getJour()."</br>";
-	echo "Raw weeks : ".$cours->getRawWeeks();
-	echo "</br></br>";
+    echo "<tr>";
+	echo "<td>".$cours->getHoraireDebut()." - ";
+	echo $cours->getHoraireFin()."</td>";
+    echo "<td>".$cours->getGroupe()."</td>";
+    echo "<td>".$cours->getNom()."</td>";
+	echo "<td>".$cours->getSalle()."</td>";
+	echo "<td>".$cours->getProfesseur()."</td>";
+	echo "</tr>";
 }
+echo "</table>";
 
 echo "<h1>Trié</h1>";
 
