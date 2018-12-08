@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 
 <html lang="fr">
 
@@ -9,11 +9,14 @@
     <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between navbar-toggleable-md">
         <div class="navbar-header">
             <a class="navbar-brand" href="">
-<?php
-date_default_timezone_set('Europe/Paris');
-setlocale(LC_TIME, 'fr_FR.utf8','fra');
-echo strftime("%A %d %B %Y");
-?>
+                <?php
+                    date_default_timezone_set('Europe/Paris');
+                    setlocale(LC_TIME, 'fr_FR.utf8','fra');
+                    echo utf8_encode(strftime("%A %d %B %Y"));
+                ?>
+            </a>
+            <a class="navbar-brand" href="">
+
             </a>
         </div>
         <ul class="nav navbar-nav navbar-right">

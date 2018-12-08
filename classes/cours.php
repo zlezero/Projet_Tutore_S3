@@ -9,8 +9,9 @@ class Cours
   private $_salle;
   private $_jour;
   private $_rawweeks;
+  private $_couleur;
         
-  public function __construct($horaire_debut, $horaire_fin, $groupe, $nom, $professeur, $salle, $jour, $rawweeks) {
+  public function __construct($horaire_debut, $horaire_fin, $groupe, $nom, $professeur, $salle, $jour, $rawweeks, $couleur) {
 	
     $this->_horaire_debut = $horaire_debut;
     $this->_horaire_fin = $horaire_fin;
@@ -20,6 +21,7 @@ class Cours
     $this->_salle = $salle;
     $this->_jour = $jour;
     $this->_rawweeks = $rawweeks;
+	$this->_couleur = $couleur;
   }
   
   public function getHoraireDebut() {
@@ -52,6 +54,10 @@ class Cours
 
   public function getRawWeeks() {
     return $this->_rawweeks;
+  }
+  
+  public function getCouleur() {
+	return $this->_couleur;
   }
   
    public function __toString() {

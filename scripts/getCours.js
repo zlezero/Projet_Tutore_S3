@@ -1,3 +1,4 @@
+
 function getCours(str) {
     var xmlhttp = new XMLHttpRequest();
 
@@ -15,4 +16,5 @@ function getCours(str) {
     xmlhttp.send();
 }
 
-getCours();
+document.window.onload = getCours();
+timer = window.setInterval("getCours()", 5000);

@@ -2,73 +2,55 @@
 
 require_once("config.php");
 
-//On récupère le fichier xml
 
-$auth = base64_encode("edtetu:edtvel");
-$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
-$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/g532.xml', false, $context);
-#$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/g538.xml', false, $context);
-
-#On parse le fichier
-
-$coursTest = parser($data);
-
-#On affiche le résultat
-
-echo "<h1>Non trié</h1>";
-
-echo "<table class='table table-striped text-center'>";
-foreach($coursTest as $cours) {
-    echo "<tr>";
-	echo "<td>".$cours->getHoraireDebut()." - ";
-	echo $cours->getHoraireFin()."</td>";
-    echo "<td>".$cours->getGroupe()."</td>";
-    echo "<td>".$cours->getNom()."</td>";
-	echo "<td>".$cours->getSalle()."</td>";
-	echo "<td>".$cours->getProfesseur()."</td>";
-	echo "</tr>";
-}
-echo "</table>";
-
-echo "<h1>Trié</h1>";
-
-$correspondanceDate = array("0"=>"6", "1" => "0", "2" => "1", "3" => "2", "4" => "3", "5" => "4", "6" => "5"); 
-
-$coursTest = tri($coursTest);
-
-foreach($coursTest as $cours) {
-	echo "Groupe : ".$cours->getGroupe()."</br>";
-	echo "Nom : ".$cours->getNom()."</br>";
-	echo "Horaire début : ".$cours->getHoraireDebut()."</br>";
-	echo "Horaire fin : ".$cours->getHoraireFin()."</br>";
-	echo "Salle : ".$cours->getSalle()."</br>";
-	echo "Professeur : ".$cours->getProfesseur()."</br>";
-	echo "Jour : ".$cours->getJour()."</br>";
-	echo "Raw weeks : ".$cours->getRawWeeks();
-	echo "</br></br>";
-}
-
-prochainsCours($coursTest, $correspondanceDate[date("w")]);
-
-function prochainsCours($data, $jourCourant) {
-	echo "<h1>Date : ".$jourCourant."</h1>";
-
-	echo "<h1>Prochains cours</h1><hr>";
-
-	$datetime1 = date_create(date('H:s'));
+function parserEtAfficher() {
 	
-	$currentRawWeeks = $data[0]->getRawWeeks();
-
-	foreach($data as $cours) {
-
-		$datetime2 = date_create($cours->getHoraireDebut());
-
-		if ($cours->getJour() == $jourCourant AND $cours->getRawWeeks() == $currentRawWeeks AND $datetime1 <= $datetime2) {
-			echo $cours."</br><hr>";
+	saveXMLToFile();
+	
+	echo "<table class='table table-striped text-center'>";
+	
+	foreach (glob("xml/*.xml") as $filename) {
+		
+		$pointeur = fopen($filename, "r"); 
+		
+		$coursTest = parser(fread($pointeur, filesize($filename)));
+	
+		foreach($coursTest as $cours) {
+			echo "<tr bgcolor=".$cours->getCouleur().">";
+			echo "<td>".$cours->getHoraireDebut()." - ";
+			echo $cours->getHoraireFin()."</td>";
+			echo "<td>".$cours->getGroupe()."</td>";
+			echo "<td>".$cours->getNom()."</td>";
+			echo "<td>".$cours->getSalle()."</td>";
+			echo "<td>".$cours->getProfesseur()."</td>";
+			echo "</tr>";
 		}
 	}
 
+	echo "</table>";
 }
+
+function saveXMLToFile() {
+	
+	$auth = base64_encode("edtetu:edtvel");
+	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
+	$listeXML = array("g2563", "g531", "g532");
+	
+	foreach ($listeXML as $filename) {
+		
+		if (file_exists("xml/".$filename.".xml")) {
+			//if (date("H") - date("H" ,filemtime("xml/".$filename.".xml") >= 4)) {
+				//echo "<h1>Sup 4h</h1>";
+			//}
+		}
+		
+		$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+		$pointeur = fopen("xml/".$filename.".xml", "w+");
+		fwrite($pointeur, $data);
+	}
+
+}
+
 
 function parser($data) {
 	
@@ -147,14 +129,13 @@ function parser($data) {
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
 		#}
 		#else {
-			$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom, $prof, $salle, $jour, $rawweeks);
+			$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom, $prof, $salle, $jour, $rawweeks, "#E6E6FA");
 		#}
 	}
 
 	return $listeCours;
 
 }
-
 
 function tri($data) {
 	return Tri_insrt($data, count($data));
@@ -179,4 +160,7 @@ function Tri_insrt($liste, $taille)
 	}
 	return $liste;
 }
+
+parserEtAfficher();
+
 ?>
