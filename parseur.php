@@ -39,6 +39,9 @@ function saveXMLToFile() {
 	foreach ($listeXML as $filename) {
 		
 		if (file_exists("xml/".$filename.".xml")) {
+			//echo "<h1>".date_create(date("H", filemtime("xml/".$filename.".xml")))."</h1>";
+			//echo date_diff(date_create("now"), date_create(date("H", filemtime("xml/".$filename.".xml"))));
+			
 			//if (date("H") - date("H" ,filemtime("xml/".$filename.".xml") >= 4)) {
 				//echo "<h1>Sup 4h</h1>";
 			//}
@@ -54,7 +57,6 @@ function saveXMLToFile() {
 
 function parser($data) {
 	
-
 	$listeCours = array();
 
 	$temp_tab = explode("<event ", $data);
