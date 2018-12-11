@@ -75,7 +75,7 @@ class Cours
 	$this->_couleur = $couleur;
   }
   
-   public function __toString() {
-	//return "L'horaire est : ".$this->_horaire_debut." - ".$this->_horaire_fin."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
+  public function __toString() {
+	  return "L'horaire est : ".$this->_dateDebut." - ".$this->_dateFin."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
   }
 }

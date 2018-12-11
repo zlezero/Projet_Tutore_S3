@@ -17,8 +17,8 @@ function parserEtAfficher() {
 	
 		foreach($coursTest as $cours) {
 			echo "<tr bgcolor=".$cours->getCouleur().">";
-			echo "<td>".$cours->getHoraireDebut()." - ";
-			echo $cours->getHoraireFin()."</td>";
+			echo "<td>".$cours->getDateDebut()->format("d m Y H:i")." - ";
+			echo $cours->getDateFin()->format("H:i")."</td>";
 			echo "<td>".$cours->getGroupe()."</td>";
 			echo "<td>".$cours->getNom()."</td>";
 			echo "<td>".$cours->getSalle()."</td>";
@@ -47,9 +47,10 @@ function saveXMLToFile() {
 			//}
 		}
 		
-		$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
-		$pointeur = fopen("xml/".$filename.".xml", "w+");
-		fwrite($pointeur, $data);
+		//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML
+		//$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+		//$pointeur = fopen("xml/".$filename.".xml", "w+");
+		//fwrite($pointeur, $data);
 	}
 
 }
@@ -126,12 +127,23 @@ function parser($data) {
 			$salle = "Salle inconnue !";
 		}
 
+		//On construit la date du cours
+		if ($GLOBALS["correspondancesDates"][date("w")] > $jour) {
+			$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireDebut);
+			$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireFin);
+		}
+		else {
+			$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireDebut);
+			$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireFin);
+		}
+
+
 		#if ($estDemiGroupe) {
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[0], $prof[0], $salle, $jour, $rawweeks);
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
 		#}
 		#else {
-			$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom, $prof, $salle, $jour, $rawweeks, "#E6E6FA");
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, "#E6E6FA");
 		#}
 	}
 

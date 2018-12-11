@@ -1,5 +1,6 @@
 
-function getCours(str) {
+function getCours() {
+
     var xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function() {
@@ -13,8 +14,9 @@ function getCours(str) {
     };
 
     xmlhttp.open("GET", "parseur.php", true);
-    xmlhttp.send();
+    xmlhttp.send(null);
 }
 
-document.window.onload = getCours();
-timer = window.setInterval("getCours()", 5000);
+
+window.onload = getCours;
+timer = window.setInterval("getCours()", 600000);
