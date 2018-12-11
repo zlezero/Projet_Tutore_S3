@@ -1,35 +1,30 @@
 <?php
 class Cours
 {
-  private $_horaire_debut;
-  private $_horaire_fin;
+  private $_dateDebut;
+  private $_dateFin;
   private $_groupe;
   private $_nom;
   private $_professeur;
   private $_salle;
-  private $_jour;
-  private $_rawweeks;
   private $_couleur;
         
-  public function __construct($horaire_debut, $horaire_fin, $groupe, $nom, $professeur, $salle, $jour, $rawweeks, $couleur) {
-	
-    $this->_horaire_debut = $horaire_debut;
-    $this->_horaire_fin = $horaire_fin;
+  public function __construct($dateDebut, $dateFin, $groupe, $nom, $professeur, $salle, $couleur) {
+    $this->_dateDebut = $dateDebut;
+    $this->_dateFin = $dateFin;
     $this->_groupe = $groupe;
     $this->_nom = $nom;
     $this->_professeur = $professeur;
     $this->_salle = $salle;
-    $this->_jour = $jour;
-    $this->_rawweeks = $rawweeks;
 	$this->_couleur = $couleur;
   }
   
-  public function getHoraireDebut() {
-	  return $this->_horaire_debut;
+  public function getDateDebut() {
+	  return $this->_dateDebut;
   }
 
-  public function getHoraireFin() {
-    return $this->_horaire_fin;
+  public function getDateFin() {
+    return $this->_dateFin;
   }
 
   public function getGroupe() {
@@ -47,20 +42,40 @@ class Cours
   public function getSalle() {
     return $this->_salle;
   }
-
-  public function getJour() {
-    return $this->_jour;
-  }
-
-  public function getRawWeeks() {
-    return $this->_rawweeks;
-  }
   
   public function getCouleur() {
 	return $this->_couleur;
   }
   
+  public function setDateDebut($dateDebut) {
+	  $this->_dateDebut = $dateDebut;
+  }
+
+  public function setDateFin($dateFin) {
+    $this->_dateFin = $dateFin;
+  }
+
+  public function setGroupe($groupe) {
+    $this->_groupe = $groupe;
+  }
+
+  public function setNom($nom) {
+    $this->_nom = $nom;
+  }
+
+  public function setProfesseur($professeur) {
+    $this->_professeur = $professeur;
+  }
+
+  public function setSalle($salle) {
+    $this->_salle = $salle;
+  }
+  
+  public function setCouleur($couleur) {
+	$this->_couleur = $couleur;
+  }
+  
    public function __toString() {
-	return "L'horaire est : ".$this->_horaire_debut." - ".$this->_horaire_fin."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
+	//return "L'horaire est : ".$this->_horaire_debut." - ".$this->_horaire_fin."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
   }
 }
