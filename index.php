@@ -12,7 +12,7 @@
                 <?php
                     date_default_timezone_set('Europe/Paris');
                     setlocale(LC_TIME, 'fr_FR.utf8','fra');
-                    echo utf8_encode(strftime("%A %d %B %Y"));
+                    echo utf8_encode(ucwords(strftime("%A %d %B %Y")));
                 ?>
             </a>
             <a class="navbar-brand" href="">

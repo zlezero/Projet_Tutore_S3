@@ -1,4 +1,4 @@
 function afficherHeure() {
     var dateCourante = new Date(); 
-    document.getElementById("heure").innerHTML = dateCourante.getHours() + ":" + dateCourante.getMinutes();
+    document.getElementById("heure").innerHTML = dateCourante.getHours() + ":" + (dateCourante.getMinutes()<10?'0':'') + dateCourante.getMinutes()
 }

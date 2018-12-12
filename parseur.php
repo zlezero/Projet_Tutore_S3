@@ -19,7 +19,7 @@ function parserEtAfficher() {
 	
 		foreach($coursTest as $cours) {
 			echo "<tr bgcolor=".$cours->getCouleur().">";
-			echo "<td>".$cours->getDateDebut()->format("d m Y H:i")." - ";
+			echo "<td>".$cours->getDateDebut()->format("d/m/Y H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
 			echo "<td>".$cours->getGroupe()."</td>";
 			echo "<td>".$cours->getNom()."</td>";
@@ -58,9 +58,9 @@ function saveXMLToFile() {
 		}
 		
 		//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML
-		//$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
-		//$pointeur = fopen("xml/".$filename.".xml", "w+");
-		//fwrite($pointeur, $data);
+		$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+		$pointeur = fopen("xml/".$filename.".xml", "w+");
+		fwrite($pointeur, $data);
 	}
 
 }
