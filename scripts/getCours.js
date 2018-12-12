@@ -19,4 +19,5 @@ function getCours() {
 
 
 window.onload = getCours;
-timer = window.setInterval("getCours()", 600000);
+//timer = window.setInterval("getCours()", 900000); //15 minutes
+timer = window.setInterval("getCours()", 5000); //Refresh rapide

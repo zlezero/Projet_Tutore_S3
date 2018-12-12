@@ -7,6 +7,8 @@ function parserEtAfficher() {
 	
 	saveXMLToFile();
 	
+	$aucunCours = True;
+
 	echo "<table class='table table-striped text-center'>";
 	
 	foreach (glob("xml/*.xml") as $filename) {
@@ -25,6 +27,14 @@ function parserEtAfficher() {
 			echo "<td>".$cours->getProfesseur()."</td>";
 			echo "</tr>";
 		}
+
+		if (count($coursTest) == 0) {
+			$aucunCours = FALSE;
+		}
+	}
+
+	if ($aucunCours) {
+		echo "<h1>Aucun cours !</h1>";
 	}
 
 	echo "</table>";
@@ -77,9 +87,14 @@ function parser($data) {
 		$estDemiGroupe = False;
 
 		$jour = explode("</day>", explode("<day>", $cours)[1])[0];
+		$rawweeks = explode("</rawweeks>", explode("<rawweeks>", $cours)[1])[0];
+
+		if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][date("w")] != $jour) {
+			continue;
+		}
+
 		$horaireDebut = explode("</starttime>", explode("<starttime>", $cours)[1])[0];
 		$horaireFin = explode("</endtime>", explode("<endtime>", $cours)[1])[0];
-		$rawweeks = explode("</rawweeks>", explode("<rawweeks>", $cours)[1])[0];
 
 		if (strpos($cours, "<group ")) {
 			$groupe = explode("</group>", explode("<group ", $cours)[1])[0];	
@@ -127,15 +142,20 @@ function parser($data) {
 			$salle = "Salle inconnue !";
 		}
 
+		//echo "<h1>".$jour."</h1>";
+
 		//On construit la date du cours
-		if ($GLOBALS["correspondancesDates"][date("w")] > $jour) {
-			$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireDebut);
-			$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireFin);
-		}
-		else {
-			$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireDebut);
-			$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireFin);
-		}
+
+		//if ($GLOBALS["correspondancesDates"][date("w")] > $jour) { //Globalement useless vu que l'on ne parse que la date du jour
+			//$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireDebut);
+			//$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireFin);
+		//}
+		//else {
+			//$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireDebut);
+			//$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireFin);
+			$dateDebut = new DateTime(date("Y-m-d")." ".$horaireDebut);
+			$dateFin = new DateTime(date("Y-m-d")." ".$horaireFin);
+		//}
 
 
 		#if ($estDemiGroupe) {
