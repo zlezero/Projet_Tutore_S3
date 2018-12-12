@@ -1,4 +1,4 @@
 function afficherHeure() {
-    var currentdate = new Date(); 
-    var datetime = "LastSync: " + new Date().today() + " @ " + new Date().timeNow();
+    var dateCourante = new Date(); 
+    document.getElementById("heure").innerHTML = dateCourante.getHours() + ":" + dateCourante.getMinutes();
 }

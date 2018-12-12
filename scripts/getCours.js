@@ -17,7 +17,12 @@ function getCours() {
     xmlhttp.send(null);
 }
 
+function updateData() {
+    getCours();
+    afficherHeure();
+}
 
-window.onload = getCours;
+window.onload = updateData;
 //timer = window.setInterval("getCours()", 900000); //15 minutes
 timer = window.setInterval("getCours()", 5000); //Refresh rapide
+timeDate = window.setInterval("afficherHeure()", 60000);

@@ -16,7 +16,7 @@
                 ?>
             </a>
             <a class="navbar-brand" href="">
-
+                <span id="heure"></span>
             </a>
         </div>
         <ul class="nav navbar-nav navbar-right">
