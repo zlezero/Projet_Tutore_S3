@@ -8,15 +8,17 @@ class Cours
   private $_professeur;
   private $_salle;
   private $_couleur;
+  private $_remarque;
         
-  public function __construct($dateDebut, $dateFin, $groupe, $nom, $professeur, $salle, $couleur) {
+  public function __construct($dateDebut, $dateFin, $groupe, $nom, $professeur, $salle, $couleur, $remarque) {
     $this->_dateDebut = $dateDebut;
     $this->_dateFin = $dateFin;
     $this->_groupe = $groupe;
     $this->_nom = $nom;
     $this->_professeur = $professeur;
     $this->_salle = $salle;
-	$this->_couleur = $couleur;
+    $this->_couleur = $couleur;
+    $this->_remarque = $remarque;
   }
   
   public function getDateDebut() {
@@ -44,9 +46,13 @@ class Cours
   }
   
   public function getCouleur() {
-	return $this->_couleur;
+	  return $this->_couleur;
   }
   
+  public function getRemarque() {
+    return $this->_remarque;
+  }
+
   public function setDateDebut($dateDebut) {
 	  $this->_dateDebut = $dateDebut;
   }
@@ -72,7 +78,11 @@ class Cours
   }
   
   public function setCouleur($couleur) {
-	$this->_couleur = $couleur;
+	  $this->_couleur = $couleur;
+  }
+
+  public function setRemarque($remarque) {
+    $this->_remarque = $remarque;
   }
   
   public function __toString() {

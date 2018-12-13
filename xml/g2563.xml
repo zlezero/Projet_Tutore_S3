@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 10/12/2018 15:58:32 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 13/12/2018 13:32:42 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -147,7 +147,7 @@
 <item>I.Robba</item></staff>
 <room title="Salle">
 <item>313</item></room></resources></event>
-<event id="155707" timesort="11001300" colour="7FFF7F" ecs="16" ecc="8" er="0">
+<event id="155847" timesort="11001300" colour="7FFF7F" ecs="16" ecc="8" er="0">
 <day>0</day>
 <prettytimes>11:00-13:00 </prettytimes>
 <starttime>11:00</starttime>
@@ -160,7 +160,7 @@
 <module title="Matière">
 <item>Méthodologie de la production d'application</item></module>
 <staff title="Personnel">
-<item>S.Barreau</item></staff>
+<item>K.Zeitouni</item></staff>
 <room title="Salle">
 <item>313</item></room></resources></event>
 <event id="155253" timesort="13001500" colour="7FFF7F" ecs="24" ecc="8" er="0">
@@ -592,11 +592,11 @@
 <item>J-P.Coulon</item></staff>
 <room title="Salle">
 <item>G21</item></room></resources></event>
-<event id="155380" timesort="15001800" colour="7FFF7F" ecs="32" ecc="12" er="0">
+<event id="155380" timesort="15001700" colour="7FFF7F" ecs="32" ecc="8" er="0">
 <day>3</day>
-<prettytimes>15:00-18:00 </prettytimes>
+<prettytimes>15:00-17:00 </prettytimes>
 <starttime>15:00</starttime>
-<endtime>18:00</endtime>
+<endtime>17:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>

@@ -22,8 +22,11 @@ function parserEtAfficher() {
 			echo "<td>".$cours->getDateDebut()->format("d/m/Y H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
 			echo "<td>".$cours->getGroupe()."</td>";
-			echo "<td>".$cours->getNom()."</td>";
-			echo "<td>".$cours->getSalle()."</td>";
+			echo "<td>".$cours->getNom();
+			if ($cours->getRemarque() != "") {
+				echo "<br/>Remarque : ".$cours->getRemarque()."</td>";
+			}
+			echo "</td><td>".$cours->getSalle()."</td>";
 			echo "<td>".$cours->getProfesseur()."</td>";
 			echo "</tr>";
 		}
@@ -44,7 +47,7 @@ function saveXMLToFile() {
 	
 	$auth = base64_encode("edtetu:edtvel");
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
-	$listeXML = array("g2563", "g531", "g532");
+	$listeXML = array("g2563", "g531", "g532", "g1253");
 	
 	foreach ($listeXML as $filename) {
 		
@@ -142,6 +145,13 @@ function parser($data) {
 			$salle = "Salle inconnue !";
 		}
 
+		if (strpos($cours, "<notes>")) {
+			$remarque = explode("</notes>", explode("<notes>", $cours)[1])[0];
+		}
+		else {
+			$remarque = "";
+		}
+
 		//echo "<h1>".$jour."</h1>";
 
 		//On construit la date du cours
@@ -163,36 +173,12 @@ function parser($data) {
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
 		#}
 		#else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, "#E6E6FA");
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, "#E6EAFA", $remarque);
 		#}
 	}
 
 	return $listeCours;
 
-}
-
-function tri($data) {
-	return Tri_insrt($data, count($data));
-}
-
-function Tri_insrt($liste, $taille)
-{
-    for($i = 0; $i < $taille; $i++)
-    {
-        $element_a_inserer = $liste[$i];
-        for($j = 0; $j < $i; $j++)
-        {
-			$element_courant = $liste[$j];
-			
-            if ( (strstr($element_a_inserer->getRawWeeks(), "Y") > strstr($element_courant->getRawWeeks(), "Y")) )
-            {
-                $liste[$j] = $element_a_inserer;
-                $element_a_inserer = $element_courant;
-            }  
-        }
-        $liste[$i] = $element_a_inserer;
-	}
-	return $liste;
 }
 
 parserEtAfficher();
