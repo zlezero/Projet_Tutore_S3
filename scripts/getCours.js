@@ -27,4 +27,4 @@ function updateData() {
 window.onload = updateData;
 //timer = window.setInterval("getCours()", 900000); //15 minutes
 timer = window.setInterval("getCours()", 5000); //Refresh rapide
-timeDate = window.setInterval("afficherHeure()", 60000);
+timerDate = window.setInterval("afficherHeure()", (60 - new Date().getSeconds()) * 1000);

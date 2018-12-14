@@ -9,6 +9,14 @@ function parserEtAfficher() {
 	
 	$aucunCours = True;
 
+	if (!is_connected()) {
+		?>
+			<div class="alert alert-warning" role="alert">
+  				<strong>Attention :</strong> L'affichage n'est pas synchronisé avec l'emploi du temps en ligne
+			</div>
+		<?php
+	}
+
 	echo "<table class='table table-striped text-center'>";
 	
 	foreach (glob("xml/*.xml") as $filename) {
@@ -16,7 +24,7 @@ function parserEtAfficher() {
 		$pointeur = fopen($filename, "r"); 
 		
 		$coursTest = parser(fread($pointeur, filesize($filename)));
-	
+		
 		foreach($coursTest as $cours) {
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("d/m/Y H:i")." - ";
@@ -49,22 +57,29 @@ function saveXMLToFile() {
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
 	$listeXML = array("g2563", "g531", "g532", "g1253");
 	
-	foreach ($listeXML as $filename) {
-		
-		if (file_exists("xml/".$filename.".xml")) {
-			//echo "<h1>".date_create(date("H", filemtime("xml/".$filename.".xml")))."</h1>";
-			//echo date_diff(date_create("now"), date_create(date("H", filemtime("xml/".$filename.".xml"))));
+	if (is_connected()) {
+
+		foreach ($listeXML as $filename) {
+
+			if (file_exists("xml/".$filename.".xml")) {
+				//echo "<h1>".date_create(date("H", filemtime("xml/".$filename.".xml")))."</h1>";
+				//echo date_diff(date_create("now"), date_create(date("H", filemtime("xml/".$filename.".xml"))));
+				
+				//if (date("H") - date("H" ,filemtime("xml/".$filename.".xml") >= 4)) {
+					//echo "<h1>Sup 4h</h1>";
+				//}
+			}
 			
-			//if (date("H") - date("H" ,filemtime("xml/".$filename.".xml") >= 4)) {
-				//echo "<h1>Sup 4h</h1>";
-			//}
+			//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML	
+			$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+			$pointeur = fopen("xml/".$filename.".xml", "w+");
+			fwrite($pointeur, $data);
+	
 		}
-		
-		//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML
-		$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
-		$pointeur = fopen("xml/".$filename.".xml", "w+");
-		fwrite($pointeur, $data);
+
 	}
+
+
 
 }
 
@@ -178,6 +193,22 @@ function parser($data) {
 	}
 
 	return $listeCours;
+
+}
+
+function is_connected()
+{
+	$connected = @fsockopen("chronos.iut-velizy.uvsq.fr", 80);
+
+    if ($connected) {
+    	$is_conn = true;
+		fclose($connected);
+	}
+	else {
+    	$is_conn = false;
+	}
+	
+    return $is_conn;
 
 }
 
