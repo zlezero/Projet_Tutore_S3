@@ -16,7 +16,7 @@ function parserEtAfficher() {
 			</div>
 		<?php
 	}
-
+	//print_r($GLOBALS["config"]);
 	#Le table-striped cause le mauvais affichage des couleurs
 	echo "<table class='table table-striped text-center'>";
 	
