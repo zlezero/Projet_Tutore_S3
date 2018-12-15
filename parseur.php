@@ -37,7 +37,9 @@ function parserEtAfficher() {
 				echo "<br/>Remarque : ".$cours->getRemarque()."</td>";
 			}
 			echo "</td><td>".$cours->getSalle()."</td>";
-			echo "<td>".$cours->getProfesseur()."</td>";
+			if ($GLOBALS["config"]["afficherProf"]) {
+				echo "<td>".$cours->getProfesseur()."</td>";
+			}
 			echo "</tr>";
 		}
 
@@ -93,7 +95,7 @@ function saveXMLToFile() {
 
 function parser($data) {
 
-	$debug = TRUE;
+	$debug = False;
 	$debugDate = date_create("14-12-2018");
 
 	$listeCours = array();
@@ -226,7 +228,7 @@ function parser($data) {
 function getCouleurByGroupe($groupe) {
 
 	if (strpos($groupe, 'INF') !== FALSE) {
-		return "#17A2B8";
+		return $GLOBALS["config"]["INFO"];
 	}
 	else {
 		return "#E6EAFA";

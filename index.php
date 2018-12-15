@@ -25,6 +25,6 @@
             </li>
         </ul>
     </nav>
-    <span id="reponse"></span>
+    <span id="reponse"><h1>En attente du chargement des cours...</h1></span>
 </body>
 </html>
