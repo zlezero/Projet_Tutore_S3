@@ -24,6 +24,7 @@ function parserEtAfficher() {
 		$pointeur = fopen($filename, "r"); 
 		
 		$coursTest = parser(fread($pointeur, filesize($filename)));
+		fclose($pointeur);
 		
 		foreach($coursTest as $cours) {
 			echo "<tr bgcolor=".$cours->getCouleur().">";
@@ -62,12 +63,18 @@ function saveXMLToFile() {
 		foreach ($listeXML as $filename) {
 
 			if (file_exists("xml/".$filename.".xml")) {
+
 				//echo "<h1>".date_create(date("H", filemtime("xml/".$filename.".xml")))."</h1>";
-				//echo date_diff(date_create("now"), date_create(date("H", filemtime("xml/".$filename.".xml"))));
-				
-				//if (date("H") - date("H" ,filemtime("xml/".$filename.".xml") >= 4)) {
-					//echo "<h1>Sup 4h</h1>";
-				//}
+				//echo date("H", filemtime("xml/".$filename.".xml"));
+				//echo "1 - ".(date_create("now")->format("H") - date("H", filemtime("xml/".$filename.".xml")))." <br/>";
+				//echo "2 - ".date_create("now")->format("H")."<br/>";
+				//echo "3 - ".date("H", filemtime("xml/".$filename.".xml"))."<br/>";
+				//echo "3.5 - ".date_create("now")->diff(new DateTime())->format("%R%a days")."<br/>";
+				//echo "4 - ".date_create("now")->diff(new DateTime("@".filemtime("xml/".$filename.".xml")))->format("%H%a")."<br/>";
+
+				if (date_create("now")->diff(new DateTime("@".filemtime("xml/".$filename.".xml")))->format("%H%a") < 4) {
+					continue;
+				}
 			}
 			
 			//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML	
@@ -82,7 +89,6 @@ function saveXMLToFile() {
 
 
 }
-
 
 function parser($data) {
 	
@@ -200,7 +206,7 @@ function parser($data) {
 function getCouleurByGroupe($groupe) {
 
 	if (strpos($groupe, 'INF')) {
-		return "#17a2b8";
+		return "#17A2B8";
 	}
 	else {
 		return "#E6EAFA";
