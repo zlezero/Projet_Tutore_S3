@@ -39,7 +39,7 @@ function parserEtAfficher() {
 			echo "</tr>";
 		}
 
-		if (count($coursTest) == 0) {
+		if (count($coursTest) != 0) {
 			$aucunCours = FALSE;
 		}
 	}
@@ -56,7 +56,7 @@ function saveXMLToFile() {
 	$auth = base64_encode("edtetu:edtvel");
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
 	$listeXML = array("g2563", "g531", "g532", "g1253");
-	
+
 	if (is_connected()) {
 
 		foreach ($listeXML as $filename) {
@@ -188,11 +188,23 @@ function parser($data) {
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
 		#}
 		#else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, "#E6EAFA", $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, getCouleurByGroupe($groupe), $remarque);
 		#}
 	}
 
 	return $listeCours;
+
+}
+
+
+function getCouleurByGroupe($groupe) {
+
+	if (strpos($groupe, 'INF')) {
+		return "#17a2b8";
+	}
+	else {
+		return "#E6EAFA";
+	}
 
 }
 
