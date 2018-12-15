@@ -57,7 +57,7 @@ function parserEtAfficher() {
 
 function saveXMLToFile() {
 	
-	$auth = base64_encode("edtetu:edtvel");
+	$auth = base64_encode($GLOBALS["config"]["Identifiant"].":".$GLOBALS["config"]["Mdp"]);
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
 	$listeXML = array("g2563", "g531", "g532", "g1253");
 
