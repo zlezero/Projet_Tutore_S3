@@ -17,6 +17,7 @@ function parserEtAfficher() {
 		<?php
 	}
 
+	#Le table-striped cause le mauvais affichage des couleurs
 	echo "<table class='table table-striped text-center'>";
 	
 	foreach (glob("xml/*.xml") as $filename) {
@@ -91,7 +92,10 @@ function saveXMLToFile() {
 }
 
 function parser($data) {
-	
+
+	$debug = TRUE;
+	$debugDate = date_create("14-12-2018");
+
 	$listeCours = array();
 
 	$temp_tab = explode("<event ", $data);
@@ -113,9 +117,17 @@ function parser($data) {
 		$jour = explode("</day>", explode("<day>", $cours)[1])[0];
 		$rawweeks = explode("</rawweeks>", explode("<rawweeks>", $cours)[1])[0];
 
-		if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][date("w")] != $jour) {
-			continue;
+		if ($debug) {
+			if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][$debugDate->format("w")] != $jour) {
+				continue;
+			}
+		} 
+		else {
+			if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][date("w")] != $jour) {
+				continue;
+			}
 		}
+
 
 		$horaireDebut = explode("</starttime>", explode("<starttime>", $cours)[1])[0];
 		$horaireFin = explode("</endtime>", explode("<endtime>", $cours)[1])[0];
@@ -184,8 +196,16 @@ function parser($data) {
 		//else {
 			//$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireDebut);
 			//$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireFin);
+
+		if ($debug) {
+			$dateDebut = new DateTime(date("Y-m-".$debugDate->format("d"))." ".$horaireDebut);
+			$dateFin = new DateTime(date("Y-m-".$debugDate->format("d"))." ".$horaireFin);
+		}
+		else {
 			$dateDebut = new DateTime(date("Y-m-d")." ".$horaireDebut);
 			$dateFin = new DateTime(date("Y-m-d")." ".$horaireFin);
+		}
+
 		//}
 
 
@@ -205,7 +225,7 @@ function parser($data) {
 
 function getCouleurByGroupe($groupe) {
 
-	if (strpos($groupe, 'INF')) {
+	if (strpos($groupe, 'INF') !== FALSE) {
 		return "#17A2B8";
 	}
 	else {
