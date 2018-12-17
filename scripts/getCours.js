@@ -10,7 +10,10 @@ function getCours() {
                 document.getElementById("reponse").innerHTML = this.responseText;
             }
             else {
-                document.getElementById("reponse").innerHTML = "<h1>Une erreur est survenue !</h1>"
+                document.getElementById("reponse").innerHTML = "<div class='alert alert-danger' role='alert'>" +
+															   "<strong>Erreur :</strong> Une erreur est survenue lors du chargement des cours ! " +
+															   "(" + this.status + ")" +
+															   "</div>";
             }
         }
     };

@@ -49,7 +49,9 @@ function parserEtAfficher() {
 	}
 
 	if ($aucunCours) {
-		echo "<h1>Aucun cours !</h1>";
+		?>
+		<div class="alert alert-success" role="alert"><h2>Aucun cours !</h2></div>
+		<?php
 	}
 
 	echo "</table>";
@@ -89,14 +91,12 @@ function saveXMLToFile() {
 
 	}
 
-
-
 }
 
 function parser($data) {
 
-	$debug = True;
-	$debugDate = date_create("19-12-2018");
+	$debug = False;
+	$debugDate = date_create("22-12-2018");
 
 	$listeCours = array();
 	
