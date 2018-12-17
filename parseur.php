@@ -18,7 +18,7 @@ function parserEtAfficher() {
 	}
 	//print_r($GLOBALS["config"]);
 	#Le table-striped cause le mauvais affichage des couleurs
-	echo "<table class='table table-striped text-center'>";
+	echo "<table class='table text-center'>";
 	
 	foreach (glob("xml/*.xml") as $filename) {
 		
@@ -95,10 +95,12 @@ function saveXMLToFile() {
 
 function parser($data) {
 
-	$debug = False;
-	$debugDate = date_create("14-12-2018");
+	$debug = True;
+	$debugDate = date_create("19-12-2018");
 
 	$listeCours = array();
+	
+	$rawweeksSemaine = explode("</alleventweeks>", explode("<alleventweeks>", $data)[1])[0];
 
 	$temp_tab = explode("<event ", $data);
 
@@ -111,21 +113,21 @@ function parser($data) {
 	}
 
 	#print_r($temp_tab);
-
+	
 	foreach($temp_tab as $cours) {
 
 		$estDemiGroupe = False;
-
+		
 		$jour = explode("</day>", explode("<day>", $cours)[1])[0];
 		$rawweeks = explode("</rawweeks>", explode("<rawweeks>", $cours)[1])[0];
-
+		
 		if ($debug) {
-			if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][$debugDate->format("w")] != $jour) {
+			if ($rawweeks != $rawweeksSemaine || $GLOBALS["correspondancesDates"][$debugDate->format("w")] != $jour) {
 				continue;
 			}
 		} 
 		else {
-			if ($rawweeks != "NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN" || $GLOBALS["correspondancesDates"][date("w")] != $jour) {
+			if ($rawweeks != $rawweeksSemaine || $GLOBALS["correspondancesDates"][date("w")] != $jour) {
 				continue;
 			}
 		}
