@@ -233,6 +233,27 @@ function getCouleurByGroupe($groupe) {
 	if (strpos($groupe, 'INF') !== FALSE) {
 		return $GLOBALS["config"]["INFO"];
 	}
+	else if (strpos($groupe, 'GEII') !== FALSE) {
+		return $GLOBALS["config"]["GEII"];
+	}
+	else if (strpos($groupe, 'GEI') !== FALSE) {
+		return $GLOBALS["config"]["GEI"];
+	}
+	else if (strpos($groupe, 'RT') !== FALSE) {
+		return $GLOBALS["config"]["RT"];
+	}
+	else if (strpos($groupe, 'ASUR') !== FALSE) {
+		return $GLOBALS["config"]["ASUR"];
+	}
+	else if (strpos($groupe, 'IATIC') !== FALSE) {
+		return $GLOBALS["config"]["IATIC"];
+	}
+	else if (strpos($groupe, 'METWEB') !== FALSE) {
+		return $GLOBALS["config"]["METWEB"];
+	}
+	else if (strpos($groupe, 'MMI') !== FALSE) {
+		return $GLOBALS["config"]["MMI"];
+	}
 	else {
 		return "#E6EAFA";
 	}
