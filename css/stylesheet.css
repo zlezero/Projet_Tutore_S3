@@ -1,4 +1,11 @@
 body { 
     padding-top: 65px; 
 	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#remarque {
+	font-size: 17px;
+	font-weight: normal;
 }

@@ -34,7 +34,7 @@ function parserEtAfficher() {
 			echo "<td>".$cours->getGroupe()."</td>";
 			echo "<td>".$cours->getNom();
 			if ($cours->getRemarque() != "") {
-				echo "<br/>Remarque : ".$cours->getRemarque()."</td>";
+				echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
 			}
 			echo "</td><td>".$cours->getSalle()."</td>";
 			if ($GLOBALS["config"]["afficherProf"]) {
@@ -61,7 +61,7 @@ function saveXMLToFile() {
 	
 	$auth = base64_encode($GLOBALS["config"]["Identifiant"].":".$GLOBALS["config"]["Mdp"]);
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
-	$listeXML = array("g2563", "g531", "g532", "g1253");
+	$listeXML = array("g2565", "g75999", "g507", "g512", "g48129", "g520", "g68673", "g68674", "g533", "g2672", "g539", "g1576", "g524", "g898");
 
 	if (is_connected()) {
 
