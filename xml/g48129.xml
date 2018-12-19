@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gridttss.xsl"?>
+
+<timetable>
+<option combined="0" totalweeks="0" showemptydays="1" dayclass="reverse" titles="1" timesConditional="1">
+<link href="g48129.xml" class="xml">Version HTML imprimable</link>
+<link href="g48129.pdf" class="pdf">Version PDF</link>
+<weeks>Semaines</weeks>
+<dates>Dates</dates>
+<week>Semaine</week>
+<date>Date</date>
+<all>Toutes les semaines</all>
+<notes>Remarques</notes>
+<id>ID</id>
+<eventname>Nom de l'événement</eventname>
+<selectwk>Sélectionner une semaine</selectwk>
+<day>Jour</day>
+<timeevent>Horaire / événement</timeevent>
+<weekind>Semaine(s)</weekind>
+<details>Détails</details>
+<custom1>statut équipement</custom1>
+<custom2>Custom 2</custom2>
+<custom3>Custom 3</custom3>
+<footer>Publié 19/12/2018 17:22:28 - Universite de Versailles Saint-Quentin<br />Créé par 
+<a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
+<dept>Département</dept>
+<evcat>Catégorie d'événement</evcat>
+<times>Heures</times>
+<subheading>Emploi du temps Groupe - GEI1-C</subheading></option>
+<property />
+<period id="0" col="4" times="08:00 - 09:00" />
+<period id="1" col="8" times="09:00 - 10:00" />
+<period id="2" col="12" times="10:00 - 11:00" />
+<period id="3" col="16" times="11:00 - 12:00" />
+<period id="4" col="20" times="12:00 - 13:00" />
+<period id="5" col="24" times="13:00 - 14:00" />
+<period id="6" col="28" times="14:00 - 15:00" />
+<period id="7" col="32" times="15:00 - 16:00" />
+<period id="8" col="36" times="16:00 - 17:00" />
+<period id="9" col="40" times="17:00 - 18:00" />
+<period id="10" col="44" times="18:00 - 19:00" />
+<span id="0" date="17/12/2018" rawix="17" rawlen="1">
+<description>Semaine 51, Semaine commençant le 17/12/2018</description>
+<title>51 (semaine1)</title>
+<alleventweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="1" date="07/01/2019" rawix="20" rawlen="1">
+<description>Semaine 2, Semaine commençant le 07/01/2019</description>
+<title>2</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="2" date="14/01/2019" rawix="21" rawlen="1">
+<description>Semaine 3, Semaine commençant le 14/01/2019</description>
+<title>3</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="3" date="21/01/2019" rawix="22" rawlen="1">
+<description>Semaine 4, Semaine commençant le 21/01/2019</description>
+<title>4</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<event id="154381" timesort="08000915" colour="BF7FFF" ecs="4" ecc="5" er="0" scb="2">
+<day>0</day>
+<prettytimes>08:00-09:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H41</item></room></resources></event>
+<event id="154766" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>0</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ma1</item></module>
+<staff title="Personnel">
+<item>F.Valory</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155512" timesort="09151015" colour="7FFF7F" ecs="11" ecc="2" er="0" scb="1">
+<day>0</day>
+<prettytimes>09:15-10:15 </prettytimes>
+<starttime>09:15</starttime>
+<endtime>10:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>413</item></room></resources>
+<notes>rattrapage du 5/12</notes></event>
+<event id="152893" timesort="09301130" colour="FF7FFF" ecs="10" ecc="8" er="0" sca="2" scb="2">
+<day>0</day>
+<prettytimes>09:30-11:30 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>11:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="155816" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154762" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>P1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154813" timesort="13001700" colour="FF7FBF" ecs="24" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:00-17:00 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>ER1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M.Fonvieille</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources></event>
+<event id="154813" timesort="13001700" colour="FF7FBF" ecs="24" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:00-17:00 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>ER1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M.Fonvieille</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources></event>
+<event id="155515" timesort="13151515" colour="BF7FFF" ecs="27" ecc="6" er="0" sca="3" scb="3">
+<day>0</day>
+<prettytimes>13:15-15:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>15:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>OL1</item></module>
+<staff title="Personnel">
+<item>S.Delaplace</item></staff>
+<room title="Salle">
+<item>H41</item></room></resources>
+<notes>10 TP<br />2 TP Test</notes></event>
+<event id="151818" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>1</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>Amphi  A</item></room></resources></event>
+<event id="151818" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>1</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>Amphi  A</item></room></resources></event>
+<event id="152058" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>1</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>P1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154821" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>1</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154017" timesort="09301130" colour="FF7FFF" ecs="10" ecc="8" er="0" sca="2" scb="2">
+<day>1</day>
+<prettytimes>09:30-11:30 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>11:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>P1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="155817" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" sca="2" scb="1">
+<day>1</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155815" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ma1</item></module>
+<staff title="Personnel">
+<item>N.Gauthier</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154764" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="153360" timesort="13151515" colour="BF7FFF" ecs="27" ecc="6" er="0" sca="3" scb="1">
+<day>1</day>
+<prettytimes>13:15-15:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>15:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matières">
+<item>An1</item>
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>E.Cukalla</item>
+<item>M-B.Bat</item></staff>
+<room title="Salles">
+<item>411</item>
+<item>Labo</item></room></resources>
+<notes>Gr C1 : An1 (labo) puis EC1 (411)Gr C2 : EC1 (411) puis An1 (labo)</notes></event>
+<event id="153360" timesort="13151515" colour="BF7FFF" ecs="27" ecc="6" er="0" sca="3" scb="1">
+<day>1</day>
+<prettytimes>13:15-15:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>15:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matières">
+<item>An1</item>
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>E.Cukalla</item>
+<item>M-B.Bat</item></staff>
+<room title="Salles">
+<item>411</item>
+<item>Labo</item></room></resources>
+<notes>Gr C1 : An1 (labo) puis EC1 (411)Gr C2 : EC1 (411) puis An1 (labo)</notes></event>
+<event id="153360" timesort="13151515" colour="BF7FFF" ecs="27" ecc="6" er="0" sca="3" scb="1">
+<day>1</day>
+<prettytimes>13:15-15:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>15:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matières">
+<item>An1</item>
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>E.Cukalla</item>
+<item>M-B.Bat</item></staff>
+<room title="Salles">
+<item>411</item>
+<item>Labo</item></room></resources>
+<notes>Gr C1 : An1 (labo) puis EC1 (411)Gr C2 : EC1 (411) puis An1 (labo)</notes></event>
+<event id="154018" timesort="13301530" colour="FF7FFF" ecs="26" ecc="8" er="0" sca="2" scb="2">
+<day>1</day>
+<prettytimes>13:30-15:30 </prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item>
+<item>L.Chassagne</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="155513" timesort="15301630" colour="BF7FFF" ecs="34" ecc="4" er="0" cellshare="1">
+<day>1</day>
+<prettytimes>15:30-16:30 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>16:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C2 uniquement<br />rattrapage du 5/12</notes></event>
+<event id="155533" timesort="15301630" colour="BF7FFF" ecs="34" ecc="4" er="0" cellshare="1">
+<day>1</day>
+<prettytimes>15:30-16:30 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>16:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C1 uniquement</notes></event>
+<event id="155532" timesort="15301630" colour="BF7FFF" ecs="34" ecc="4" er="0" cellshare="1">
+<day>1</day>
+<prettytimes>15:30-16:30 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>16:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C2 uniquement</notes></event>
+<event id="155514" timesort="16301730" colour="BF7FFF" ecs="38" ecc="4" er="0" scb="2">
+<day>1</day>
+<prettytimes>16:30-17:30 </prettytimes>
+<starttime>16:30</starttime>
+<endtime>17:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C1 uniquement<br />rattrapage du 5/12</notes></event>
+<event id="155531" timesort="16301730" colour="BF7FFF" ecs="38" ecc="4" er="0" scb="2">
+<day>1</day>
+<prettytimes>16:30-17:30 </prettytimes>
+<starttime>16:30</starttime>
+<endtime>17:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C2 uniquement</notes></event>
+<event id="155534" timesort="16301730" colour="BF7FFF" ecs="38" ecc="4" er="0" scb="2">
+<day>1</day>
+<prettytimes>16:30-17:30 </prettytimes>
+<starttime>16:30</starttime>
+<endtime>17:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>PPP1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>H42</item></room></resources>
+<notes>Groupe C1 uniquement</notes></event>
+<event id="147897" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>2</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>A.Martini</item></staff>
+<room title="Salle">
+<item>Amphi  A</item></room></resources></event>
+<event id="147897" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>2</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>A.Martini</item></staff>
+<room title="Salle">
+<item>Amphi  A</item></room></resources></event>
+<event id="147903" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>2</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>N.Viltard</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="147903" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>2</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>N.Viltard</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="147903" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>2</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>N.Viltard</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155511" timesort="10301130" colour="7FFF7F" ecs="14" ecc="4" er="0" scb="2">
+<day>2</day>
+<prettytimes>10:30-11:30 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155511" timesort="10301130" colour="7FFF7F" ecs="14" ecc="4" er="0" scb="2">
+<day>2</day>
+<prettytimes>10:30-11:30 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>EC1</item></module>
+<staff title="Personnel">
+<item>M-B.Bat</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155988" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155262" timesort="11451245" colour="7FBF7F" ecs="17" ecc="6" er="1" sca="1" scb="1">
+<day>2</day>
+<prettytimes>11:45-12:45 </prettytimes>
+<starttime>11:45</starttime>
+<endtime>12:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>GEI1</item>
+<item>GEII2-FI</item></group>
+<room title="Salles">
+<item>411</item>
+<item>412</item>
+<item>413</item></room></resources>
+<notes>Tutorat 1ère année-2ème année</notes></event>
+<event id="154723" timesort="13151715" colour="BF7FFF" ecs="27" ecc="14" er="0" sca="3" scb="3">
+<day>2</day>
+<prettytimes>13:15-17:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>17:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>R1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M.Fleury</item></staff>
+<room title="Salle">
+<item>H41</item></room></resources></event>
+<event id="154723" timesort="13151715" colour="BF7FFF" ecs="27" ecc="14" er="0" sca="3" scb="3">
+<day>2</day>
+<prettytimes>13:15-17:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>17:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>R1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M.Fleury</item></staff>
+<room title="Salle">
+<item>H41</item></room></resources></event>
+<event id="154723" timesort="13151715" colour="BF7FFF" ecs="27" ecc="14" er="0" sca="3" scb="3">
+<day>2</day>
+<prettytimes>13:15-17:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>17:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>R1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item>
+<item>M.Fleury</item></staff>
+<room title="Salle">
+<item>H41</item></room></resources></event>
+<event id="151311" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
+<event id="151311" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
+<day>3</day>
+<prettytimes>08:00-09:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
+<event id="154773" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
+<day>3</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>AM1</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item>
+<item>A.Martini</item>
+<item>D.Aubert</item>
+<item>E.Cukalla</item>
+<item>E.Monacelli</item>
+<item>F.Basset</item>
+<item>F.Coural</item>
+<item>F.Géraldo</item>
+<item>F.Valory</item>
+<item>L.Chassagne</item>
+<item>M-B.Bat</item>
+<item>N.Gauthier</item>
+<item>S.Delaplace</item>
+<item>Z.Bensalem</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources>
+<notes>Concours POD Racer</notes></event>
+<event id="154019" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
+<day>3</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>GEI1</item>
+<item>GEII2-FI</item></group>
+<module title="Matières">
+<item>PT1</item>
+<item>PT3</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item>
+<item>A.Martini</item>
+<item>D.Aubert</item>
+<item>E.Cukalla</item>
+<item>E.Monacelli</item>
+<item>F.Basset</item>
+<item>F.Coural</item>
+<item>F.Géraldo</item>
+<item>F.Valory</item>
+<item>L.Chassagne</item>
+<item>M-B.Bat</item>
+<item>N.Gauthier</item>
+<item>S.Delaplace</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources>
+<notes>Films Projet tutoré S1-S3</notes></event>
+<event id="155989" timesort="09101025" colour="7FFF7F" ecs="11" ecc="2" er="0" sca="3" scb="1">
+<day>3</day>
+<prettytimes>09:10-10:25 </prettytimes>
+<starttime>09:10</starttime>
+<endtime>10:25</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>Ener1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="154763" timesort="10301145" colour="7FFF7F" ecs="14" ecc="5" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:30-11:45 </prettytimes>
+<starttime>10:30</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>P1</item></module>
+<staff title="Personnel">
+<item>D.Aubert</item></staff>
+<room title="Salle">
+<item>413</item></room></resources></event>
+<event id="155981" timesort="13001700" colour="FF7FBF" ecs="24" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:00-17:00 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<staff title="Personnel">
+<item>A.Cartier</item>
+<item>A.Martini</item>
+<item>D.Aubert</item>
+<item>E.Cukalla</item>
+<item>E.Monacelli</item>
+<item>F.Basset</item>
+<item>F.Coural</item>
+<item>F.Géraldo</item>
+<item>F.Valory</item>
+<item>L.Chassagne</item>
+<item>M-B.Bat</item>
+<item>N.Gauthier</item>
+<item>P.Ruaux</item>
+<item>S.Delaplace</item>
+<item>Z.Bensalem</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="153256" timesort="13151715" colour="BF7FFF" ecs="27" ecc="14" er="0" sca="3" scb="3">
+<day>3</day>
+<prettytimes>13:15-17:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>17:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>G.Gay</item>
+<item>R.Cartier</item></staff>
+<room title="Salle">
+<item>H22</item></room></resources></event>
+<event id="153256" timesort="13151715" colour="BF7FFF" ecs="27" ecc="14" er="0" sca="3" scb="3">
+<day>3</day>
+<prettytimes>13:15-17:15 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>17:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1-C</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>G.Gay</item>
+<item>R.Cartier</item></staff>
+<room title="Salle">
+<item>H22</item></room></resources></event>
+<event id="154016" timesort="09301130" colour="FF7FFF" ecs="10" ecc="8" er="0" sca="2" scb="2">
+<day>4</day>
+<prettytimes>09:30-11:30 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>11:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>Ma1</item></module>
+<staff title="Personnel">
+<item>F.Géraldo</item>
+<item>F.Valory</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="152892" timesort="09451145" colour="FF7FFF" ecs="9" ecc="10" er="0" sca="1" scb="1">
+<day>4</day>
+<prettytimes>09:45-11:45 </prettytimes>
+<starttime>09:45</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>SE1</item></module>
+<staff title="Personnel">
+<item>A.Cartier</item>
+<item>E.Monacelli</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event>
+<event id="152894" timesort="09451145" colour="FF7FFF" ecs="9" ecc="10" er="0" sca="1" scb="1">
+<day>4</day>
+<prettytimes>09:45-11:45 </prettytimes>
+<starttime>09:45</starttime>
+<endtime>11:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEI1</item></group>
+<module title="Matière">
+<item>SIN1</item></module>
+<staff title="Personnel">
+<item>A.Martini</item>
+<item>E.Cukalla</item></staff>
+<room title="Salle">
+<item>Amphi C</item></room></resources></event></timetable>

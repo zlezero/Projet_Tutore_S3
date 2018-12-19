@@ -4,7 +4,9 @@ require_once("config.php");
 
 
 function parserEtAfficher() {
-	
+
+	$GLOBALS["Erreur"] = False;
+
 	saveXMLToFile();
 	
 	$aucunCours = True;
@@ -16,8 +18,7 @@ function parserEtAfficher() {
 			</div>
 		<?php
 	}
-	//print_r($GLOBALS["config"]);
-	#Le table-striped cause le mauvais affichage des couleurs
+
 	echo "<table class='table text-center'>";
 	
 	foreach (glob("xml/*.xml") as $filename) {
@@ -48,13 +49,22 @@ function parserEtAfficher() {
 		}
 	}
 
-	if ($aucunCours) {
+	echo "</table>";
+
+	
+	if ($aucunCours AND $GLOBALS["Erreur"] != True) {
 		?>
-		<div class="alert alert-success" role="alert"><h2>Aucun cours !</h2></div>
+			<div class="alert alert-success" role="alert"><h2>Aucun cours !</h2></div>
+		<?php
+	}
+	else if ($GLOBALS["Erreur"] !== False) {
+		?>
+			<div class="alert alert-danger" role="alert">
+				<strong>Erreur :</strong> Le mot de passe de l'emploi du temps est incorrect !
+			</div>
 		<?php
 	}
 
-	echo "</table>";
 }
 
 function saveXMLToFile() {
@@ -75,17 +85,15 @@ function saveXMLToFile() {
 			}
 			
 			//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML + SI MDP PAS BON
-			try {
-				$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+			$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+
+			if ($data !== FALSE) {
 				$pointeur = fopen("xml/".$filename.".xml", "w+");
 				fwrite($pointeur, $data);
 			}
-			catch (Exception $e) {
-				?>
-					<div class="alert alert-error" role="alert">
-						<strong>Erreur :</strong> Le mot de passe de l'emploi du temps est incorrect !
-					</div>
-				<?php
+			else {
+				$GLOBALS["Erreur"] = True;
+				return;
 			}
 
 		}
