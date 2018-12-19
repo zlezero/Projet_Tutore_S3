@@ -7,6 +7,9 @@ function parserEtAfficher() {
 
 	$GLOBALS["Erreur"] = False;
 
+	$debug = True;
+	$debugDate = date_create("22-12-2018 7:59:59");
+
 	saveXMLToFile();
 	
 	$aucunCours = True;
@@ -25,10 +28,23 @@ function parserEtAfficher() {
 		
 		$pointeur = fopen($filename, "r"); 
 		
-		$coursTest = parser(fread($pointeur, filesize($filename)));
+		$coursData = parser(fread($pointeur, filesize($filename)));
 		fclose($pointeur);
 		
-		foreach($coursTest as $cours) {
+		foreach($coursData as $cours) {
+
+			if ($debug) {
+				#if ($debugDate->diff($cours->getDateDebut())->format("%i%a") < 15) {
+					#continue;
+				#}
+			}
+			else {
+				#if (date_create("now")->diff($cours->getDateDebut())->format("%i%a") < 15) {
+					#continue;
+				#}
+			}
+
+
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("d/m/Y H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
@@ -44,7 +60,7 @@ function parserEtAfficher() {
 			echo "</tr>";
 		}
 
-		if (count($coursTest) != 0) {
+		if (count($coursData) != 0) {
 			$aucunCours = FALSE;
 		}
 	}
