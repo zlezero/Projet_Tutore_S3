@@ -14,3 +14,25 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
+<body>
+
+	<nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-light fixed-top justify-content-between navbar-toggleable-md">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="">
+                <?php
+                    date_default_timezone_set('Europe/Paris');
+                    setlocale(LC_TIME, 'fr_FR.utf8','fra');
+                    echo utf8_encode(ucwords(strftime("%A %d %B %Y")));
+                ?>
+            </a>
+            <a class="navbar-brand" href="">
+                <span id="heure"></span>
+            </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <img src="images/index.png" width="150px">
+            </li>
+        </ul>
+    </nav>
