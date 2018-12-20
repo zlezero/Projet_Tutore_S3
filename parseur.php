@@ -46,7 +46,7 @@ function parserEtAfficher() {
 
 
 			echo "<tr bgcolor=".$cours->getCouleur().">";
-			echo "<td>".$cours->getDateDebut()->format("d/m/Y H:i")." - ";
+			echo "<td>".$cours->getDateDebut()->format("H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
 			echo "<td>".$cours->getGroupe()."</td>";
 			echo "<td>".$cours->getNom();
@@ -185,7 +185,7 @@ function parser($data) {
 		}
 		
 		if (strpos($cours, "<staff ")) {
-			$prof = explode("</staff>", explode("<staff ", $cours)[1])[0];	
+			$prof = explode("</staff>", explode("<staff ", $cours)[1])[0];
 			$prof = explode("</item>", explode("<item>", $prof)[1]);
 
 			#if (count($prof) > 1) {
@@ -214,18 +214,7 @@ function parser($data) {
 			$remarque = "";
 		}
 
-		//echo "<h1>".$jour."</h1>";
-
 		//On construit la date du cours
-
-		//if ($GLOBALS["correspondancesDates"][date("w")] > $jour) { //Globalement useless vu que l'on ne parse que la date du jour
-			//$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireDebut);
-			//$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("-".($jour+1)." day"))." ".$horaireFin);
-		//}
-		//else {
-			//$dateDebut = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireDebut);
-			//$dateFin = new DateTime(date("Y-m")."-".date("d", strtotime("+".($jour-1)." day"))." ".$horaireFin);
-
 		if ($debug) {
 			$dateDebut = new DateTime(date("Y-m-".$debugDate->format("d"))." ".$horaireDebut);
 			$dateFin = new DateTime(date("Y-m-".$debugDate->format("d"))." ".$horaireFin);
