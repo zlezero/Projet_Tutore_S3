@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 17/12/2018 16:01:29 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 20/12/2018 18:02:01 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -83,7 +83,8 @@
 <row id="1" /></day>
 <day id="3">
 <name>jeudi</name>
-<row id="0" /></day>
+<row id="0" />
+<row id="1" /></day>
 <day id="4">
 <name>vendredi</name>
 <row id="0" />
@@ -374,23 +375,7 @@
 <room title="Salle">
 <item>315</item></room></resources>
 <notes>initialment placé le 18 janvier</notes></event>
-<event id="147870" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="0">
-<day>0</day>
-<prettytimes>13:00-16:00 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>16:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>infra.ss fil d'entreprise</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources></event>
-<event id="153713" timesort="13151430" colour="BF7FFF" ecs="27" ecc="3" er="1" sca="3" scb="2">
+<event id="153713" timesort="13151430" colour="BF7FFF" ecs="27" ecc="3" er="0" sca="3" scb="2">
 <day>0</day>
 <prettytimes>13:15-14:30 </prettytimes>
 <starttime>13:15</starttime>
@@ -1135,7 +1120,23 @@
 <item>Z.Yassin</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="150937" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="0">
+<event id="147870" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="0">
+<day>3</day>
+<prettytimes>13:00-16:00 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>16:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group>
+<module title="Matière">
+<item>infra.ss fil d'entreprise</item></module>
+<staff title="Personnel">
+<item>S.Soulayrol</item></staff>
+<room title="Salle">
+<item>H32</item></room></resources></event>
+<event id="150937" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="1">
 <day>3</day>
 <prettytimes>13:00-16:00 </prettytimes>
 <starttime>13:00</starttime>

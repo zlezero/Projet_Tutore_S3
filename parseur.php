@@ -2,13 +2,15 @@
 
 require_once("config.php");
 
+$debug = FALSE;
+$debugDate = date_create("21-12-2018 7:59:59");
 
 function parserEtAfficher() {
 
 	$GLOBALS["Erreur"] = False;
 
-	$debug = True;
-	$debugDate = date_create("22-12-2018 7:59:59");
+	global $debug;
+	global $debugDate;
 
 	saveXMLToFile();
 	
@@ -120,8 +122,8 @@ function saveXMLToFile() {
 
 function parser($data) {
 
-	$debug = False;
-	$debugDate = date_create("22-12-2018");
+	global $debug;
+	global $debugDate;
 
 	$listeCours = array();
 	
@@ -174,7 +176,7 @@ function parser($data) {
 			$nom = explode("</item>", explode("<item>", $nom)[1]);
 
 			#if (count($nom) > 1) {
-				$estDemiGroupe = True;
+				#$estDemiGroupe = True;
 			#}
 			#else {
 				$nom = $nom[0];
