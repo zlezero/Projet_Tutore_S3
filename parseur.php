@@ -2,17 +2,15 @@
 
 require_once("config.php");
 
-$debug = FALSE;
+$debug = True;
 $debugDate = date_create("21-12-2018 7:59:59");
 
 function parserEtAfficher() {
 
-	$GLOBALS["Erreur"] = False;
-
 	global $debug;
 	global $debugDate;
 
-	saveXMLToFile();
+	$erreur = saveXMLToFile();
 	
 	$aucunCours = True;
 
@@ -70,12 +68,12 @@ function parserEtAfficher() {
 	echo "</table>";
 
 	
-	if ($aucunCours AND $GLOBALS["Erreur"] != True) {
+	if ($aucunCours AND $erreur != True) {
 		?>
 			<div class="alert alert-success" role="alert"><h2>Aucun cours !</h2></div>
 		<?php
 	}
-	else if ($GLOBALS["Erreur"] !== False) {
+	else if ($erreur !== False) {
 		?>
 			<div class="alert alert-danger" role="alert">
 				<strong>Erreur :</strong> Le mot de passe de l'emploi du temps est incorrect !
@@ -110,11 +108,12 @@ function saveXMLToFile() {
 				fwrite($pointeur, $data);
 			}
 			else {
-				$GLOBALS["Erreur"] = True;
-				return;
+				return True;
 			}
 
 		}
+		
+		return False;
 
 	}
 
