@@ -5,14 +5,17 @@
 
 if (isset($_POST["id"]) AND isset($_POST["pwd"])) {
 	if (!empty($_POST["id"]) AND !empty($_POST["pwd"])) {
-		if (file_exists("admin/admin.csv")) {
-			$pointeur = fopen("admin/admin.csv", "r");
+		if (file_exists("config/admin.csv")) {
+			$pointeur = fopen("config/admin.csv", "r");
 			$data = fgetcsv($pointeur);
 			if ($_POST["id"] == $data[0] AND hash("sha512", $_POST["pwd"]) == $data[1]) {
 				$_SESSION["isConnected"] = True;
 			}
 		}
 	}
+}
+else {
+	$erreurConnexion = True;
 }
 
 ?>
@@ -25,6 +28,17 @@ if (isset($_POST["id"]) AND isset($_POST["pwd"])) {
 
 	<body>
 
+		<?php 
+		
+			if (isset($erreurConnexion)) {
+				?>
+					<div class="alert alert-danger" role="alert">
+						<strong>Erreur :</strong> Identifients incorrects !
+					</div>
+				<?php
+			}
+
+		?>
 		<div id="container" class="container mt-5">
 
 			<div class="row mt-2">
