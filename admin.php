@@ -1,3 +1,22 @@
+<?php require_once("config.php"); ?>
+
+
+<?php 
+
+if (isset($_POST["id"]) AND isset($_POST["pwd"])) {
+	if (!empty($_POST["id"]) AND !empty($_POST["pwd"])) {
+		if (file_exists("admin/admin.csv")) {
+			$pointeur = fopen("admin/admin.csv", "r");
+			$data = fgetcsv($pointeur);
+			if ($_POST["id"] == $data[0] AND hash("sha512", $_POST["pwd"]) == $data[1]) {
+				$_SESSION["isConnected"] = True;
+			}
+		}
+	}
+}
+
+?>
+
 <!doctype html>
 
 <html lang="fr">
@@ -5,7 +24,7 @@
 <?php require_once("include/head.php"); ?>
 
 	<body>
-	
+
 		<div id="container" class="container mt-5">
 
 			<div class="row mt-2">
