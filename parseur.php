@@ -2,7 +2,7 @@
 
 require_once("config.php");
 
-$debug = True;
+$debug = False;
 $debugDate = date_create("21-12-2018 7:59:59");
 
 function parserEtAfficher() {
@@ -48,15 +48,39 @@ function parserEtAfficher() {
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
-			echo "<td>".$cours->getGroupe()."</td>";
-			echo "<td>".$cours->getNom();
+
+			echo "<td>";
+			
+			foreach($cours->getGroupe()	as $groupe) {
+				echo $groupe." / ";
+			}
+			
+			echo "</td><td>";
+
+			foreach($cours->getNom() as $nom) {
+				echo $nom." / ";
+			}
+
 			if ($cours->getRemarque() != "") {
 				echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
 			}
-			echo "</td><td>".$cours->getSalle()."</td>";
-			if ($GLOBALS["config"]["afficherProf"]) {
-				echo "<td>".$cours->getProfesseur()."</td>";
+
+			echo "</td><td>";
+
+			foreach($cours->getSalle() as $salle) {
+				echo $salle." / ";
 			}
+
+			echo "</td>";
+
+			if ($GLOBALS["config"]["afficherProf"]) {
+				echo "<td>";
+				foreach($cours->getProfesseur() as $prof) {
+					echo $prof." / ";
+				}
+				echo "</td>";
+			}
+
 			echo "</tr>";
 		}
 
@@ -112,7 +136,7 @@ function saveXMLToFile() {
 			}
 
 		}
-		
+
 		return False;
 
 	}
@@ -162,50 +186,94 @@ function parser($data) {
 		$horaireDebut = explode("</starttime>", explode("<starttime>", $cours)[1])[0];
 		$horaireFin = explode("</endtime>", explode("<endtime>", $cours)[1])[0];
 
+		$groupeArray = array();
+
 		if (strpos($cours, "<group ")) {
-			$groupe = explode("</group>", explode("<group ", $cours)[1])[0];	
-			$groupe = explode("</item>", explode("<item>", $groupe)[1])[0];
+
+			$groupe = explode("<item>", explode("</group>", explode("<group ", $cours)[1])[0]);	
+
+			$nbrGroupes = count($groupe);
+
+			if ($nbrGroupes >= 3) { //Si plus d'un groupe
+				for ($i = 1; $i != $nbrGroupes; $i++) {
+					$groupeArray[] = explode("</item>", $groupe[$i])[0];
+				}
+			}
+			else {
+				$groupeArray[] = explode("</item>", $groupe[1])[0];
+			}
+
+
+
 		}
 		else {
-			$groupe = "Groupe inconnu !";
+			$groupeArray[] = "Groupe inconnu !";
 		}
+
+		$nomArray = array();
 
 		if (strpos($cours, "<module ")) {
-			$nom = explode("</module>", explode("<module ", $cours)[1])[0];	
-			$nom = explode("</item>", explode("<item>", $nom)[1]);
 
-			#if (count($nom) > 1) {
-				#$estDemiGroupe = True;
-			#}
-			#else {
-				$nom = $nom[0];
-			#}
+			$nom = explode("<item>", explode("</module>", explode("<module ", $cours)[1])[0]);
+
+			$nbrNoms = count($nom);
+
+			if ($nbrNoms >= 3) { //Si plus d'un nom
+				for ($i = 1; $i != $nbrNoms; $i++) {
+					$nomArray[] = explode("</item>", $nom[$i])[0];
+				}
+			}
+			else {
+				$nomArray[] = explode("</item>", $nom[1])[0];
+			}
+
 		}
 		else {
-			$nom = "Nom de cours inconnu !";
+			$nomArray[] = "Nom de cours inconnu !";
 		}
-		
+
+		$profArray = array();
+
 		if (strpos($cours, "<staff ")) {
-			$prof = explode("</staff>", explode("<staff ", $cours)[1])[0];
-			$prof = explode("</item>", explode("<item>", $prof)[1]);
 
-			#if (count($prof) > 1) {
-				#$estDemiGroupe = True;
-			#}
-			#else {
-				$prof = $prof[0];
-			#}
+			$prof = explode("<item>", explode("</staff>", explode("<staff ", $cours)[1])[0]);
+
+			$nbrProfs = count($prof);
+
+			if ($nbrProfs >= 3) { //Si plus d'un prof
+				for ($i = 1; $i != $nbrProfs; $i++) {
+					$profArray[] = explode("</item>", $prof[$i])[0];
+				}
+			}
+			else {
+				$profArray[] = explode("</item>", $prof[1])[0];
+			}
+
 		}
 		else {
-			$prof = "Professeur inconnu !";
+			$profArray[] = "Professeur inconnu !";
 		}
+
+		$salleArray = array();
 
 		if (strpos($cours, "<room ")) {
-			$salle = explode("</room>", explode("<room ", $cours)[1])[0];	
-			$salle = explode("</item>", explode("<item>", $salle)[1])[0];
+
+			$salle = explode("<item>", explode("</room>", explode("<room ", $cours)[1])[0]);
+			
+			$nbrSalles = count($salle);
+
+			if ($nbrSalles >= 3) { //Si plus d'une salle
+				for ($i = 1; $i != $nbrSalles; $i++) {
+					$salleArray[] = explode("</item>", $salle[$i])[0];
+				}
+			}
+			else {
+				$salleArray[] = explode("</item>", $salle[1])[0];
+			}
+
 		}
 		else {
-			$salle = "Salle inconnue !";
+			$salleArray[] = "Salle inconnue !";
 		}
 
 		if (strpos($cours, "<notes>")) {
@@ -225,15 +293,12 @@ function parser($data) {
 			$dateFin = new DateTime(date("Y-m-d")." ".$horaireFin);
 		}
 
-		//}
-
-
 		#if ($estDemiGroupe) {
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[0], $prof[0], $salle, $jour, $rawweeks);
 			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
 		#}
 		#else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupe, $nom, $prof, $salle, getCouleurByGroupe($groupe), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
 		#}
 	}
 
