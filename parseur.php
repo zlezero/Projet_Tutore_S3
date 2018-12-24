@@ -3,7 +3,7 @@
 require_once("config.php");
 
 $debug = False;
-$debugDate = date_create("21-12-2018 7:59:59");
+$debugDate = date_create("18-12-2018 7:59:59");
 
 function parserEtAfficher() {
 
@@ -132,10 +132,10 @@ function saveXMLToFile() {
 
 		}
 
-		//On retourne qu'il n'y a pas d'erreurs
-		return False;
-
 	}
+
+	//On retourne qu'il n'y a pas d'erreurs
+	return False;
 
 }
 
@@ -210,7 +210,7 @@ function parser($data) {
 			$nom = explode("<item>", explode("</module>", explode("<module ", $cours)[1])[0]);
 
 			$nbrNoms = count($nom);
-
+			
 			if ($nbrNoms >= 3) { //Si plus d'un nom
 				for ($i = 1; $i != $nbrNoms; $i++) {
 					$nomArray[] = explode("</item>", $nom[$i])[0];

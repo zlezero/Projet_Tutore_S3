@@ -8,12 +8,14 @@ function getCours() {
         if (this.readyState == 4) {
             if (this.status == 200) {
                 document.getElementById("reponse").innerHTML = this.responseText;
+                document.getElementById("reponse").style.color = 'white';
             }
             else {
                 document.getElementById("reponse").innerHTML = "<div class='alert alert-danger' role='alert'>" +
 															   "<strong>Erreur :</strong> Une erreur est survenue lors du chargement des cours ! " +
 															   "(" + this.status + ")" +
-															   "</div>";
+                                                               "</div>";
+                document.getElementById("reponse").style.color = 'black';
             }
         }
     };
