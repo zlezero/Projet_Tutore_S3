@@ -287,7 +287,15 @@ function parser($data) {
 		}
 
 		//On contruit le cours final
-		$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+
+		if (count($nomArray) >= 2 AND count($profArray) >= 2) //Si il s'agit d'un demi groupe
+		{
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[0]), array($profArray[0]), $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[1]), array($profArray[1]), $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+		}
+		else {
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+		}
 	
 	}
 
