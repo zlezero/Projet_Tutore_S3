@@ -86,6 +86,6 @@ class Cours
   }
   
   public function __toString() {
-	  return "L'horaire est : ".$this->_dateDebut." - ".$this->_dateFin."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
+	  return "L'horaire est : ".$this->_dateDebut->format("H:i")." - ".$this->_dateFin->format("H:i")."</br>Le groupe est : ".$this->_groupe."</br>Le nom est : ".$this->_nom."</br>Le professeur est : ".$this->_professeur."</br>La salle est : ".$this->_salle;
   }
 }

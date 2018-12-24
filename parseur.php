@@ -31,7 +31,7 @@ function parserEtAfficher() {
 		$coursData = parser(fread($pointeur, filesize($filename)));
 		fclose($pointeur);
 		
-		foreach($coursData as $cours) {
+		foreach($coursData as $cours) { //Pour tout les cours
 
 			if ($debug) {
 				#if ($debugDate->diff($cours->getDateDebut())->format("%i%a") < 15) {
@@ -51,15 +51,11 @@ function parserEtAfficher() {
 
 			echo "<td>";
 			
-			foreach($cours->getGroupe()	as $groupe) {
-				echo $groupe." / ";
-			}
-			
+			echo implode(" / ", $cours->getGroupe());
+
 			echo "</td><td>";
 
-			foreach($cours->getNom() as $nom) {
-				echo $nom." / ";
-			}
+			echo implode(" / ", $cours->getNom());
 
 			if ($cours->getRemarque() != "") {
 				echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
@@ -67,17 +63,13 @@ function parserEtAfficher() {
 
 			echo "</td><td>";
 
-			foreach($cours->getSalle() as $salle) {
-				echo $salle." / ";
-			}
+			echo implode(" / ", $cours->getSalle());
 
 			echo "</td>";
 
 			if ($GLOBALS["config"]["afficherProf"]) {
 				echo "<td>";
-				foreach($cours->getProfesseur() as $prof) {
-					echo $prof." / ";
-				}
+				echo implode(" / ", $cours->getProfesseur());
 				echo "</td>";
 			}
 
@@ -92,12 +84,12 @@ function parserEtAfficher() {
 	echo "</table>";
 
 	
-	if ($aucunCours AND $erreur != True) {
+	if ($aucunCours AND $erreur != True) { //Si il n'y a pas de cours et il n'y a pas d'erreurs
 		?>
 			<div class="alert alert-success" role="alert"><h2>Aucun cours !</h2></div>
 		<?php
 	}
-	else if ($erreur !== False) {
+	else if ($erreur !== False) { //Si il y a une erreur
 		?>
 			<div class="alert alert-danger" role="alert">
 				<strong>Erreur :</strong> Le mot de passe de l'emploi du temps est incorrect !
@@ -117,26 +109,30 @@ function saveXMLToFile() {
 
 		foreach ($listeXML as $filename) {
 
-			if (file_exists("xml/".$filename.".xml")) {
+			if (file_exists("xml/".$filename.".xml")) { //Si un des fichiers xml existe déjà
 
+				//On regarde si il a été créer depuis moins de 4h
 				if (date_create("now")->diff(new DateTime("@".filemtime("xml/".$filename.".xml")))->format("%H%a") < 4) {
 					continue;
 				}
 			}
 			
-			//ATTENTION SI LE SITE MARCHE PAS CA ECRASE LES XML + SI MDP PAS BON
-			$data = file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+			//ATTENTION ERREURS + WARNING DELETE DE LA FONCTION
+			$data = @file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
 
-			if ($data !== FALSE) {
+			//Si il n'y a pas d'erreurs
+			if ($data !== FALSE) { 
+				//On écrit le fichier xml
 				$pointeur = fopen("xml/".$filename.".xml", "w+");
 				fwrite($pointeur, $data);
 			}
-			else {
+			else { //Sinon on retourne le fait qu'il y ait une erreur
 				return True;
 			}
 
 		}
 
+		//On retourne qu'il n'y a pas d'erreurs
 		return False;
 
 	}
@@ -145,26 +141,25 @@ function saveXMLToFile() {
 
 function parser($data) {
 
+	//On utilise les variables globales de debug
 	global $debug;
 	global $debugDate;
 
-	$listeCours = array();
+	$listeCours = array(); //Liste de tout les cours
 	
 	$rawweeksSemaine = explode("</alleventweeks>", explode("<alleventweeks>", $data)[1])[0];
 
-	$temp_tab = explode("<event ", $data);
+	$tabCours = explode("<event ", $data);
 
 	//Supprimer le 1er élement du tab qui est inutile
-	array_shift($temp_tab);
-	array_splice($temp_tab, 0, 1);
+	array_shift($tabCours);
+	array_splice($tabCours, 0, 1);
 
-	for ($i=0;$i!=count($temp_tab);$i++) {
-		$temp_tab[$i] = "<event ".$temp_tab[$i];
+	for ($i=0;$i!=count($tabCours);$i++) {
+		$tabCours[$i] = "<event ".$tabCours[$i];
 	}
-
-	#print_r($temp_tab);
 	
-	foreach($temp_tab as $cours) {
+	foreach($tabCours as $cours) { //Pour tout les évènements présents dans le xml
 
 		$estDemiGroupe = False;
 		
@@ -188,7 +183,7 @@ function parser($data) {
 
 		$groupeArray = array();
 
-		if (strpos($cours, "<group ")) {
+		if (strpos($cours, "<group ")) { //On extrait les groupes
 
 			$groupe = explode("<item>", explode("</group>", explode("<group ", $cours)[1])[0]);	
 
@@ -203,8 +198,6 @@ function parser($data) {
 				$groupeArray[] = explode("</item>", $groupe[1])[0];
 			}
 
-
-
 		}
 		else {
 			$groupeArray[] = "Groupe inconnu !";
@@ -212,7 +205,7 @@ function parser($data) {
 
 		$nomArray = array();
 
-		if (strpos($cours, "<module ")) {
+		if (strpos($cours, "<module ")) { //On extrait le nom du cours
 
 			$nom = explode("<item>", explode("</module>", explode("<module ", $cours)[1])[0]);
 
@@ -234,7 +227,7 @@ function parser($data) {
 
 		$profArray = array();
 
-		if (strpos($cours, "<staff ")) {
+		if (strpos($cours, "<staff ")) { //On extrait les professeurs
 
 			$prof = explode("<item>", explode("</staff>", explode("<staff ", $cours)[1])[0]);
 
@@ -256,7 +249,7 @@ function parser($data) {
 
 		$salleArray = array();
 
-		if (strpos($cours, "<room ")) {
+		if (strpos($cours, "<room ")) { //On extrait la salle
 
 			$salle = explode("<item>", explode("</room>", explode("<room ", $cours)[1])[0]);
 			
@@ -276,7 +269,7 @@ function parser($data) {
 			$salleArray[] = "Salle inconnue !";
 		}
 
-		if (strpos($cours, "<notes>")) {
+		if (strpos($cours, "<notes>")) { //On extrait la remarque si elle existe
 			$remarque = explode("</notes>", explode("<notes>", $cours)[1])[0];
 		}
 		else {
@@ -293,13 +286,9 @@ function parser($data) {
 			$dateFin = new DateTime(date("Y-m-d")." ".$horaireFin);
 		}
 
-		#if ($estDemiGroupe) {
-			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[0], $prof[0], $salle, $jour, $rawweeks);
-			#$listeCours[] = new Cours($horaireDebut, $horaireFin, $groupe, $nom[1], $prof[1], $salle, $jour, $rawweeks);
-		#}
-		#else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
-		#}
+		//On contruit le cours final
+		$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+	
 	}
 
 	return $listeCours;
@@ -307,7 +296,7 @@ function parser($data) {
 }
 
 
-function getCouleurByGroupe($groupe) {
+function getCouleurByGroupe($groupe) { //On obtient la couleur associée à chaque département
 
 	if (strpos($groupe, 'INF') !== FALSE) {
 		return $GLOBALS["config"]["INFO"];
@@ -339,7 +328,7 @@ function getCouleurByGroupe($groupe) {
 
 }
 
-function is_connected()
+function is_connected() //On regarde si la connexion au serveur d'edt est possible
 {
 	$connected = @fsockopen("chronos.iut-velizy.uvsq.fr", 80);
 
