@@ -26,6 +26,7 @@ function getCours() {
 
 function updateData() {
     getCours();
+	afficherHeure();
 }
 
 window.onload = updateData;
