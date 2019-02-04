@@ -1,7 +1,7 @@
 ﻿<head>
     <!--<link rel="icon" type="image/jpg" href="images/icon.jpg" />-->
     <meta charset="utf-8">
-    <title>EDT</title>
+    <title>EDT++</title>
     <meta name="description" content="Projet tuteure">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -32,10 +32,11 @@
                     echo utf8_encode(ucwords(strftime("%A %d %B %Y")));
                 ?>
             </a>
-            <a class="navbar-brand" href="">
-                <span id="heure"></span>
-            </a>
+            
         </div>
+        <h1>
+            <span id="heure"></span>
+        </h1>
         <ul class="nav navbar-nav navbar-right">
             <li>
                 <img src="images/index.png" width="150px">

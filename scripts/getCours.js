@@ -31,4 +31,4 @@ function updateData() {
 
 window.onload = updateData;
 //timer = window.setInterval("getCours()", 900000); //15 minutes
-timer = window.setInterval("getCours()", 5000); //Refresh rapide
+timer = window.setInterval("getCours()", 9000); //Refresh rapide
