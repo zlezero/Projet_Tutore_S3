@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 00:50:06 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 04/02/2019 21:15:41 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -556,7 +556,7 @@
 <staff title="Personnel">
 <item>Th.Lepage</item></staff>
 <room title="Salle">
-<item>512</item></room></resources></event>
+<item>510</item></room></resources></event>
 <event id="158725" timesort="09001000" colour="7FFF7F" ecs="8" ecc="4" er="0">
 <day>1</day>
 <prettytimes>09:00-10:00 </prettytimes>
@@ -653,7 +653,7 @@
 <staff title="Personnel">
 <item>Th.Lepage</item></staff>
 <room title="Salle">
-<item>512</item></room></resources></event>
+<item>510</item></room></resources></event>
 <event id="156593" timesort="10301200" colour="7FFF7F" ecs="14" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>10:30-12:00 </prettytimes>

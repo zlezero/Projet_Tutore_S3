@@ -39,6 +39,41 @@ $path_of_admin_page = "admin.php";
 
 require_once($path_of_config_php);
 
+// Teoman Soygul
+function write_php_ini($array, $file)
+{
+    $res = array();
+    foreach($array as $key => $val)
+    {
+        if(is_array($val))
+        {
+            $res[] = "[$key]";
+            foreach($val as $skey => $sval) $res[] = "$skey = ".(is_numeric($sval) ? $sval : '"'.$sval.'"');
+        }
+        else $res[] = "$key = " . $val;
+    }
+    safefilerewrite($file, implode("\r\n", $res));
+}
+function safefilerewrite($fileName, $dataToSave)
+{    if ($fp = fopen($fileName, 'w'))
+    {
+        $startTime = microtime(TRUE);
+        do
+        {            $canWrite = flock($fp, LOCK_EX);
+           // If lock not obtained sleep for 0 - 100 milliseconds, to avoid collision and CPU load
+           if(!$canWrite) usleep(round(rand(0, 100)*1000));
+        } while ((!$canWrite)and((microtime(TRUE)-$startTime) < 5));
+
+        //file was locked so now we can store information
+        if ($canWrite)
+        {            fwrite($fp, $dataToSave);
+            flock($fp, LOCK_UN);
+        }
+        fclose($fp);
+    }
+
+}
+
 $prof = $_POST['prof'];
 $rem = $_POST['rem'];
 $url = $_POST['url'];
@@ -49,53 +84,23 @@ $couleur = $_POST['couleur'];
 
 if (file_exists($path_of_config_ini))
 {
-    $f = file($path_of_config_ini);
-
-    // Affichage des professeurs, affichage des remarques
-    $f[1] = "afficherProf = " . $prof . "\r\n";
-    $f[2] = "afficherRemarque = " . $rem . "\r\n";
-
-    $lignes = count($f);
-    // plusieurs boucles, pour éviter des conditions inutiles
-    // mais pas d'index fixe, s'il y a des ajouts
-
-
-    // Couleur d'un département
-    for ($r = 0; $r != $lignes; $r++)
-    {
-        // cherche une occurrence de la chaîne $dept dans une ligne du fichier
-        if (strpos($f[$r], $dept) !== false)
-        {
-            $f[$r] = $dept . " = " . $couleur . "\r\n";
-            break;
-        }
-    }
-
-    // Départements à télécharger
-    $r = 103;
-    foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
+	$array = $GLOBALS['config_tree'];
+	$array["General"]["afficherProf"] = $prof;
+	$array["General"]["afficherRemarque"] = $rem;
+	$array["Securite"]["Url"] = $url;
+	$array["Securite"]["Identifiant"] = $login;
+	$array["Securite"]["Mdp"] = $mdp;
+	$array["Couleurs"][$dept] = $couleur;
+	
+	foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
     {
         if (isset($_POST[$u]))
         {
-            $f[$r] = $d . " = " . $u ." \r\n";
-            $r++;
+            $array["Active"][$d] = $u;
         }
     }
 
-    // Identifiant, Mot de passe, URL
-    for ($r = 102; $r != $lignes; $r++)
-    {
-        if (strpos($f[$r], 'Identifiant') !== false)
-        {
-            $f[$r] = "Identifiant = " . $login . "\r\n";
-            $f[$r + 1] = "Mdp = " . $mdp . "\r\n";
-            $f[$r + 2] = "Url = " . $url . "\r\n";
-            break;
-        }
-    }
-
-    // on écrit
-    file_put_contents($path_of_config_ini, $f);
+	write_php_ini($array, $path_of_config_ini);
 }
 
 header("Location: " . $path_of_admin_page.'?m=1');

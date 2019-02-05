@@ -3,7 +3,7 @@
 require_once("config.php");
 
 $debug = False;
-$debugDate = date_create("18-12-2018 7:59:59");
+$debugDate = date_create("05-02-2019 7:59:59");
 $current_time = '0';
 
 

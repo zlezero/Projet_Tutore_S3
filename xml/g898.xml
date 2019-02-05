@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 17:06:34 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 05/02/2019 09:33:14 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -1206,7 +1206,9 @@
 <module title="Matière">
 <item>telephonie sur ip</item></module>
 <staff title="Personnel">
-<item>S.MARTY</item></staff></resources></event>
+<item>S.MARTY</item></staff>
+<room title="Salle">
+<item>514</item></room></resources></event>
 <event id="156953" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="1" scb="2">
 <day>2</day>
 <prettytimes>08:00-09:15 </prettytimes>
@@ -1290,7 +1292,7 @@
 <staff title="Personnel">
 <item>S.MARTY</item></staff>
 <room title="Salle">
-<item>513</item></room></resources></event>
+<item>514</item></room></resources></event>
 <event id="158512" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="1" scb="2">
 <day>2</day>
 <prettytimes>09:15-10:30 </prettytimes>

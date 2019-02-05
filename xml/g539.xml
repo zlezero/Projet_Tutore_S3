@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 13:04:19 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 04/02/2019 21:15:41 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -2158,7 +2158,7 @@
 <staff title="Personnel">
 <item>C.Fournerie</item></staff>
 <room title="Salle">
-<item>512</item></room></resources></event>
+<item>316</item></room></resources></event>
 <event id="149989" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="0">
 <day>3</day>
 <prettytimes>10:00-12:00 </prettytimes>
@@ -2206,7 +2206,7 @@
 <staff title="Personnel">
 <item>C.Fournerie</item></staff>
 <room title="Salle">
-<item>512</item></room></resources></event>
+<item>316</item></room></resources></event>
 <event id="158175" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="1">
 <day>3</day>
 <prettytimes>10:00-12:00 </prettytimes>
