@@ -14,5 +14,16 @@ if (file_exists($path_of_config_ini)) {
     $GLOBALS["config_tree"] = parse_ini_file($path_of_config_ini, true);
 }
 
+if (isset($_GET["getCouleur"]) AND !empty($_GET["getCouleur"])) {
+	echo getColorParGroupe($_GET["getCouleur"]);
+}
 
+function getColorParGroupe($groupe) {
+	if (isset($GLOBALS["config_tree"]["Couleurs"][$groupe])) {
+		return $GLOBALS["config_tree"]["Couleurs"][$groupe];
+	}
+	else {
+		return "#E6EAFA";
+	}
+}
 ?>

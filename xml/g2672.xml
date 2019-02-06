@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 17:06:34 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 05/02/2019 17:41:41 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -529,16 +529,22 @@
 <item>J. Rodet</item></staff>
 <room title="Salle">
 <item>I03</item></room></resources></event>
-<event id="158632" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
+<event id="159053" timesort="08001200" colour="7FFF7F" ecs="4" ecc="16" er="0">
 <day>2</day>
-<prettytimes>09:00-12:00 </prettytimes>
-<starttime>09:00</starttime>
+<prettytimes>08:00-12:00 </prettytimes>
+<starttime>08:00</starttime>
 <endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>METWEB</item></group></resources></event>
+<item>METWEB</item></group>
+<module title="Matière">
+<item>Economie et Marketing</item></module>
+<staff title="Personnel">
+<item>M.Orvain</item></staff>
+<room title="Salle">
+<item>I03</item></room></resources></event>
 <event id="153628" timesort="13001700" colour="7FFF7F" ecs="24" ecc="16" er="0">
 <day>2</day>
 <prettytimes>13:00-17:00 </prettytimes>

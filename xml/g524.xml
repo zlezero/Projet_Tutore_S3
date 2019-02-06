@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 17:06:34 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 06/02/2019 14:27:36 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -126,7 +126,8 @@
 <name>mercredi</name>
 <row id="0" />
 <row id="1" />
-<row id="2" /></day>
+<row id="2" />
+<row id="3" /></day>
 <day id="3">
 <name>jeudi</name>
 <row id="0" />
@@ -968,7 +969,6 @@
 <module title="Matière">
 <item>principe &amp; archi reseaux</item></module>
 <staff title="Personnel">
-<item>D.Marinca</item>
 <item>S.MARTY</item></staff>
 <room title="Salle">
 <item>510</item></room></resources></event>
@@ -1134,7 +1134,7 @@
 <item>L.Marsan</item></staff>
 <room title="Salle">
 <item>312</item></room></resources></event>
-<event id="156388" timesort="10451200" colour="FFBFBF" ecs="13" ecc="7" er="2" sca="1">
+<event id="159062" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
 <day>1</day>
 <prettytimes>10:45-12:00 </prettytimes>
 <starttime>10:45</starttime>
@@ -1145,9 +1145,9 @@
 <group title="Groupe">
 <item>RT1-FA</item></group>
 <module title="Matière">
-<item>technologie de l'internet</item></module>
+<item>calculs differ.&amp;integral</item></module>
 <staff title="Personnel">
-<item>D.Marinca</item></staff>
+<item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
 <event id="158533" timesort="11001215" colour="7FFF7F" ecs="16" ecc="5" er="0" scb="3">
@@ -1579,7 +1579,7 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
-<event id="158811" timesort="15001800" colour="BF7FFF" ecs="32" ecc="12" er="3">
+<event id="159003" timesort="15001800" colour="BF7FFF" ecs="32" ecc="12" er="3">
 <day>1</day>
 <prettytimes>15:00-18:00 </prettytimes>
 <starttime>15:00</starttime>
@@ -1595,7 +1595,7 @@
 <item>A.Benallegue</item></staff>
 <room title="Salle">
 <item>H33</item></room></resources></event>
-<event id="158811" timesort="15001800" colour="BF7FFF" ecs="32" ecc="12" er="2">
+<event id="159004" timesort="15001800" colour="BF7FFF" ecs="32" ecc="12" er="2">
 <day>1</day>
 <prettytimes>15:00-18:00 </prettytimes>
 <starttime>15:00</starttime>
@@ -1768,7 +1768,7 @@
 <room title="Salles">
 <item>H24a</item>
 <item>H24b</item></room></resources></event>
-<event id="158515" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="2">
+<event id="158515" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="1">
 <day>2</day>
 <prettytimes>08:00-09:15 </prettytimes>
 <starttime>08:00</starttime>
@@ -1789,7 +1789,7 @@
 <item>Amar R-C</item></staff>
 <room title="Salle">
 <item>510</item></room></resources></event>
-<event id="148000" timesort="08000930" colour="FF7FFF" ecs="4" ecc="6" er="1" cellshare="1">
+<event id="148000" timesort="08000930" colour="FF7FFF" ecs="4" ecc="6" er="1" scb="2">
 <day>2</day>
 <prettytimes>08:00-09:30 </prettytimes>
 <starttime>08:00</starttime>
@@ -1887,13 +1887,13 @@
 <room title="Salles">
 <item>H24a</item>
 <item>H24b</item></room></resources></event>
-<event id="156989" timesort="09201035" colour="BF7FFF" ecs="11" ecc="4" er="0" scb="1">
+<event id="156989" timesort="09201035" colour="BF7FFF" ecs="11" ecc="4" er="3" sca="3" scb="1">
 <day>2</day>
 <prettytimes>09:20-10:35 </prettytimes>
 <starttime>09:20</starttime>
 <endtime>10:35</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>RT1-FI-A1</item></group>
@@ -1902,8 +1902,9 @@
 <staff title="Personnel">
 <item>J. Fancett</item></staff>
 <room title="Salle">
-<item>Labo</item></room></resources></event>
-<event id="158544" timesort="09301045" colour="7FFF7F" ecs="10" ecc="5" er="1" scb="1">
+<item>Labo</item></room></resources>
+<notes>décalé sem 6</notes></event>
+<event id="158544" timesort="09301045" colour="7FFF7F" ecs="10" ecc="5" er="0" scb="1">
 <day>2</day>
 <prettytimes>09:30-10:45 </prettytimes>
 <starttime>09:30</starttime>
@@ -2656,19 +2657,6 @@
 <item>Amar R-C</item></staff>
 <room title="Salle">
 <item>510</item></room></resources></event>
-<event id="158723" timesort="09001030" colour="FF7FFF" ecs="8" ecc="6" er="2" cellshare="1">
-<day>3</day>
-<prettytimes>09:00-10:30 </prettytimes>
-<starttime>09:00</starttime>
-<endtime>10:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT1-FA</item></group>
-<staff title="Personnel">
-<item>C.Maingreaud</item></staff></resources>
-<notes>RATTRAPAGE DS L. MIRDAS I. HACHEM</notes></event>
 <event id="158541" timesort="09001200" colour="BF7FFF" ecs="8" ecc="12" er="2">
 <day>3</day>
 <prettytimes>09:00-12:00 </prettytimes>
@@ -2702,7 +2690,7 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>H31</item></room></resources></event>
-<event id="153956" timesort="10301200" colour="FF7FFF" ecs="14" ecc="6" er="2" cellshare="1">
+<event id="153956" timesort="10301200" colour="FF7FFF" ecs="14" ecc="6" er="2" sca="2">
 <day>3</day>
 <prettytimes>10:30-12:00 </prettytimes>
 <starttime>10:30</starttime>
@@ -3267,7 +3255,7 @@
 <item>J. Fancett</item></staff>
 <room title="Salle">
 <item>Labo</item></room></resources></event>
-<event id="155686" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="1" scb="2">
+<event id="159060" timesort="08000915" colour="7FFF7F" ecs="4" ecc="5" er="1" scb="2">
 <day>4</day>
 <prettytimes>08:00-09:15 </prettytimes>
 <starttime>08:00</starttime>
@@ -3278,9 +3266,9 @@
 <group title="Groupe">
 <item>RT1-FA</item></group>
 <module title="Matière">
-<item>res.locaux/equi.actifs</item></module>
+<item>consol.meth. pour reus.u</item></module>
 <staff title="Personnel">
-<item>D.Marinca</item></staff>
+<item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
 <event id="155690" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="2">
@@ -3333,23 +3321,7 @@
 <item>J. Fancett</item></staff>
 <room title="Salle">
 <item>Labo</item></room></resources></event>
-<event id="155691" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="1" scb="2">
-<day>4</day>
-<prettytimes>09:15-10:30 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>10:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT1-FA</item></group>
-<module title="Matière">
-<item>res.locaux/equi.actifs</item></module>
-<staff title="Personnel">
-<item>D.Marinca</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="157917" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="2" sca="3" scb="2">
+<event id="157917" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="1" scb="2">
 <day>4</day>
 <prettytimes>09:15-10:30 </prettytimes>
 <starttime>09:15</starttime>
@@ -3367,6 +3339,22 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
+<event id="159061" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="2" sca="3" scb="2">
+<day>4</day>
+<prettytimes>09:15-10:30 </prettytimes>
+<starttime>09:15</starttime>
+<endtime>10:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT1-FA</item></group>
+<module title="Matière">
+<item>consol.meth. pour reus.u</item></module>
+<staff title="Personnel">
+<item>S.Le Moel</item></staff>
+<room title="Salle">
+<item>315</item></room></resources></event>
 <event id="155687" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="0" scb="2">
 <day>4</day>
 <prettytimes>09:15-10:30 </prettytimes>
@@ -3417,7 +3405,7 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
-<event id="155688" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="4" sca="1">
+<event id="155686" timesort="10451200" colour="FFBFBF" ecs="13" ecc="7" er="4" sca="1">
 <day>4</day>
 <prettytimes>10:45-12:00 </prettytimes>
 <starttime>10:45</starttime>

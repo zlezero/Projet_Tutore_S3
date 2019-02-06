@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 13:04:19 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 06/02/2019 14:27:36 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -582,6 +582,39 @@
 <item>Z.Tonghzen</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
+<event id="159071" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
+<day>2</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3-TPC</item></group>
+<module title="Matière">
+<item>Projet Réseaux</item></module>
+<staff title="Personnel">
+<item>M.Gueroui</item></staff>
+<room title="Salle">
+<item>112 PC</item></room></resources></event>
+<event id="159068" timesort="15301800" colour="BF7FFF" ecs="34" ecc="10" er="0" sca="2">
+<day>2</day>
+<prettytimes>15:30-18:00 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>18:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3-TPC</item></group>
+<module title="Matière">
+<item>Programmation Objet</item></module>
+<staff title="Personnel">
+<item>D.Abouda</item></staff>
+<room title="Salle">
+<item>116 PC</item></room></resources>
+<notes>Rattrapage Tp Nicolas du 22 février</notes></event>
 <event id="155650" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>3</day>
 <prettytimes>08:00-09:30 </prettytimes>
@@ -759,7 +792,7 @@
 <item>J-N.Juniel</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="155701" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
+<event id="159069" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
 <day>4</day>
 <prettytimes>16:00-18:30 </prettytimes>
 <starttime>16:00</starttime>
@@ -769,17 +802,15 @@
 <resources>
 <group title="Groupes">
 <item>IATIC3-TPA</item>
-<item>IATIC3-TPB</item>
-<item>IATIC3-TPC</item></group>
+<item>IATIC3-TPB</item></group>
 <module title="Matière">
 <item>Programmation Objet</item></module>
 <staff title="Personnel">
 <item>D.Abouda</item></staff>
 <room title="Salles">
-<item>112 PC</item>
 <item>116 PC</item>
 <item>117 PC</item></room></resources></event>
-<event id="155701" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
+<event id="159070" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
 <day>4</day>
 <prettytimes>16:00-18:30 </prettytimes>
 <starttime>16:00</starttime>

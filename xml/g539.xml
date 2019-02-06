@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 21:15:41 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 06/02/2019 14:27:36 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -1789,7 +1789,7 @@
 <staff title="Personnel">
 <item>J-M.Clech</item></staff>
 <room title="Salle">
-<item>I22</item></room></resources></event>
+<item>E58</item></room></resources></event>
 <event id="152951" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="0">
 <day>2</day>
 <prettytimes>13:00-16:00 </prettytimes>
@@ -2542,7 +2542,7 @@
 <staff title="Personnel">
 <item>H.Bendjama</item></staff>
 <room title="Salle">
-<item>I03</item></room></resources></event>
+<item>E58</item></room></resources></event>
 <event id="156272" timesort="08000900" colour="FF7FFF" ecs="4" ecc="4" er="0">
 <day>4</day>
 <prettytimes>08:00-09:00 </prettytimes>

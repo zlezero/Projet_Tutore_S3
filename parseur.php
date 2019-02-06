@@ -53,6 +53,7 @@ function parserEtAfficher() {
 		fclose($pointeur);
 		
 		foreach($coursData as $cours) { //Pour tout les cours
+
             if (($cours->getDateDebut()->format('j H')) != date("j H"))
                 continue;
             /*echo '<tr><td>'.($cours->getDateDebut()->format('j H')).'</td></tr>';

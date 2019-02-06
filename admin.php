@@ -35,6 +35,8 @@ require_once($path_of_head_file);
 
 if (isset($_SESSION["isConnected"]) AND $_SESSION["isConnected"]) {
 
+echo "<script src='scripts/admin.js'></script>";
+
 if (isset($_GET['m']) AND $_GET['m'] == 1)
     echo '<script src="scripts/feed_back_enregistrement.js"></script>';
 ?>
@@ -176,7 +178,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                 <td>
                                     <div class="form-group">
 
-                                        <select class="form-control" id="dept" name="dept">
+                                        <select class="form-control" id="dept" name="dept" onchange="getColor()">
                                             <?php
 
                                             $dept_coul = $GLOBALS['config_tree']['Couleurs'];
