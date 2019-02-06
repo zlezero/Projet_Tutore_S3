@@ -3,8 +3,8 @@
 
 <timetable>
 <option combined="0" totalweeks="0" showemptydays="1" dayclass="reverse" titles="1" timesConditional="1">
-<link href="g75999.xml" class="xml">Version HTML imprimable</link>
-<link href="g75999.pdf" class="pdf">Version PDF</link>
+<link href="g75995.xml" class="xml">Version HTML imprimable</link>
+<link href="g75995.pdf" class="pdf">Version PDF</link>
 <weeks>Semaines</weeks>
 <dates>Dates</dates>
 <week>Semaine</week>
@@ -21,12 +21,12 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 01:34:50 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 04/02/2019 00:50:06 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
 <times>Heures</times>
-<subheading>Emploi du temps Groupe - ASUR-FA</subheading></option>
+<subheading>Emploi du temps Groupe - ASUR</subheading></option>
 <property />
 <period id="0" col="4" times="08:00 - 09:00" />
 <period id="1" col="8" times="09:00 - 10:00" />

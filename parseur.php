@@ -3,13 +3,34 @@
 require_once("config.php");
 
 $debug = False;
-$debugDate = date_create("18-12-2018 7:59:59");
+$debugDate = date_create("05-02-2019 7:59:59");
+$current_time = '0';
+
+
 
 function parserEtAfficher() {
 
 	global $debug;
 	global $debugDate;
 
+
+    if (date('i') < '15') {
+        $current_time= '0';
+    }
+    else if (date('i') < '30') {
+        $current_time= '15';
+    }
+    else if (date('i') < '45') {
+        $current_time= '30';
+    }
+    else {
+        $current_time= '45';
+    }
+    //echo '<h1>'.$current_time.'</h1>';
+
+    
+    
+    
 	$erreur = saveXMLToFile();
 	
 	$aucunCours = True;
@@ -32,17 +53,16 @@ function parserEtAfficher() {
 		fclose($pointeur);
 		
 		foreach($coursData as $cours) { //Pour tout les cours
-
-			if ($debug) {
-				#if ($debugDate->diff($cours->getDateDebut())->format("%i%a") < 15) {
-					#continue;
-				#}
-			}
-			else {
-				#if (date_create("now")->diff($cours->getDateDebut())->format("%i%a") < 15) {
-					#continue;
-				#}
-			}
+            if (($cours->getDateDebut()->format('j H')) != date("j H"))
+                continue;
+            /*echo '<tr><td>'.($cours->getDateDebut()->format('j H')).'</td></tr>';
+            echo '<tr><td>'.date("j H").'</td></tr>';
+            echo '<tr><td>'.$current_time.'</td></tr>';
+            echo '<tr><td>'.($current_time+14).'</td></tr>';*/
+            
+            if (!(($cours->getDateDebut()->format("i") >= $current_time) && ($cours->getDateDebut()->format("i") < ($current_time+15))))
+                continue;
+ 
 
 
 			echo "<tr bgcolor=".$cours->getCouleur().">";
@@ -57,10 +77,11 @@ function parserEtAfficher() {
 
 			echo implode(" / ", $cours->getNom());
 
-			if ($cours->getRemarque() != "") {
-				echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
-			}
-
+            if ($GLOBALS["config"]["afficherRemarque"]) {
+                if ($cours->getRemarque() != "") {
+                    echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
+                }
+            }
 			echo "</td><td>";
 
 			echo implode(" / ", $cours->getSalle());
@@ -103,8 +124,10 @@ function saveXMLToFile() {
 	
 	$auth = base64_encode($GLOBALS["config"]["Identifiant"].":".$GLOBALS["config"]["Mdp"]);
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
-	$listeXML = array("g2565", "g75999", "g507", "g512", "g48129", "g520", "g68673", "g68674", "g533", "g2672", "g539", "g1576", "g524", "g898");
-
+	//$listeXML = array("g2565", "g75999", "g507", "g512", "g48129", "g520", "g68673", "g68674", "g533", "g2672", "g539", "g1576", "g524", "g898");
+    //$config = parse_ini_file("config/config.ini", true);
+    $listeXML = array_values($GLOBALS['config_tree']['Active']);
+    
 	if (is_connected()) {
 
 		foreach ($listeXML as $filename) {
@@ -118,7 +141,8 @@ function saveXMLToFile() {
 			}
 			
 			//ATTENTION ERREURS + WARNING DELETE DE LA FONCTION
-			$data = @file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+			//$data = @file_get_contents('http://chronos.iut-velizy.uvsq.fr/EDT/'.$filename.'.xml', false, $context);
+            $data = @file_get_contents($GLOBALS['config_tree']['Securite']['Url'].$filename.'.xml', false, $context);
 
 			//Si il n'y a pas d'erreurs
 			if ($data !== FALSE) { 
