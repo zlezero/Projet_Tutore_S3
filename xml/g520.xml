@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 07/02/2019 14:59:28 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 07/02/2019 19:02:58 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -129,8 +129,7 @@
 <day id="3">
 <name>jeudi</name>
 <row id="0" />
-<row id="1" />
-<row id="2" /></day>
+<row id="1" /></day>
 <day id="4">
 <name>vendredi</name>
 <row id="0" />
@@ -1191,22 +1190,6 @@
 <item>L.Chassagne</item></staff>
 <room title="Salle">
 <item>H23</item></room></resources></event>
-<event id="158403" timesort="08001200" colour="BF7FFF" ecs="4" ecc="16" er="1">
-<day>3</day>
-<prettytimes>08:00-12:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>GEII2-FI-TPB</item></group>
-<module title="Matière">
-<item>Res4C</item></module>
-<staff title="Personnel">
-<item>F.Basset</item></staff>
-<room title="Salle">
-<item>E54</item></room></resources></event>
 <event id="157505" timesort="08301000" colour="BF7FFF" ecs="6" ecc="6" er="0" sca="2">
 <day>3</day>
 <prettytimes>08:30-10:00 </prettytimes>
@@ -1239,7 +1222,7 @@
 <item>N.Gauthier</item></staff>
 <room title="Salle">
 <item>410</item></room></resources></event>
-<event id="158396" timesort="08301000" colour="BF7FFF" ecs="6" ecc="6" er="2" sca="2">
+<event id="158396" timesort="08301000" colour="BF7FFF" ecs="6" ecc="6" er="1" sca="2">
 <day>3</day>
 <prettytimes>08:30-10:00 </prettytimes>
 <starttime>08:30</starttime>
@@ -1287,7 +1270,7 @@
 <item>N.Gauthier</item></staff>
 <room title="Salle">
 <item>410</item></room></resources></event>
-<event id="158401" timesort="10301200" colour="BF7FFF" ecs="14" ecc="6" er="2" sca="2">
+<event id="158401" timesort="10301200" colour="BF7FFF" ecs="14" ecc="6" er="1" sca="2">
 <day>3</day>
 <prettytimes>10:30-12:00 </prettytimes>
 <starttime>10:30</starttime>
@@ -1469,39 +1452,7 @@
 <item>F.Coural</item></staff>
 <room title="Salle">
 <item>120</item></room></resources></event>
-<event id="158113" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="0">
-<day>4</day>
-<prettytimes>08:00-10:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>10:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>GEII2-FI</item></group>
-<module title="Matière">
-<item>SIN4C</item></module>
-<staff title="Personnel">
-<item>F.Basset</item></staff>
-<room title="Salle">
-<item>410</item></room></resources></event>
-<event id="158113" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="0">
-<day>4</day>
-<prettytimes>08:00-10:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>10:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>GEII2-FI</item></group>
-<module title="Matière">
-<item>SIN4C</item></module>
-<staff title="Personnel">
-<item>F.Basset</item></staff>
-<room title="Salle">
-<item>410</item></room></resources></event>
-<event id="158292" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="1">
+<event id="158292" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="0">
 <day>4</day>
 <prettytimes>08:00-10:00 </prettytimes>
 <starttime>08:00</starttime>
@@ -1517,6 +1468,22 @@
 <item>G.Bauville</item></staff>
 <room title="Salle">
 <item>412</item></room></resources></event>
+<event id="159107" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="1">
+<day>4</day>
+<prettytimes>08:00-10:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>GEII2-FI</item></group>
+<module title="Matière">
+<item>SIN4C</item></module>
+<staff title="Personnel">
+<item>F.Basset</item></staff>
+<room title="Salle">
+<item>410</item></room></resources></event>
 <event id="158387" timesort="08001000" colour="FF7FFF" ecs="4" ecc="8" er="0">
 <day>4</day>
 <prettytimes>08:00-10:00 </prettytimes>
@@ -1581,23 +1548,7 @@
 <item>G.Bauville</item></staff>
 <room title="Salle">
 <item>412</item></room></resources></event>
-<event id="158114" timesort="10151115" colour="FFBFBF" ecs="15" ecc="2" er="0" sca="3" scb="1">
-<day>4</day>
-<prettytimes>10:15-11:15 </prettytimes>
-<starttime>10:15</starttime>
-<endtime>11:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>GEII2-FI</item></group>
-<module title="Matière">
-<item>Res4C</item></module>
-<staff title="Personnel">
-<item>F.Basset</item></staff>
-<room title="Salle">
-<item>410</item></room></resources></event>
-<event id="158114" timesort="10151115" colour="FFBFBF" ecs="15" ecc="2" er="1" sca="3" scb="1">
+<event id="159109" timesort="10151115" colour="FFBFBF" ecs="15" ecc="2" er="1" sca="3" scb="1">
 <day>4</day>
 <prettytimes>10:15-11:15 </prettytimes>
 <starttime>10:15</starttime>
@@ -1661,23 +1612,7 @@
 <item>A.Cartier</item></staff>
 <room title="Salle">
 <item>412</item></room></resources></event>
-<event id="158115" timesort="11301300" colour="7FFF7F" ecs="18" ecc="6" er="0" cellshare="1">
-<day>4</day>
-<prettytimes>11:30-13:00 </prettytimes>
-<starttime>11:30</starttime>
-<endtime>13:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>GEII2-FI</item></group>
-<module title="Matière">
-<item>Res4C</item></module>
-<staff title="Personnel">
-<item>F.Basset</item></staff>
-<room title="Salle">
-<item>410</item></room></resources></event>
-<event id="158115" timesort="11301300" colour="7FFF7F" ecs="18" ecc="6" er="1" cellshare="1">
+<event id="159111" timesort="11301300" colour="7FFF7F" ecs="18" ecc="6" er="1" cellshare="1">
 <day>4</day>
 <prettytimes>11:30-13:00 </prettytimes>
 <starttime>11:30</starttime>

@@ -27,9 +27,6 @@ function parserEtAfficher() {
         $current_time= '45';
     }
     //echo '<h1>'.$current_time.'</h1>';
-
-    
-    
     
 	$erreur = saveXMLToFile();
 	

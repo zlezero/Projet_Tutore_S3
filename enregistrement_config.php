@@ -1,4 +1,7 @@
 <?php
+
+require_once("config.php");
+
 /**
  * Enregistrement
  * Affichage des professeurs
@@ -7,41 +10,54 @@
  * Identifiant et mot de passe Celcat
  * Couleur d'un département
  */
-
+    
 if (!isset($_SESSION["isConnected"])) {
     header("Location: admin.php");
-    exit;
+    exit(false);
 }
 
-if (!isset($_POST['prof']))
-    return (false);
+if (!isset($_POST['prof'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
-if (!isset($_POST['rem']))
-    return (false);
+if (!isset($_POST['rem'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
+if (!isset($_POST['url'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
-if (!isset($_POST['url']))
-    return (false);
-if (empty($_POST['url']))
-    return (false);
+if (empty($_POST['url'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
+if (!isset($_POST['login'], $_POST['mdp'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
-if (!isset($_POST['login'], $_POST['mdp']))
-    return (false);
-if (empty($_POST['login']) && empty($_POST['mdp']))
-    return (false);
+if (empty($_POST['login']) && empty($_POST['mdp'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
+if (!isset($_POST['dept'], $_POST['couleur'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
-if (!isset($_POST['dept'], $_POST['couleur']))
-    return (false);
-if (empty($_POST['dept']) && empty($_POST['couleur']))
-    return (false);
+if (empty($_POST['dept']) && empty($_POST['couleur'])) {
+    header("Location: admin.php");
+    exit(false);
+}
 
-$path_of_config_php = "config.php";
 $path_of_config_ini = "config" . DIRECTORY_SEPARATOR . "config.ini";
 $path_of_admin_page = "admin.php";
-
-require_once($path_of_config_php);
 
 // Teoman Soygul
 function write_php_ini($array, $file)
@@ -119,8 +135,11 @@ if (file_exists($path_of_config_ini))
     }
 
 	write_php_ini($array, $path_of_config_ini);
+    exit(true);
 }
-
-header("Location: " . $path_of_admin_page.'?m=1');
+else {
+    header("Location: admin.php");
+    exit(false);
+}
 
 ?>

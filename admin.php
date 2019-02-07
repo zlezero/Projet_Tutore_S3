@@ -4,8 +4,10 @@ require_once("config.php");// Avant : 1re ligne du fichier
 
 // L'administrateur souhaite remettre tous les paramètres par défaut
 if (isset($_POST['default'])) {
-    if (file_exists("config/config.ini") && file_exists("config/default.ini"))
+    if (file_exists("config/config.ini") && file_exists("config/default.ini")) {
         file_put_contents("config/config.ini", file("config/default.ini"));
+        header("Refresh:0");
+    }
 }
 
 if (isset($_POST["id"]) AND isset($_POST["pwd"])) {
@@ -37,8 +39,6 @@ if (isset($_SESSION["isConnected"]) AND $_SESSION["isConnected"]) {
 
 echo "<script src='scripts/admin.js'></script>";
 
-if (isset($_GET['m']) AND $_GET['m'] == 1)
-    echo '<script src="scripts/feed_back_enregistrement.js"></script>';
 ?>
     
     <h1 align="center" class="display-4">Page administrateur</h1>
@@ -55,7 +55,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
             </tr>
         </thead>
         <tbody>
-            <form method="POST" action="enregistrement_config.php"><!-- Formulaire de la mort qui tue -->
+            <form id="formulaireEnregistrement" ><!-- Formulaire de la mort qui tue -->
                 <tr>
                     <td>
                         <!-- L'administrateur peut décider de l'affichage ou non des
@@ -271,7 +271,10 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
         </tbody>
     </table>
     <div class="alert alert-success" role="alert" id="succes_enregistrement" style="display:none;" align="center">
-        Modifications enregistrées
+        <strong>Modifications enregistrées</strong>
+    </div>
+    <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;" align="center">
+        <strong>Une erreur est survenue lors de l'enregistrement</strong>
     </div>
 
 <?php
