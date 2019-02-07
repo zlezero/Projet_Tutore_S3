@@ -48,7 +48,21 @@ function write_php_ini($array, $file)
         if(is_array($val))
         {
             $res[] = "[$key]";
-            foreach($val as $skey => $sval) $res[] = "$skey = ".(is_numeric($sval) ? $sval : '"'.$sval.'"');
+
+            foreach($val as $skey => $sval)  {
+
+                $temp = "$skey = ";
+
+                if (is_numeric($sval) OR is_bool($sval) OR $sval == "true" Or $sval == "false") {
+                    $temp = $temp.$sval;
+                }
+                else {
+                    $temp = $temp.'"'.$sval.'"';
+                }
+
+                $res[] = $temp;
+            }
+            
         }
         else $res[] = "$key = " . $val;
     }

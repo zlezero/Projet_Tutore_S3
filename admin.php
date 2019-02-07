@@ -72,9 +72,9 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                             
                                             // on regarde dans les configurations, si le professeur
                                             if ($GLOBALS['config_tree']['General']['afficherProf'])// est affiché
-                                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="True" checked>';
+                                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true" checked>';
                                             else
-                                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="True">';
+                                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true">';
 
                                             ?>
                                             <label class="form-check-label" for="oui_prof">
@@ -87,9 +87,9 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                             <?php
 
                                             if ($GLOBALS['config_tree']['General']['afficherProf'])
-                                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="False">';
+                                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false">';
                                             else
-                                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="False" checked>';
+                                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false" checked>';
 
                                             ?>
                                             <label class="form-check-label" for="non_prof">
@@ -116,9 +116,9 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
 
                                             // si la remarque est affichée => 'Oui' coché
                                             if ($remarque_affichee)
-                                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="True" checked>';
+                                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true" checked>';
                                             else
-                                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="True">';
+                                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true">';
 
                                             ?>
                                             <label class="form-check-label" for="oui_rem">
@@ -131,9 +131,9 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                             <?php
 
                                             if ($remarque_affichee)
-                                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="False">';
+                                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false">';
                                             else
-                                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="False" checked>';
+                                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false" checked>';
 
                                             ?>
                                             <label class="form-check-label" for="non_rem">
