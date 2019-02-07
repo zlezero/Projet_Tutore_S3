@@ -14,8 +14,8 @@ if (file_exists($path_of_config_ini)) {
     $GLOBALS["config_tree"] = parse_ini_file($path_of_config_ini, true);
 }
 
-if (isset($_GET["getCouleur"]) AND !empty($_GET["getCouleur"])) {
-	echo getColorParGroupe($_GET["getCouleur"]);
+if (isset($_POST["getCouleur"]) AND !empty($_POST["getCouleur"])) {
+	echo getColorParGroupe($_POST["getCouleur"]);
 }
 
 function getColorParGroupe($groupe) {

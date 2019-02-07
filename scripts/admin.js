@@ -1,7 +1,9 @@
 function getColor() {
 	
 	var xmlhttp = new XMLHttpRequest();
-
+	
+	xmlhttp.open("POST", "config.php", true);
+	xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 
     xmlhttp.onreadystatechange = function() {
 		if (this.readyState == 4) {
@@ -12,7 +14,6 @@ function getColor() {
 		
 	}
 	
-	xmlhttp.open("GET", "config.php?getCouleur=" + document.getElementById("dept").value, true);
-    xmlhttp.send();
+    xmlhttp.send("getCouleur=" + document.getElementById("dept").value);
 	
 }
