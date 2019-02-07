@@ -8,6 +8,10 @@
  * Couleur d'un département
  */
 
+if (!isset($_SESSION["isConnected"])) {
+    header("Location: admin.php");
+    exit;
+}
 
 if (!isset($_POST['prof']))
     return (false);
