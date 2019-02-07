@@ -1,5 +1,5 @@
-
 <?php
+
 require_once("config.php");// Avant : 1re ligne du fichier
 
 // L'administrateur souhaite remettre tous les paramètres par défaut
@@ -71,7 +71,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                             <?php
                                             
                                             // on regarde dans les configurations, si le professeur
-                                            if ($GLOBALS['config_tree']['General']['afficherProf']==1)// est affiché
+                                            if ($GLOBALS['config_tree']['General']['afficherProf'])// est affiché
                                                 echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="True" checked>';
                                             else
                                                 echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="True">';
@@ -86,7 +86,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                         <div class="form-check form-check-inline">
                                             <?php
 
-                                            if ($GLOBALS['config_tree']['General']['afficherProf']==1)
+                                            if ($GLOBALS['config_tree']['General']['afficherProf'])
                                                 echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="False">';
                                             else
                                                 echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="False" checked>';
@@ -112,7 +112,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                                         <div class="form-check form-check-inline">
                                             <?php
 
-                                            $remarque_affichee = ($GLOBALS['config_tree']['General']['afficherRemarque'] == 1);
+                                            $remarque_affichee = ($GLOBALS['config_tree']['General']['afficherRemarque']);
 
                                             // si la remarque est affichée => 'Oui' coché
                                             if ($remarque_affichee)
@@ -152,12 +152,12 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                         <table>
                             <tr>
                                 <td>
-                                    <input id="login_celcat" name="login" class="form-control" type="text" value="<?php echo $GLOBALS['config']['Identifiant'] ?>" />
+                                    <input id="login_celcat" name="login" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']["Securite"]['Identifiant'] ?>" />
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input id="mdp_celcat" name="mdp" class="form-control" type="text" value="<?php echo $GLOBALS['config']['Mdp'] ?>" />
+                                    <input id="mdp_celcat" name="mdp" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']["Securite"]['Mdp'] ?>" />
                                 </td>
                             </tr>
                             
@@ -167,7 +167,7 @@ if (isset($_GET['m']) AND $_GET['m'] == 1)
                     <td>
                         <!-- Si l'URL de Celcat change -->                        
                            
-                        <input id="url_celcat" name="url" class="form-control" type="text" value="<?php echo $GLOBALS['config']['Url'] ?>" />
+                        <input id="url_celcat" name="url" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']["Securite"]['Url'] ?>" />
                     </td>
                     <td>
                         <!-- L'administrateur peut décider des couleurs correspondant aux

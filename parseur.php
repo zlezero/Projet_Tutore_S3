@@ -78,7 +78,7 @@ function parserEtAfficher() {
 
 			echo implode(" / ", $cours->getNom());
 
-            if ($GLOBALS["config"]["afficherRemarque"]) {
+            if ($GLOBALS["config_tree"]["General"]["afficherRemarque"]) {
                 if ($cours->getRemarque() != "") {
                     echo "<div id='remarque'><br/>Remarque : ".$cours->getRemarque()."</td></div>";
                 }
@@ -89,7 +89,7 @@ function parserEtAfficher() {
 
 			echo "</td>";
 
-			if ($GLOBALS["config"]["afficherProf"]) {
+			if ($GLOBALS["config_tree"]["General"]["afficherProf"]) {
 				echo "<td>";
 				echo implode(" / ", $cours->getProfesseur());
 				echo "</td>";
@@ -123,10 +123,8 @@ function parserEtAfficher() {
 
 function saveXMLToFile() {
 	
-	$auth = base64_encode($GLOBALS["config"]["Identifiant"].":".$GLOBALS["config"]["Mdp"]);
+	$auth = base64_encode($GLOBALS["config_tree"]["Securite"]["Identifiant"].":".$GLOBALS["config_tree"]["Securite"]["Mdp"]);
 	$context = stream_context_create(['http' => ['header' => "Authorization: Basic $auth"]]);
-	//$listeXML = array("g2565", "g75999", "g507", "g512", "g48129", "g520", "g68673", "g68674", "g533", "g2672", "g539", "g1576", "g524", "g898");
-    //$config = parse_ini_file("config/config.ini", true);
     $listeXML = array_values($GLOBALS['config_tree']['Active']);
     
 	if (is_connected()) {
@@ -315,11 +313,11 @@ function parser($data) {
 
 		if (count($nomArray) >= 2 AND count($profArray) >= 2) //Si il s'agit d'un demi groupe
 		{
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[0]), array($profArray[0]), $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[1]), array($profArray[1]), $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[0]), array($profArray[0]), $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[1]), array($profArray[1]), $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
 		}
 		else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
 		}
 	
 	}
@@ -329,41 +327,9 @@ function parser($data) {
 }
 
 
-function getCouleurByGroupe($groupe) { //On obtient la couleur associée à chaque département
-
-	if (strpos($groupe, 'INF') !== FALSE) {
-		return $GLOBALS["config"]["INFO"];
-	}
-	else if (strpos($groupe, 'GEII') !== FALSE) {
-		return $GLOBALS["config"]["GEII"];
-	}
-	else if (strpos($groupe, 'GEI') !== FALSE) {
-		return $GLOBALS["config"]["GEI"];
-	}
-	else if (strpos($groupe, 'RT') !== FALSE) {
-		return $GLOBALS["config"]["RT"];
-	}
-	else if (strpos($groupe, 'ASUR') !== FALSE) {
-		return $GLOBALS["config"]["ASUR"];
-	}
-	else if (strpos($groupe, 'IATIC') !== FALSE) {
-		return $GLOBALS["config"]["IATIC"];
-	}
-	else if (strpos($groupe, 'METWEB') !== FALSE) {
-		return $GLOBALS["config"]["METWEB"];
-	}
-	else if (strpos($groupe, 'MMI') !== FALSE) {
-		return $GLOBALS["config"]["MMI"];
-	}
-	else {
-		return "#E6EAFA";
-	}
-
-}
-
 function is_connected() //On regarde si la connexion au serveur d'edt est possible
 {
-	$connected = @fsockopen("chronos.iut-velizy.uvsq.fr", 80);
+	$connected = @fsockopen(explode("/", $GLOBALS['config_tree']['Securite']['Url'])[2], 80);
 
     if ($connected) {
     	$is_conn = true;

@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 06/02/2019 14:27:36 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 07/02/2019 14:59:28 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -582,22 +582,6 @@
 <item>Z.Tonghzen</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159071" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
-<day>2</day>
-<prettytimes>09:00-12:00 </prettytimes>
-<starttime>09:00</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC3-TPC</item></group>
-<module title="Matière">
-<item>Projet Réseaux</item></module>
-<staff title="Personnel">
-<item>M.Gueroui</item></staff>
-<room title="Salle">
-<item>112 PC</item></room></resources></event>
 <event id="159068" timesort="15301800" colour="BF7FFF" ecs="34" ecc="10" er="0" sca="2">
 <day>2</day>
 <prettytimes>15:30-18:00 </prettytimes>
@@ -743,6 +727,22 @@
 <item>J-N.Juniel</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
+<event id="159071" timesort="09301230" colour="FF7FBF" ecs="10" ecc="12" er="0" sca="2" scb="2">
+<day>4</day>
+<prettytimes>09:30-12:30 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>12:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3</item></group>
+<module title="Matière">
+<item>Projet Réseaux</item></module>
+<staff title="Personnel">
+<item>M.Gueroui</item></staff>
+<room title="Salle">
+<item>112 PC</item></room></resources></event>
 <event id="155742" timesort="09451215" colour="7FFF7F" ecs="9" ecc="12" er="1" sca="1" scb="3">
 <day>4</day>
 <prettytimes>09:45-12:15 </prettytimes>
