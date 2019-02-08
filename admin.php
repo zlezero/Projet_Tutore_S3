@@ -208,8 +208,10 @@ echo "<script src='scripts/admin.js'></script>";
                     
                         <table align="center">
                             <tr>
+
                                 <td>
-                                    <div style="height:10em; overflow:auto">
+                                    <input type="text" id="champRecherche" placeholder="Recherche" autocomplete="off" /> 
+                                    <div style="height:10em; overflow:auto" id="listeTelechargement">
                                         <?php
 
                                         // Pour tous les fichiers de Celcat
@@ -218,9 +220,9 @@ echo "<script src='scripts/admin.js'></script>";
                                             echo '<div class="form-check" id="departement_fichiers">';
                                             // si le fichier est dans ceux qui sont téléchargés
                                             if (isset($GLOBALS['config_tree']['Active'][$d]))// on coche la case
-                                                echo '<input class="form-check-input" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '" checked>';
+                                                echo '<input class="form-check-input" name="checkboxValue" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '" checked>';
                                             else
-                                                echo '<input class="form-check-input" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '">';
+                                                echo '<input class="form-check-input" name="checkboxValue" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '">';
                                             echo '<label class="form-check-label" for="' . $u . '">' . $d . '</label></div>';
                                         }
 

@@ -69,5 +69,31 @@ $(document).ready (function()
 		event.preventDefault();
 		enregistrerChangements();
 	});
+
+	var searchInput = document.getElementById("champRecherche");
+
+	addListenerMulti(searchInput, "change keydown paste input", function (event) {
+
+		var checkboxList = document.getElementById("listeTelechargement");
+
+		checkboxList.childNodes.forEach(function(elem){
+			if (elem.nodeType == 1) {
+
+				if (elem.getElementsByTagName("label")[0].innerText.toLowerCase().startsWith(searchInput.value.toLowerCase())) {
+					elem.getElementsByTagName("label")[0].hidden = false;
+				}
+				else {
+					elem.getElementsByTagName("label")[0].hidden = true;
+				}
+				
+			}
+			
+		})		
+
+	})
+
 });
 
+function addListenerMulti(el, s, fn) {
+	s.split(' ').forEach(e => el.addEventListener(e, fn, false));
+}

@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 07/02/2019 14:59:28 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 08/02/2019 15:34:51 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -77,8 +77,7 @@
 <row id="2" /></day>
 <day id="1">
 <name>mardi</name>
-<row id="0" />
-<row id="1" /></day>
+<row id="0" /></day>
 <day id="2">
 <name>mercredi</name>
 <row id="0" />
@@ -145,7 +144,8 @@
 <row id="1" /></day>
 <day id="4">
 <name>vendredi</name>
-<row id="0" /></day></span>
+<row id="0" />
+<row id="1" /></day></span>
 <event id="154231" timesort="08000900" colour="FFBFBF" ecs="4" ecc="4" er="0">
 <day>0</day>
 <prettytimes>08:00-09:00 </prettytimes>
@@ -970,22 +970,6 @@
 <item>O.Le Cadet Olivier</item></staff>
 <room title="Salle">
 <item>316</item></room></resources></event>
-<event id="154608" timesort="09001030" colour="7FFF7F" ecs="8" ecc="6" er="1" cellshare="1">
-<day>1</day>
-<prettytimes>09:00-10:30 </prettytimes>
-<starttime>09:00</starttime>
-<endtime>10:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-B</item></group>
-<module title="Matière">
-<item>Communication théorique S2</item></module>
-<staff title="Personnel">
-<item>D.Reyss</item></staff>
-<room title="Salle">
-<item>511</item></room></resources></event>
 <event id="156314" timesort="09001030" colour="7FFF7F" ecs="8" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>09:00-10:30 </prettytimes>
@@ -1082,22 +1066,6 @@
 <item>O.Le Cadet Olivier</item></staff>
 <room title="Salle">
 <item>316</item></room></resources></event>
-<event id="154609" timesort="10301200" colour="7FFF7F" ecs="14" ecc="6" er="1" cellshare="1">
-<day>1</day>
-<prettytimes>10:30-12:00 </prettytimes>
-<starttime>10:30</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-A</item></group>
-<module title="Matière">
-<item>Communication théorique S2</item></module>
-<staff title="Personnel">
-<item>D.Reyss</item></staff>
-<room title="Salle">
-<item>511</item></room></resources></event>
 <event id="152909" timesort="10301200" colour="7FFF7F" ecs="14" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>10:30-12:00 </prettytimes>
@@ -1194,23 +1162,7 @@
 <item>P.Flepp</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="154610" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="0" cellshare="1">
-<day>1</day>
-<prettytimes>13:00-14:30 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-B</item></group>
-<module title="Matière">
-<item>Communication théorique S2</item></module>
-<staff title="Personnel">
-<item>D.Reyss</item></staff>
-<room title="Salle">
-<item>511</item></room></resources></event>
-<event id="156397" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="1" cellshare="1">
+<event id="156397" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>13:00-14:30 </prettytimes>
 <starttime>13:00</starttime>
@@ -1290,6 +1242,22 @@
 <item>O.Le Cadet Olivier</item></staff>
 <room title="Salle">
 <item>E57</item></room></resources></event>
+<event id="159189" timesort="14001530" colour="7FFF7F" ecs="28" ecc="6" er="1" cellshare="1">
+<day>1</day>
+<prettytimes>14:00-15:30 </prettytimes>
+<starttime>14:00</starttime>
+<endtime>15:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-A</item></group>
+<module title="Matière">
+<item>Communication théorique S2</item></module>
+<staff title="Personnel">
+<item>D.Reyss</item></staff>
+<room title="Salle">
+<item>511</item></room></resources></event>
 <event id="156405" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>14:30-16:00 </prettytimes>
@@ -1306,23 +1274,7 @@
 <item>P.Flepp</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="154611" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
-<day>1</day>
-<prettytimes>14:30-16:00 </prettytimes>
-<starttime>14:30</starttime>
-<endtime>16:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-A</item></group>
-<module title="Matière">
-<item>Communication théorique S2</item></module>
-<staff title="Personnel">
-<item>D.Reyss</item></staff>
-<room title="Salle">
-<item>511</item></room></resources></event>
-<event id="156406" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="1" cellshare="1">
+<event id="156406" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
 <day>1</day>
 <prettytimes>14:30-16:00 </prettytimes>
 <starttime>14:30</starttime>
@@ -1370,22 +1322,38 @@
 <item>P.Flepp</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="152976" timesort="15001600" colour="7FFF7F" ecs="32" ecc="4" er="0">
+<event id="152976" timesort="15301630" colour="7FFF7F" ecs="34" ecc="4" er="0" sca="2" scb="2">
 <day>1</day>
-<prettytimes>15:00-16:00 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>16:00</endtime>
+<prettytimes>15:30-16:30 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>16:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>MMI1-B</item></group>
+<item>MMI1-A</item></group>
 <module title="Matière">
 <item>Algorithmique et programmation S2</item></module>
 <staff title="Personnel">
 <item>O.Le Cadet Olivier</item></staff>
 <room title="Salle">
 <item>E57</item></room></resources></event>
+<event id="154608" timesort="15301700" colour="7FFF7F" ecs="34" ecc="6" er="1" cellshare="1">
+<day>1</day>
+<prettytimes>15:30-17:00 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Communication théorique S2</item></module>
+<staff title="Personnel">
+<item>D.Reyss</item></staff>
+<room title="Salle">
+<item>511</item></room></resources></event>
 <event id="153038" timesort="16001900" colour="BF7FFF" ecs="36" ecc="12" er="0">
 <day>1</day>
 <prettytimes>16:00-19:00 </prettytimes>
@@ -2095,22 +2063,6 @@
 <item>C.Fournerie</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="157678" timesort="08001000" colour="7FFF7F" ecs="4" ecc="8" er="1">
-<day>3</day>
-<prettytimes>08:00-10:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>10:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-A</item></group>
-<module title="Matière">
-<item>Langue vivante 2</item></module>
-<staff title="Personnel">
-<item>H.Abadia </item></staff>
-<room title="Salle">
-<item>511</item></room></resources></event>
 <event id="156469" timesort="08001000" colour="7FFF7F" ecs="4" ecc="8" er="0">
 <day>3</day>
 <prettytimes>08:00-10:00 </prettytimes>
@@ -2159,6 +2111,22 @@
 <item>C.Fournerie</item></staff>
 <room title="Salle">
 <item>316</item></room></resources></event>
+<event id="159196" timesort="08301000" colour="7FFF7F" ecs="6" ecc="6" er="1" sca="2">
+<day>3</day>
+<prettytimes>08:30-10:00 </prettytimes>
+<starttime>08:30</starttime>
+<endtime>10:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Communication théorique S2</item></module>
+<staff title="Personnel">
+<item>D.Reyss</item></staff>
+<room title="Salle">
+<item>511</item></room></resources></event>
 <event id="149989" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="0">
 <day>3</day>
 <prettytimes>10:00-12:00 </prettytimes>
@@ -2239,20 +2207,20 @@
 <item>C.Fournerie</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="157673" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="1">
+<event id="159195" timesort="10001130" colour="7FFF7F" ecs="12" ecc="6" er="1" scb="2">
 <day>3</day>
-<prettytimes>10:00-12:00 </prettytimes>
+<prettytimes>10:00-11:30 </prettytimes>
 <starttime>10:00</starttime>
-<endtime>12:00</endtime>
+<endtime>11:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>MMI1-B</item></group>
+<item>MMI1-A</item></group>
 <module title="Matière">
-<item>Langue vivante 2</item></module>
+<item>Communication théorique S2</item></module>
 <staff title="Personnel">
-<item>H.Abadia </item></staff>
+<item>D.Reyss</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
 <event id="156465" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="0">
@@ -2319,22 +2287,38 @@
 <item>X.Hautbois</item></staff>
 <room title="Salle">
 <item>I22</item></room></resources></event>
-<event id="156284" timesort="13001500" colour="7FFF7F" ecs="24" ecc="8" er="0">
+<event id="152962" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="0" cellshare="1">
 <day>3</day>
-<prettytimes>13:00-15:00 </prettytimes>
+<prettytimes>13:00-14:30 </prettytimes>
 <starttime>13:00</starttime>
-<endtime>15:00</endtime>
+<endtime>14:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Intégration web S2</item></module>
+<staff title="Personnel">
+<item>O.Le Cadet Olivier</item></staff>
+<room title="Salle">
+<item>E57</item></room></resources></event>
+<event id="154609" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="1" cellshare="1">
+<day>3</day>
+<prettytimes>13:00-14:30 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>14:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>MMI1-A</item></group>
 <module title="Matière">
-<item>Infographie S2</item></module>
+<item>Communication théorique S2</item></module>
 <staff title="Personnel">
-<item>X.Hautbois</item></staff>
+<item>D.Reyss</item></staff>
 <room title="Salle">
-<item>I22</item></room></resources></event>
+<item>511</item></room></resources></event>
 <event id="152929" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="0" cellshare="1">
 <day>3</day>
 <prettytimes>13:00-14:30 </prettytimes>
@@ -2383,22 +2367,38 @@
 <item>H.Bendjama</item></staff>
 <room title="Salle">
 <item>I03</item></room></resources></event>
-<event id="152962" timesort="13301500" colour="7FFF7F" ecs="26" ecc="6" er="1" sca="2">
+<event id="152960" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
 <day>3</day>
-<prettytimes>13:30-15:00 </prettytimes>
-<starttime>13:30</starttime>
-<endtime>15:00</endtime>
+<prettytimes>14:30-16:00 </prettytimes>
+<starttime>14:30</starttime>
+<endtime>16:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>MMI1-B</item></group>
+<item>MMI1-A</item></group>
 <module title="Matière">
 <item>Intégration web S2</item></module>
 <staff title="Personnel">
 <item>O.Le Cadet Olivier</item></staff>
 <room title="Salle">
 <item>E57</item></room></resources></event>
+<event id="159190" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="1" cellshare="1">
+<day>3</day>
+<prettytimes>14:30-16:00 </prettytimes>
+<starttime>14:30</starttime>
+<endtime>16:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Communication théorique S2</item></module>
+<staff title="Personnel">
+<item>D.Reyss</item></staff>
+<room title="Salle">
+<item>511</item></room></resources></event>
 <event id="152928" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
 <day>3</day>
 <prettytimes>14:30-16:00 </prettytimes>
@@ -2473,38 +2473,6 @@
 <resources>
 <group title="Groupe">
 <item>MMI1-A</item></group>
-<module title="Matière">
-<item>Infographie S2</item></module>
-<staff title="Personnel">
-<item>X.Hautbois</item></staff>
-<room title="Salle">
-<item>I22</item></room></resources></event>
-<event id="152960" timesort="15001630" colour="7FFF7F" ecs="32" ecc="6" er="0" scb="2">
-<day>3</day>
-<prettytimes>15:00-16:30 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>16:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-A</item></group>
-<module title="Matière">
-<item>Intégration web S2</item></module>
-<staff title="Personnel">
-<item>O.Le Cadet Olivier</item></staff>
-<room title="Salle">
-<item>E57</item></room></resources></event>
-<event id="156280" timesort="15001700" colour="7FFF7F" ecs="32" ecc="8" er="1">
-<day>3</day>
-<prettytimes>15:00-17:00 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>17:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-B</item></group>
 <module title="Matière">
 <item>Infographie S2</item></module>
 <staff title="Personnel">
@@ -2591,11 +2559,11 @@
 <item>D.Reyss</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="156355" timesort="08000930" colour="7FFF7F" ecs="4" ecc="6" er="0" cellshare="1">
+<event id="156355" timesort="08301000" colour="7FFF7F" ecs="6" ecc="6" er="0" sca="2">
 <day>4</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
+<prettytimes>08:30-10:00 </prettytimes>
+<starttime>08:30</starttime>
+<endtime>10:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -2655,11 +2623,11 @@
 <item>D.Reyss</item></staff>
 <room title="Salle">
 <item>511</item></room></resources></event>
-<event id="156359" timesort="09301100" colour="7FFF7F" ecs="10" ecc="6" er="0" cellshare="1">
+<event id="156359" timesort="10001130" colour="7FFF7F" ecs="12" ecc="6" er="0" scb="2">
 <day>4</day>
-<prettytimes>09:30-11:00 </prettytimes>
-<starttime>09:30</starttime>
-<endtime>11:00</endtime>
+<prettytimes>10:00-11:30 </prettytimes>
+<starttime>10:00</starttime>
+<endtime>11:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -2720,11 +2688,11 @@
 <item>H.Bendjama</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="156213" timesort="11001200" colour="FFBFBF" ecs="16" ecc="4" er="0">
+<event id="156213" timesort="12301330" colour="FFBFBF" ecs="22" ecc="4" er="0" sca="2">
 <day>4</day>
-<prettytimes>11:00-12:00 </prettytimes>
-<starttime>11:00</starttime>
-<endtime>12:00</endtime>
+<prettytimes>12:30-13:30 </prettytimes>
+<starttime>12:30</starttime>
+<endtime>13:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -2816,22 +2784,22 @@
 <item>H.Bendjama</item></staff>
 <room title="Salle">
 <item>I03</item></room></resources></event>
-<event id="156226" timesort="13001430" colour="7FFF7F" ecs="24" ecc="6" er="0" cellshare="1">
+<event id="157678" timesort="13301530" colour="7FFF7F" ecs="26" ecc="8" er="0" cellshare="1">
 <day>4</day>
-<prettytimes>13:00-14:30 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:30</endtime>
+<prettytimes>13:30-15:30 </prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>MMI1-B</item></group>
+<item>MMI1-A</item></group>
 <module title="Matière">
-<item>Bases de données</item></module>
+<item>Langue vivante 2</item></module>
 <staff title="Personnel">
-<item>H.Bendjama</item></staff>
+<item>H.Abadia </item></staff>
 <room title="Salle">
-<item>I03</item></room></resources></event>
+<item>511</item></room></resources></event>
 <event id="154119" timesort="14001530" colour="7FFF7F" ecs="28" ecc="6" er="0" cellshare="1">
 <day>4</day>
 <prettytimes>14:00-15:30 </prettytimes>
@@ -2844,6 +2812,22 @@
 <item>MMI1-B</item></group>
 <module title="Matière">
 <item>Algorithmique et programmation S2</item></module>
+<staff title="Personnel">
+<item>H.Bendjama</item></staff>
+<room title="Salle">
+<item>I03</item></room></resources></event>
+<event id="156226" timesort="14001530" colour="7FFF7F" ecs="28" ecc="6" er="1" cellshare="1">
+<day>4</day>
+<prettytimes>14:00-15:30 </prettytimes>
+<starttime>14:00</starttime>
+<endtime>15:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Bases de données</item></module>
 <staff title="Personnel">
 <item>H.Bendjama</item></staff>
 <room title="Salle">
@@ -2896,22 +2880,6 @@
 <item>H.Bendjama</item></staff>
 <room title="Salle">
 <item>I03</item></room></resources></event>
-<event id="156221" timesort="14301600" colour="7FFF7F" ecs="30" ecc="6" er="0" cellshare="1">
-<day>4</day>
-<prettytimes>14:30-16:00 </prettytimes>
-<starttime>14:30</starttime>
-<endtime>16:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>MMI1-A</item></group>
-<module title="Matière">
-<item>Bases de données</item></module>
-<staff title="Personnel">
-<item>H.Bendjama</item></staff>
-<room title="Salle">
-<item>I03</item></room></resources></event>
 <event id="154127" timesort="15301700" colour="7FFF7F" ecs="34" ecc="6" er="0" cellshare="1">
 <day>4</day>
 <prettytimes>15:30-17:00 </prettytimes>
@@ -2928,6 +2896,38 @@
 <item>H.Bendjama</item></staff>
 <room title="Salle">
 <item>I03</item></room></resources></event>
+<event id="156221" timesort="15301700" colour="7FFF7F" ecs="34" ecc="6" er="0" cellshare="1">
+<day>4</day>
+<prettytimes>15:30-17:00 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-A</item></group>
+<module title="Matière">
+<item>Bases de données</item></module>
+<staff title="Personnel">
+<item>H.Bendjama</item></staff>
+<room title="Salle">
+<item>I03</item></room></resources></event>
+<event id="157673" timesort="15301730" colour="7FFF7F" ecs="34" ecc="8" er="1" scb="2">
+<day>4</day>
+<prettytimes>15:30-17:30 </prettytimes>
+<starttime>15:30</starttime>
+<endtime>17:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>MMI1-B</item></group>
+<module title="Matière">
+<item>Langue vivante 2</item></module>
+<staff title="Personnel">
+<item>H.Abadia </item></staff>
+<room title="Salle">
+<item>511</item></room></resources></event>
 <event id="158383" timesort="16001730" colour="BF7FFF" ecs="36" ecc="6" er="0" scb="2">
 <day>4</day>
 <prettytimes>16:00-17:30 </prettytimes>

@@ -16,44 +16,19 @@ if (!isset($_SESSION["isConnected"])) {
     exit(false);
 }
 
-if (!isset($_POST['prof'])) {
-    header("Location: admin.php");
-    exit(false);
-}
+$required = array('prof' => false,
+                  'rem' => false,
+                  'url' => true,
+                  'login' => true,
+                  'mdp' => true,
+                  'dept' => true,
+                  'couleur' => true);
 
-if (!isset($_POST['rem'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (!isset($_POST['url'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (empty($_POST['url'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (!isset($_POST['login'], $_POST['mdp'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (empty($_POST['login']) && empty($_POST['mdp'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (!isset($_POST['dept'], $_POST['couleur'])) {
-    header("Location: admin.php");
-    exit(false);
-}
-
-if (empty($_POST['dept']) && empty($_POST['couleur'])) {
-    header("Location: admin.php");
-    exit(false);
+foreach ($required as $input => $check_empy) {
+    if (!isset($_POST[$input]) || ($check_empy && empty($_POST[$input])) ) {
+            header("Location: admin.php");
+            exit(false);
+    }
 }
 
 $path_of_config_ini = "config" . DIRECTORY_SEPARATOR . "config.ini";
@@ -108,13 +83,13 @@ function safefilerewrite($fileName, $dataToSave)
 
 }
 
-$prof = $_POST['prof'];
-$rem = $_POST['rem'];
-$url = $_POST['url'];
-$login = $_POST['login'];
-$mdp = $_POST['mdp'];
-$dept = $_POST['dept'];
-$couleur = $_POST['couleur'];
+$prof = str_replace('"', '', $_POST['prof']);
+$rem = str_replace('"', '', $_POST['rem']);
+$url = str_replace('"', '', $_POST['url']);
+$login = str_replace('"', '', $_POST['login']);
+$mdp = str_replace('"', '', $_POST['mdp']);
+$dept = str_replace('"', '', $_POST['dept']);
+$couleur = str_replace('"', '', $_POST['couleur']);
 
 if (file_exists($path_of_config_ini))
 {
