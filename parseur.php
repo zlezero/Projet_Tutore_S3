@@ -2,8 +2,8 @@
 
 require_once("config.php");
 
-$debug = True;
-$debugDate = date_create("05-02-2019 7:46:00");
+$debug = False;
+$debugDate = date_create("05-02-2019 8:15:01");
 
 function parserEtAfficher() {
 
@@ -39,11 +39,11 @@ function parserEtAfficher() {
 		
 		foreach($coursData as $cours) { //Pour tout les cours
 
-			//15 prochaines minutes
-            if ( ($dateActuelle->diff($cours->getDateDebut())->format("%H%") != 0) OR ($dateActuelle->diff($cours->getDateDebut())->format("%i%") >= 15 OR $dateActuelle->diff($cours->getDateDebut())->invert) )
+			//15 prochaines minutes et 5 dernières minutes
+
+			if ( ($dateActuelle->diff($cours->getDateDebut())->format("%H%") != 0) OR ( ($dateActuelle->diff($cours->getDateDebut())->format("%i%") >= 15 OR $dateActuelle->diff($cours->getDateDebut())->invert) AND (!$dateActuelle->diff($cours->getDateDebut())->invert OR $dateActuelle->diff($cours->getDateDebut())->format("%i%") > 5) ) )
 				continue;
 
-				//($dateActuelle->diff($cours->getDateDebut())->invert == true AND $dateActuelle->diff($cours->getDateDebut())->format("%i%") > 5)
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
