@@ -2,8 +2,8 @@
 
 require_once("config.php");
 
-$debug = False;
-$debugDate = date_create("05-02-2019 8:15:01");
+$debug = True;
+$debugDate = date_create("05-02-2019 7:10:01");
 
 function parserEtAfficher() {
 
@@ -43,6 +43,8 @@ function parserEtAfficher() {
 
 			if ( ($dateActuelle->diff($cours->getDateDebut())->format("%H%") != 0) OR ( ($dateActuelle->diff($cours->getDateDebut())->format("%i%") >= 15 OR $dateActuelle->diff($cours->getDateDebut())->invert) AND (!$dateActuelle->diff($cours->getDateDebut())->invert OR $dateActuelle->diff($cours->getDateDebut())->format("%i%") > 5) ) )
 				continue;
+			else
+				$aucunCours = False;
 
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("H:i")." - ";
@@ -76,9 +78,6 @@ function parserEtAfficher() {
 			echo "</tr>";
 		}
 
-		if (count($coursData) != 0) {
-			$aucunCours = FALSE;
-		}
 	}
 
 	echo "</table>";
