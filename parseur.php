@@ -2,31 +2,13 @@
 
 require_once("config.php");
 
-$debug = False;
-$debugDate = date_create("05-02-2019 7:59:59");
-$current_time = '0';
-
-
+$debug = True;
+$debugDate = date_create("05-02-2019 7:46:00");
 
 function parserEtAfficher() {
 
 	global $debug;
 	global $debugDate;
-
-
-    if (date('i') < '15') {
-        $current_time= '0';
-    }
-    else if (date('i') < '30') {
-        $current_time= '15';
-    }
-    else if (date('i') < '45') {
-        $current_time= '30';
-    }
-    else {
-        $current_time= '45';
-    }
-    //echo '<h1>'.$current_time.'</h1>';
     
 	$erreur = saveXMLToFile();
 	
@@ -42,6 +24,12 @@ function parserEtAfficher() {
 
 	echo "<table class='table text-center'>";
 	
+	if ($debug) {
+		$dateActuelle = $debugDate;
+	} else {
+		$dateActuelle = date_create("now");
+	}
+
 	foreach (glob("xml/*.xml") as $filename) {
 		
 		$pointeur = fopen($filename, "r"); 
@@ -51,18 +39,11 @@ function parserEtAfficher() {
 		
 		foreach($coursData as $cours) { //Pour tout les cours
 
-            if (($cours->getDateDebut()->format('j H')) != date("j H"))
-                continue;
-            /*echo '<tr><td>'.($cours->getDateDebut()->format('j H')).'</td></tr>';
-            echo '<tr><td>'.date("j H").'</td></tr>';
-            echo '<tr><td>'.$current_time.'</td></tr>';
-            echo '<tr><td>'.($current_time+14).'</td></tr>';*/
-            
-            if (!(($cours->getDateDebut()->format("i") >= $current_time) && ($cours->getDateDebut()->format("i") < ($current_time+15))))
-                continue;
- 
+			//15 prochaines minutes
+            if ( ($dateActuelle->diff($cours->getDateDebut())->format("%H%") != 0) OR ($dateActuelle->diff($cours->getDateDebut())->format("%i%") >= 15 OR $dateActuelle->diff($cours->getDateDebut())->invert) )
+				continue;
 
-
+				//($dateActuelle->diff($cours->getDateDebut())->invert == true AND $dateActuelle->diff($cours->getDateDebut())->format("%i%") > 5)
 			echo "<tr bgcolor=".$cours->getCouleur().">";
 			echo "<td>".$cours->getDateDebut()->format("H:i")." - ";
 			echo $cours->getDateFin()->format("H:i")."</td>";
@@ -310,17 +291,47 @@ function parser($data) {
 
 		if (count($nomArray) >= 2 AND count($profArray) >= 2) //Si il s'agit d'un demi groupe
 		{
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[0]), array($profArray[0]), $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[1]), array($profArray[1]), $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[0]), array($profArray[0]), $salleArray, getCouleurByGroupeOld($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, array($nomArray[1]), array($profArray[1]), $salleArray, getCouleurByGroupeOld($groupeArray[0]), $remarque);
 		}
 		else {
-			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurParGroupe($groupeArray[0]), $remarque);
+			$listeCours[] = new Cours($dateDebut, $dateFin, $groupeArray, $nomArray, $profArray, $salleArray, getCouleurByGroupeOld($groupeArray[0]), $remarque);
 		}
 	
 	}
 
 	return $listeCours;
 
+}
+
+function getCouleurByGroupeOld($groupe) { //On obtient la couleur associée à chaque département
+	if (strpos($groupe, 'INF') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["INFO"];
+	}
+	else if (strpos($groupe, 'GEII') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["GEII"];
+	}
+	else if (strpos($groupe, 'GEI') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["GEI"];
+	}
+	else if (strpos($groupe, 'RT') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["RT"];
+	}
+	else if (strpos($groupe, 'ASUR') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["ASUR"];
+	}
+	else if (strpos($groupe, 'IATIC') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["IATIC"];
+	}
+	else if (strpos($groupe, 'METWEB') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["METWEB"];
+	}
+	else if (strpos($groupe, 'MMI') !== FALSE) {
+		return $GLOBALS["config_tree"]["Couleurs"]["MMI"];
+	}
+	else {
+		return "#E6EAFA";
+	}
 }
 
 
