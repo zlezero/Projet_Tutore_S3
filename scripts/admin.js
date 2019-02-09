@@ -80,10 +80,10 @@ $(document).ready (function()
 			if (elem.nodeType == 1) {
 
 				if (elem.getElementsByTagName("label")[0].innerText.toLowerCase().startsWith(searchInput.value.toLowerCase())) {
-					elem.getElementsByTagName("label")[0].hidden = false;
+					elem.hidden = false;
 				}
 				else {
-					elem.getElementsByTagName("label")[0].hidden = true;
+					elem.hidden = true;
 				}
 				
 			}
