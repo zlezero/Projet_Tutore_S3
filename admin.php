@@ -252,12 +252,12 @@ echo "<script src='scripts/admin.js'></script>";
             
             <div class="col-md-2"></div>
             
-            <div class="col-md-4">
+             <div class="col-md-4">
                 <div class="alert alert-success" role="alert" id="succes_enregistrement" style="display:none;margin-bottom:-20px;" align="center">
                     <strong>Modifications enregistrées</strong>
                 </div>
 
-                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;" align="center">
+                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;margin-bottom:-20px;" align="center">
                     <strong>Une erreur est survenue lors de l'enregistrement</strong>
                 </div>
 
