@@ -1,6 +1,5 @@
 <?php
 
-require_once("config.php");// Avant : 1re ligne du fichier
 
 // L'administrateur souhaite remettre tous les paramètres par défaut
 if (isset($_POST['default'])) {
@@ -9,6 +8,7 @@ if (isset($_POST['default'])) {
         header("Refresh:0");
     }
 }
+require_once("config.php");// Avant : 1re ligne du fichier
 
 if (isset($_POST["id"]) AND isset($_POST["pwd"])) {
 	if (!empty($_POST["id"]) AND !empty($_POST["pwd"])) {
@@ -51,7 +51,7 @@ echo "<script src='scripts/admin.js'></script>";
                 <th scope="col">Login et mot de passe de Celcat</th>
                 <th scope="col">URL de Celcat</th>
                 <th scope="col">Couleurs des départements</th>
-                <th scope="col">Départements à télécharger</th>
+                <th scope="col">Départements à afficher</th>
             </tr>
         </thead>
         <tbody>
