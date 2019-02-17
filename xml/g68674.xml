@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 04/02/2019 00:50:06 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 14/02/2019 15:27:12 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -39,26 +39,7 @@
 <period id="8" col="36" times="16:00 - 17:00" />
 <period id="9" col="40" times="17:00 - 18:00" />
 <period id="10" col="44" times="18:00 - 19:00" />
-<span id="0" date="04/02/2019" rawix="24" rawlen="1">
-<description>Semaine 6, Semaine commençant le 04/02/2019</description>
-<title>6</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" /></day></span>
-<span id="1" date="11/02/2019" rawix="25" rawlen="1">
+<span id="0" date="11/02/2019" rawix="25" rawlen="1">
 <description>Semaine 7, Semaine commençant le 11/02/2019</description>
 <title>7</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -82,7 +63,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="2" date="18/02/2019" rawix="26" rawlen="1">
+<span id="1" date="18/02/2019" rawix="26" rawlen="1">
 <description>Semaine 8, Semaine commençant le 18/02/2019</description>
 <title>8</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -98,8 +79,7 @@
 <row id="1" /></day>
 <day id="2">
 <name>mercredi</name>
-<row id="0" />
-<row id="1" /></day>
+<row id="0" /></day>
 <day id="3">
 <name>jeudi</name>
 <row id="0" />
@@ -108,7 +88,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="3" date="25/02/2019" rawix="27" rawlen="1">
+<span id="2" date="25/02/2019" rawix="27" rawlen="1">
 <description>Semaine 9, Semaine commençant le 25/02/2019</description>
 <title>9</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -122,6 +102,25 @@
 <name>mardi</name>
 <row id="0" />
 <row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="3" date="04/03/2019" rawix="28" rawlen="1">
+<description>Semaine 10_congé, Semaine commençant le 04/03/2019</description>
+<title>10_congé</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
 <day id="2">
 <name>mercredi</name>
 <row id="0" /></day>
@@ -520,7 +519,7 @@
 <item>214</item>
 <item>S12</item></room></resources>
 <notes>ESPAGNOL en salle 214 (2 groupes). CHINOIS en salle s12 (groupe débutant seulement). ALLEMAND en salle 211 (2 groupes). NIVEAU DEBUTANT : les semaines 7, 9, 12, 14.  NIVEAU AVANCE : les semaines 8, 11, 13, 15. Les numéros de semaines sont celles d'un calendreir classique 2019.</notes></event>
-<event id="155633" timesort="14151615" colour="7FFF7F" ecs="31" ecc="6" er="0" sca="3" scb="3">
+<event id="155633" timesort="14151615" colour="7FFF7F" ecs="31" ecc="6" er="0" sca="3" scb="1">
 <day>1</day>
 <prettytimes>14:15-16:15 </prettytimes>
 <starttime>14:15</starttime>
@@ -562,6 +561,22 @@
 <item>214</item>
 <item>S12</item></room></resources>
 <notes>ESPAGNOL en salle 214 (2 groupes). CHINOIS en salle s12 (groupe débutant seulement). ALLEMAND en salle 211 (2 groupes). NIVEAU DEBUTANT : les semaines 7, 9, 12, 14.  NIVEAU AVANCE : les semaines 8, 11, 13, 15. Les numéros de semaines sont celles d'un calendreir classique 2019.</notes></event>
+<event id="159437" timesort="16301830" colour="7FFF7F" ecs="38" ecc="8" er="0" scb="2">
+<day>1</day>
+<prettytimes>16:30-18:30 </prettytimes>
+<starttime>16:30</starttime>
+<endtime>18:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4</item></group>
+<module title="Matière">
+<item>Anglais S8</item></module>
+<staff title="Personnel">
+<item>F.Zah</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
 <event id="158106" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>2</day>
 <prettytimes>08:00-09:30 </prettytimes>
@@ -569,22 +584,6 @@
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Architecture des Ordinateurs - Approfondissement</item></module>
-<staff title="Personnel">
-<item>W.Jalby</item></staff>
-<room title="Salle">
-<item>Amphi C</item></room></resources></event>
-<event id="155609" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
-<day>2</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4</item></group>
@@ -627,7 +626,7 @@
 <room title="Salle">
 <item>S12</item></room></resources>
 <notes>Soutenance BDAToute absence en TD d'AOA pour aller faire une soutenance de BDA sera considérée comme injustifiée</notes></event>
-<event id="155322" timesort="09451300" colour="FFBFBF" ecs="9" ecc="15" er="1" sca="1">
+<event id="155322" timesort="09451300" colour="FFBFBF" ecs="9" ecc="15" er="0" sca="1">
 <day>2</day>
 <prettytimes>09:45-13:00 </prettytimes>
 <starttime>09:45</starttime>
@@ -722,7 +721,7 @@
 <staff title="Personnel">
 <item>W.Jalby</item></staff>
 <room title="Salle">
-<item>Amphi  A</item></room></resources></event>
+<item>Amphi C</item></room></resources></event>
 <event id="158105" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>3</day>
 <prettytimes>08:00-09:30 </prettytimes>
@@ -738,7 +737,7 @@
 <staff title="Personnel">
 <item>W.Jalby</item></staff>
 <room title="Salle">
-<item>Amphi  A</item></room></resources></event>
+<item>Amphi C</item></room></resources></event>
 <event id="158105" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>3</day>
 <prettytimes>08:00-09:30 </prettytimes>
@@ -754,7 +753,7 @@
 <staff title="Personnel">
 <item>W.Jalby</item></staff>
 <room title="Salle">
-<item>Amphi  A</item></room></resources></event>
+<item>Amphi C</item></room></resources></event>
 <event id="156692" timesort="09451215" colour="7FFF7F" ecs="9" ecc="12" er="1" sca="1" scb="3">
 <day>3</day>
 <prettytimes>09:45-12:15 </prettytimes>
@@ -803,6 +802,22 @@
 <item>K.Khawam</item></staff>
 <room title="Salle">
 <item>Amphi  A</item></room></resources></event>
+<event id="159503" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="1">
+<day>4</day>
+<prettytimes>08:00-09:15 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4</item></group>
+<module title="Matière">
+<item>Architecture des Ordinateurs - Approfondissement</item></module>
+<staff title="Personnel">
+<item>W.Jalby</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
 <event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" sca="2">
 <day>4</day>
 <prettytimes>09:30-12:00 </prettytimes>
@@ -819,7 +834,7 @@
 <item>F.Rossignol</item></staff>
 <room title="Salle">
 <item>Amphi  A</item></room></resources></event>
-<event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" sca="2">
+<event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" cellshare="1">
 <day>4</day>
 <prettytimes>09:30-12:00 </prettytimes>
 <starttime>09:30</starttime>

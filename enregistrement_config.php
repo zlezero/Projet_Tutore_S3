@@ -22,12 +22,14 @@ $required = array('prof' => false,
                   'login' => true,
                   'mdp' => true,
                   'dept' => true,
-                  'couleur' => true);
+                  'couleur' => true,
+                  'login_admin' => false,
+                  'mdp_admin' => false);
 
 foreach ($required as $input => $check_empy) {
     if (!isset($_POST[$input]) || ($check_empy && empty($_POST[$input])) ) {
-            header("Location: admin.php");
-            exit(false);
+        header("Location: admin.php");
+        exit(false);
     }
 }
 
@@ -64,7 +66,8 @@ function write_php_ini($array, $file)
     safefilerewrite($file, implode("\r\n", $res));
 }
 function safefilerewrite($fileName, $dataToSave)
-{    if ($fp = fopen($fileName, 'w'))
+{   
+	if ($fp = fopen($fileName, 'w'))
     {
         $startTime = microtime(TRUE);
         do
@@ -90,6 +93,15 @@ $login = str_replace('"', '', $_POST['login']);
 $mdp = str_replace('"', '', $_POST['mdp']);
 $dept = str_replace('"', '', $_POST['dept']);
 $couleur = str_replace('"', '', $_POST['couleur']);
+
+// Ecriture du login et mot de passe admin
+if (file_exists("config/admin.csv") && !empty($_POST["login_admin"]) && !empty($_POST["mdp_admin"])) {
+	$pointeur = fopen("config/admin.csv", "w");
+	$log_mdp = array($_POST["login_admin"], hash("sha512", $_POST["mdp_admin"]));
+	fputcsv($pointeur, $log_mdp);
+	fclose($pointeur);
+}
+
 
 if (file_exists($path_of_config_ini))
 {
