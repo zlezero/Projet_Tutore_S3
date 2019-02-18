@@ -54,10 +54,10 @@ echo "<script src='scripts/admin.js'></script>";
                     <h5>Affichage des profs</h5>
 
                     <div name="form_prof" >
-                
+
                         <div class="form-check form-check-inline">
                             <?php
-                            
+
                             // on regarde dans les configurations, si le professeur
                             if ($GLOBALS['config_tree']['General']['afficherProf'])// est affiché
                                 echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true" checked>';
@@ -220,10 +220,15 @@ echo "<script src='scripts/admin.js'></script>";
 
                     <div class="form-row">
                         <div class="col">
-                            <input id="mdp_admin" name="mdp_admin" class="form-control" type="text" placeholder="Mot de passe" />
+                            <input type="password" id="mdp_admin" name="mdp_admin" class="form-control" type="text" placeholder="Mot de passe" />
                         </div>
                     </div>
 
+					<div class="form-row">
+                        <div class="col">
+                            <input type="password" id="mdp_adminConfirm" name="mdp_adminConfirm" class="form-control" type="text" placeholder="Confirmer le mot de passe" />
+                        </div>
+                    </div>
 
                 </div>
 
@@ -242,16 +247,16 @@ echo "<script src='scripts/admin.js'></script>";
         </form><!-- Fin du formulaire de la mort qui tue -->
 
         <div class="row">
-            <div class="col-md-4">   
+            <div class="col-md-4">
                 <form action="" method="POST">
                     <button type="submit" id="default" name="default" class="btn btn-primary">
                         Remettre les configurations par défaut
                     </button>
                 </form>
             </div>
-            
+
             <div class="col-md-2"></div>
-            
+
              <div class="col-md-4">
                 <div class="alert alert-success" role="alert" id="succes_enregistrement" style="display:none;margin-bottom:-20px;" align="center">
                     <strong>Modifications enregistrées</strong>
@@ -268,7 +273,7 @@ echo "<script src='scripts/admin.js'></script>";
         </div>
 
         <div class="row">
-            <div class="col-md-4">   
+            <div class="col-md-4">
                 <form class="form-group" action="logout.php" method="post" >
                     <button type="submit" class="btn btn-danger">
                         Se déconnecter
