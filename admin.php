@@ -196,9 +196,9 @@ echo "<script src='scripts/admin.js'></script>";
                         echo '<div class="form-check" id="departement_fichiers">';
                         // si le fichier est dans ceux qui sont téléchargés
                         if (isset($GLOBALS['config_tree']['Active'][$d]))// on coche la case
-                            echo '<input class="form-check-input" name="checkboxValue" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '" checked>';
+                            echo '<input class="form-check-input" name="checkboxValue[]" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '" checked>';
                         else
-                            echo '<input class="form-check-input" name="checkboxValue" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '">';
+                            echo '<input class="form-check-input" name="checkboxValue[]" type="checkbox" value="' . $d . '" id="' . $u . '" name="' . $u . '">';
                         echo '<label class="form-check-label" for="' . $u . '">' . $d . '</label></div>';
                     }
 

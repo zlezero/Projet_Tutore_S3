@@ -60,11 +60,13 @@ function enregistrerChangements() {
 						case "AIBOOL":
 							enregistrementErreur("Erreur : Les paramètres entrés pour l'affichage des profs ou des remarques sont invalides")
 							break;
+						case "AICOLOR":
+							enregistrementErreur("Erreur : Couleur invalide")
+							break;
 						default:
 							enregistrementErreur();
 							break;
 					}
-						
 				}
 			}
 			else {

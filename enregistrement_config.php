@@ -22,7 +22,7 @@ $required = array('prof' => false,
                   'login' => true,
                   'mdp' => true,
                   'dept' => true,
-                  'couleur' => true,
+				  'couleur' => true,
                   'login_admin' => false,
                   'mdp_admin' => false);
 
@@ -93,6 +93,7 @@ $login = str_replace('"', '', $_POST['login']);
 $mdp = str_replace('"', '', $_POST['mdp']);
 $dept = str_replace('"', '', $_POST['dept']);
 $couleur = str_replace('"', '', $_POST['couleur']);
+$active = array();
 
 // Ecriture du login et mot de passe admin
 if (file_exists("config/admin.csv") && isset($_POST["login_admin"]) && isset($_POST["mdp_admin"]) && isset($_POST["mdp_adminConfirm"]) && !empty($_POST["login_admin"]) && !empty($_POST["mdp_admin"]) && !empty($_POST["mdp_adminConfirm"])) {
@@ -116,17 +117,29 @@ if (file_exists($path_of_config_ini))
     $array["Securite"]["Url"] = $url;
     $array["Securite"]["Identifiant"] = $login;
     $array["Securite"]["Mdp"] = $mdp;
-    $array["Couleurs"][$dept] = $couleur;
-	
+	$array["Couleurs"][$dept] = $couleur;
+
+	//On regarde si l'url de Celcat est correcte
 	if (!filter_var($url, FILTER_VALIDATE_URL)) {
 		exit("AIURL");
 	}
 
+	//On regarde si les champs prof et remarques sont corrects
 	if ( ($prof != "true" AND $prof != "false") OR ($rem != "true" AND $rem != "false") ) {
 		exit("AIBOOL");
 	}
-
 	
+	//On regarde si le champ couleur est correct
+	/*if(!preg_match("/#(?:[0-9a-fA-F]{6}|[0-9a-fA-F]{3})[\s;]*\n/", $couleur)) {
+		exit("AICOLOR");
+	}*/
+
+	//On créer le tableau des groupes actifs
+	for($i = 0; $i != count($_POST['checkboxValue']); $i++) {
+		$active += [$_POST['checkboxValue'][$i] => $GLOBALS["config_tree"]["Fichiers"][$_POST["checkboxValue"][$i]]];
+	}
+
+	$array["Active"] = $active;
 
     foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
     {
