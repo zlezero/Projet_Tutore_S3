@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 13/02/2019 23:16:40 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 18/02/2019 01:56:50 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -39,26 +39,7 @@
 <period id="8" col="36" times="16:00 - 17:00" />
 <period id="9" col="40" times="17:00 - 18:00" />
 <period id="10" col="44" times="18:00 - 19:00" />
-<span id="0" date="11/02/2019" rawix="25" rawlen="1">
-<description>Semaine 7, Semaine commençant le 11/02/2019</description>
-<title>7</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" /></day></span>
-<span id="1" date="18/02/2019" rawix="26" rawlen="1">
+<span id="0" date="18/02/2019" rawix="26" rawlen="1">
 <description>Semaine 8, Semaine commençant le 18/02/2019</description>
 <title>8</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -77,7 +58,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="2" date="25/02/2019" rawix="27" rawlen="1">
+<span id="1" date="25/02/2019" rawix="27" rawlen="1">
 <description>Semaine 9, Semaine commençant le 25/02/2019</description>
 <title>9</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -96,10 +77,29 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="3" date="04/03/2019" rawix="28" rawlen="1">
+<span id="2" date="04/03/2019" rawix="28" rawlen="1">
 <description>Semaine 10_congé, Semaine commençant le 04/03/2019</description>
 <title>10_congé</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="3" date="11/03/2019" rawix="29" rawlen="1">
+<description>Semaine 11, Semaine commençant le 11/03/2019</description>
+<title>11</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
 <day id="0">
 <name>lundi</name>
 <row id="0" /></day>
@@ -121,17 +121,6 @@
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>ASUR-FA</item>
-<item>RTHD</item></group></resources></event>
-<event id="147621" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>0</day>
-<prettytimes>08:00-19:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>19:00</endtime>
-<prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
@@ -159,13 +148,13 @@
 <group title="Groupes">
 <item>ASUR-FA</item>
 <item>RTHD</item></group></resources></event>
-<event id="147627" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>1</day>
+<event id="147621" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
+<day>0</day>
 <prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>ASUR-FA</item>
@@ -203,13 +192,13 @@
 <group title="Groupes">
 <item>ASUR-FA</item>
 <item>RTHD</item></group></resources></event>
-<event id="147629" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>2</day>
+<event id="147627" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
+<day>1</day>
 <prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>ASUR-FA</item>
@@ -243,6 +232,17 @@
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>ASUR-FA</item>
+<item>RTHD</item></group></resources></event>
+<event id="147629" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
+<day>2</day>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>ASUR-FA</item>
@@ -275,24 +275,23 @@
 <room title="Salle">
 <item>H32</item></room></resources>
 <notes>Wifi</notes></event>
-<event id="157360" timesort="08301000" colour="7FFF7F" ecs="6" ecc="6" er="0" sca="2">
+<event id="158781" timesort="08001000" colour="FFBFBF" ecs="4" ecc="8" er="0">
 <day>3</day>
-<prettytimes>08:30-10:00 </prettytimes>
-<starttime>08:30</starttime>
+<prettytimes>08:00-10:00 </prettytimes>
+<starttime>08:00</starttime>
 <endtime>10:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupes">
-<item>ASUR-FA</item>
-<item>RTHD</item></group>
+<group title="Groupe">
+<item>ASUR-FA</item></group>
 <module title="Matière">
-<item>SECURITE RESEAUX&amp;SYSTEMES</item></module>
+<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
 <staff title="Personnel">
-<item>S.Soulayrol</item></staff>
+<item>D.Essayed</item></staff>
 <room title="Salle">
-<item>H33</item></room></resources>
-<notes>Passage Certification Cisco RS3</notes></event>
+<item>111</item></room></resources>
+<notes>SUPERVISION</notes></event>
 <event id="157484" timesort="09001200" colour="FF7FBF" ecs="8" ecc="12" er="0">
 <day>3</day>
 <prettytimes>09:00-12:00 </prettytimes>
@@ -308,40 +307,23 @@
 <room title="Salles">
 <item>I4</item>
 <item>I5</item></room></resources></event>
-<event id="157098" timesort="10001200" colour="FFBFBF" ecs="12" ecc="8" er="0">
+<event id="158783" timesort="10001200" colour="7FFF7F" ecs="12" ecc="8" er="0">
 <day>3</day>
 <prettytimes>10:00-12:00 </prettytimes>
 <starttime>10:00</starttime>
 <endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>ASUR-FA</item></group>
 <module title="Matière">
 <item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
 <staff title="Personnel">
-<item>S.Soulayrol</item></staff>
+<item>D.Essayed</item></staff>
 <room title="Salle">
-<item>510</item></room></resources>
-<notes>WIFI</notes></event>
-<event id="157304" timesort="13001400" colour="FFBFBF" ecs="24" ecc="4" er="0">
-<day>3</day>
-<prettytimes>13:00-14:00 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>ASUR</item></group>
-<module title="Matière">
-<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
-<staff title="Personnel">
-<item>S.Galuscan</item></staff>
-<room title="Salle">
-<item>E51</item></room></resources>
-<notes>Services Réseaux</notes></event>
+<item>111</item></room></resources>
+<notes>SUPERVISION</notes></event>
 <event id="157483" timesort="13001600" colour="FF7FBF" ecs="24" ecc="12" er="0">
 <day>3</day>
 <prettytimes>13:00-16:00 </prettytimes>
@@ -373,23 +355,23 @@
 <room title="Salles">
 <item>I4</item>
 <item>I5</item></room></resources></event>
-<event id="157309" timesort="14001700" colour="BF7FFF" ecs="28" ecc="12" er="0">
+<event id="158778" timesort="13001700" colour="BF7FFF" ecs="24" ecc="16" er="0">
 <day>3</day>
-<prettytimes>14:00-17:00 </prettytimes>
-<starttime>14:00</starttime>
+<prettytimes>13:00-17:00 </prettytimes>
+<starttime>13:00</starttime>
 <endtime>17:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>ASUR</item></group>
+<item>ASUR-FA</item></group>
 <module title="Matière">
 <item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
 <staff title="Personnel">
-<item>S.Galuscan</item></staff>
+<item>D.Essayed</item></staff>
 <room title="Salle">
-<item>E51</item></room></resources>
-<notes>Services Réseaux</notes></event>
+<item>E52</item></room></resources>
+<notes>SUPERVISION</notes></event>
 <event id="155580" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>4</day>
 <prettytimes>08:00-19:00 </prettytimes>
@@ -401,24 +383,6 @@
 <group title="Groupes">
 <item>ASUR-FA</item>
 <item>RTHD</item></group></resources></event>
-<event id="155562" timesort="08001000" colour="7FFF7F" ecs="4" ecc="8" er="0">
-<day>4</day>
-<prettytimes>08:00-10:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>10:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>ASUR-FA-1</item>
-<item>ASUR-FA-2</item>
-<item>RTHD</item></group>
-<module title="Matière">
-<item>DROIT ENTRE/INFORMATIQUE</item></module>
-<staff title="Personnel">
-<item>JF.Briquet</item></staff>
-<room title="Salle">
-<item>510</item></room></resources></event>
 <event id="155565" timesort="08001000" colour="7FFF7F" ecs="4" ecc="8" er="0">
 <day>4</day>
 <prettytimes>08:00-10:00 </prettytimes>
@@ -437,21 +401,23 @@
 <item>JF.Briquet</item></staff>
 <room title="Salle">
 <item>510</item></room></resources></event>
-<event id="158792" timesort="10001200" colour="FF7FBF" ecs="12" ecc="8" er="0">
+<event id="157105" timesort="08001200" colour="BF7FFF" ecs="4" ecc="16" er="0">
 <day>4</day>
-<prettytimes>10:00-12:00 </prettytimes>
-<starttime>10:00</starttime>
+<prettytimes>08:00-12:00 </prettytimes>
+<starttime>08:00</starttime>
 <endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>ASUR-FA-1</item></group>
+<item>ASUR-FA</item></group>
 <module title="Matière">
-<item>Projet Tuteuré</item></module>
-<room title="Salles">
-<item>I4</item>
-<item>I5</item></room></resources></event>
+<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
+<staff title="Personnel">
+<item>S.Soulayrol</item></staff>
+<room title="Salle">
+<item>H32</item></room></resources>
+<notes>WIFI</notes></event>
 <event id="158785" timesort="10001200" colour="FF7FBF" ecs="12" ecc="8" er="0">
 <day>4</day>
 <prettytimes>10:00-12:00 </prettytimes>
@@ -484,23 +450,6 @@
 <room title="Salle">
 <item>510</item></room></resources>
 <notes>Supervision</notes></event>
-<event id="157103" timesort="13001700" colour="BF7FFF" ecs="24" ecc="16" er="0">
-<day>4</day>
-<prettytimes>13:00-17:00 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>17:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>ASUR-FA</item></group>
-<module title="Matière">
-<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources>
-<notes>WIFI</notes></event>
 <event id="157305" timesort="13001400" colour="FFBFBF" ecs="24" ecc="4" er="0">
 <day>4</day>
 <prettytimes>13:00-14:00 </prettytimes>
@@ -535,6 +484,23 @@
 <room title="Salle">
 <item>E52</item></room></resources>
 <notes>Supervision</notes></event>
+<event id="157245" timesort="13001400" colour="FFBFBF" ecs="24" ecc="4" er="0">
+<day>4</day>
+<prettytimes>13:00-14:00 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>14:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>ASUR</item></group>
+<module title="Matière">
+<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
+<staff title="Personnel">
+<item>S.Galuscan</item></staff>
+<room title="Salle">
+<item>E51</item></room></resources>
+<notes>Services Réseaux</notes></event>
 <event id="157310" timesort="14001700" colour="BF7FFF" ecs="28" ecc="12" er="0">
 <day>4</day>
 <prettytimes>14:00-17:00 </prettytimes>
@@ -542,6 +508,23 @@
 <endtime>17:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>ASUR</item></group>
+<module title="Matière">
+<item>ADMIN.RESEAUX&amp;SYSTEMES</item></module>
+<staff title="Personnel">
+<item>S.Galuscan</item></staff>
+<room title="Salle">
+<item>E51</item></room></resources>
+<notes>Services Réseaux</notes></event>
+<event id="157247" timesort="14001700" colour="BF7FFF" ecs="28" ecc="12" er="0">
+<day>4</day>
+<prettytimes>14:00-17:00 </prettytimes>
+<starttime>14:00</starttime>
+<endtime>17:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>ASUR</item></group>

@@ -39,7 +39,7 @@
         </h1>
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <img src="images/index.png" width="150px">
+                <a href="admin.php"><img src="images/index.png" width="150px" /></a> 
             </li>
         </ul>
     </nav>

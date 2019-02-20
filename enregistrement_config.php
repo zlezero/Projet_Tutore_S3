@@ -10,7 +10,7 @@ require_once("config.php");
  * Identifiant et mot de passe Celcat
  * Couleur d'un département
  */
-    
+
 if (!isset($_SESSION["isConnected"])) {
     header("Location: admin.php");
     exit(false);
@@ -26,10 +26,10 @@ $required = array('prof' => false,
                   'login_admin' => false,
                   'mdp_admin' => false);
 
-foreach ($required as $input => $check_empy) {
-    if (!isset($_POST[$input]) || ($check_empy && empty($_POST[$input])) ) {
-        header("Location: admin.php");
-        exit(false);
+foreach ($required as $input => $check_empty) {
+    if (!isset($_POST[$input]) || ($check_empty && empty($_POST[$input])) ) {
+		header("Location: admin.php");
+		exit;
     }
 }
 
@@ -67,7 +67,7 @@ function write_php_ini($array, $file)
 }
 function safefilerewrite($fileName, $dataToSave)
 {   
-	if ($fp = fopen($fileName, 'w'))
+    if ($fp = fopen($fileName, 'w'))
     {
         $startTime = microtime(TRUE);
         do
@@ -95,25 +95,40 @@ $dept = str_replace('"', '', $_POST['dept']);
 $couleur = str_replace('"', '', $_POST['couleur']);
 
 // Ecriture du login et mot de passe admin
-if (file_exists("config/admin.csv") && !empty($_POST["login_admin"]) && !empty($_POST["mdp_admin"])) {
-	$pointeur = fopen("config/admin.csv", "w");
-	$log_mdp = array($_POST["login_admin"], hash("sha512", $_POST["mdp_admin"]));
-	fputcsv($pointeur, $log_mdp);
-	fclose($pointeur);
+if (file_exists("config/admin.csv") && isset($_POST["login_admin"]) && isset($_POST["mdp_admin"]) && isset($_POST["mdp_adminConfirm"]) && !empty($_POST["login_admin"]) && !empty($_POST["mdp_admin"]) && !empty($_POST["mdp_adminConfirm"])) {
+    if ($_POST["mdp_admin"] == $_POST["mdp_adminConfirm"]) {
+        $pointeur = fopen("config/admin.csv", "w");
+        $log_mdp = array($_POST["login_admin"], hash("sha512", $_POST["mdp_admin"]));
+        fputcsv($pointeur, $log_mdp);
+        fclose($pointeur);
+    }
+    else {
+		exit("ABP"); #Mauvais mot de passe de confirmation
+    }
 }
 
 
 if (file_exists($path_of_config_ini))
 {
-	$array = $GLOBALS['config_tree'];
-	$array["General"]["afficherProf"] = $prof;
-	$array["General"]["afficherRemarque"] = $rem;
-	$array["Securite"]["Url"] = $url;
-	$array["Securite"]["Identifiant"] = $login;
-	$array["Securite"]["Mdp"] = $mdp;
-	$array["Couleurs"][$dept] = $couleur;
+    $array = $GLOBALS['config_tree'];
+    $array["General"]["afficherProf"] = $prof;
+    $array["General"]["afficherRemarque"] = $rem;
+    $array["Securite"]["Url"] = $url;
+    $array["Securite"]["Identifiant"] = $login;
+    $array["Securite"]["Mdp"] = $mdp;
+    $array["Couleurs"][$dept] = $couleur;
 	
-	foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
+	if (!filter_var($url, FILTER_VALIDATE_URL)) {
+		exit("AIURL");
+	}
+
+	if ( ($prof != "true" AND $prof != "false") OR ($rem != "true" AND $rem != "false") ) {
+		exit("AIBOOL");
+	}
+
+	
+
+    foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
     {
         if (isset($_POST[$u]))
         {

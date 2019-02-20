@@ -262,7 +262,7 @@ echo "<script src='scripts/admin.js'></script>";
                     <strong>Modifications enregistrées</strong>
                 </div>
 
-                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;margin-bottom:-20px;" align="center">
+                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;margin-bottom:-20px;" align="center" >
                     <strong>Une erreur est survenue lors de l'enregistrement</strong>
                 </div>
 

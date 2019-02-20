@@ -26,7 +26,8 @@ function enregistrementSucces()
 	$("#succes_enregistrement").fadeToggle();}, 2000);
 }
 
-function enregistrementErreur() {
+function enregistrementErreur(message = "Une erreur est survenue lors de l'enregistrement. Tous les champs doivent être remplis !") {
+	document.getElementById("echec_enregistrement").innerHTML = "<strong>" + message + "</strong>";
 	setTimeout(function() {
 	$("#echec_enregistrement").fadeToggle();}, 500);
 	setTimeout(function() {
@@ -42,11 +43,28 @@ function enregistrerChangements() {
     xmlhttpEnrengistrement.onreadystatechange = function() {
 		if (this.readyState == 4) {
             if (this.status == 200) {
-				if (xmlhttpEnrengistrement.responseText) {
+				if (xmlhttpEnrengistrement.responseText == true) {
 					enregistrementSucces();
 				}
 				else {
-					enregistrementErreur();
+					switch (xmlhttpEnrengistrement.responseText) {
+						case "ABP":
+							enregistrementErreur("Erreur : Les mots de passe Administrateur ne correspondent pas");
+							break;
+						case "ACV":
+							enregistrementErreur("Erreur : Tous les champs doivent être remplis")
+							break;
+						case "AIURL":
+							enregistrementErreur("Erreur : L'URL entrée n'est pas valide")
+							break;
+						case "AIBOOL":
+							enregistrementErreur("Erreur : Les paramètres entrés pour l'affichage des profs ou des remarques sont invalides")
+							break;
+						default:
+							enregistrementErreur();
+							break;
+					}
+						
 				}
 			}
 			else {

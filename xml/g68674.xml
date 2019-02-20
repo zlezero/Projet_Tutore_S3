@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 14/02/2019 15:27:12 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 19/02/2019 14:03:20 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -39,31 +39,7 @@
 <period id="8" col="36" times="16:00 - 17:00" />
 <period id="9" col="40" times="17:00 - 18:00" />
 <period id="10" col="44" times="18:00 - 19:00" />
-<span id="0" date="11/02/2019" rawix="25" rawlen="1">
-<description>Semaine 7, Semaine commençant le 11/02/2019</description>
-<title>7</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" /></day></span>
-<span id="1" date="18/02/2019" rawix="26" rawlen="1">
+<span id="0" date="18/02/2019" rawix="26" rawlen="1">
 <description>Semaine 8, Semaine commençant le 18/02/2019</description>
 <title>8</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -88,7 +64,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="2" date="25/02/2019" rawix="27" rawlen="1">
+<span id="1" date="25/02/2019" rawix="27" rawlen="1">
 <description>Semaine 9, Semaine commençant le 25/02/2019</description>
 <title>9</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -111,7 +87,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="3" date="04/03/2019" rawix="28" rawlen="1">
+<span id="2" date="04/03/2019" rawix="28" rawlen="1">
 <description>Semaine 10_congé, Semaine commençant le 04/03/2019</description>
 <title>10_congé</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -130,22 +106,29 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<event id="155618" timesort="08451200" colour="FFBFBF" ecs="5" ecc="15" er="0" sca="1">
-<day>0</day>
-<prettytimes>08:45-12:00 </prettytimes>
-<starttime>08:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Recherche Opérationnelle</item></module>
-<staff title="Personnel">
-<item>I.Tseveendorj</item></staff>
-<room title="Salle">
-<item>Amphi C</item></room></resources></event>
+<span id="3" date="11/03/2019" rawix="29" rawlen="1">
+<description>Semaine 11, Semaine commençant le 11/03/2019</description>
+<title>11</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" />
+<row id="3" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
 <event id="155618" timesort="08451200" colour="FFBFBF" ecs="5" ecc="15" er="0" sca="1">
 <day>0</day>
 <prettytimes>08:45-12:00 </prettytimes>
@@ -178,22 +161,22 @@
 <item>D.Sohier</item></staff>
 <room title="Salle">
 <item>Amphi C</item></room></resources></event>
-<event id="155629" timesort="13001530" colour="7FFF7F" ecs="24" ecc="10" er="0" scb="2">
+<event id="155606" timesort="08451200" colour="FFBFBF" ecs="5" ecc="15" er="0" sca="1">
 <day>0</day>
-<prettytimes>13:00-15:30 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>15:30</endtime>
+<prettytimes>08:45-12:00 </prettytimes>
+<starttime>08:45</starttime>
+<endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC4-G1</item></group>
+<item>IATIC4</item></group>
 <module title="Matière">
 <item>Introduction au big data</item></module>
 <staff title="Personnel">
 <item>D.Sohier</item></staff>
 <room title="Salle">
-<item>S11</item></room></resources></event>
+<item>Amphi C</item></room></resources></event>
 <event id="155629" timesort="13001530" colour="7FFF7F" ecs="24" ecc="10" er="0" scb="2">
 <day>0</day>
 <prettytimes>13:00-15:30 </prettytimes>
@@ -217,6 +200,22 @@
 <endtime>15:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4-G1</item></group>
+<module title="Matière">
+<item>Introduction au big data</item></module>
+<staff title="Personnel">
+<item>D.Sohier</item></staff>
+<room title="Salle">
+<item>S11</item></room></resources></event>
+<event id="155629" timesort="13001530" colour="7FFF7F" ecs="24" ecc="10" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:00-15:30 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>15:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G1</item></group>
@@ -232,22 +231,6 @@
 <starttime>13:00</starttime>
 <endtime>15:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4-G2</item></group>
-<module title="Matière">
-<item>Recherche Opérationnelle</item></module>
-<staff title="Personnel">
-<item>I.Tseveendorj</item></staff>
-<room title="Salle">
-<item>214</item></room></resources></event>
-<event id="155630" timesort="13001530" colour="7FFF7F" ecs="24" ecc="10" er="1" scb="2">
-<day>0</day>
-<prettytimes>13:00-15:30 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>15:30</endtime>
-<prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
@@ -274,20 +257,20 @@
 <item>I.Tseveendorj</item></staff>
 <room title="Salle">
 <item>214</item></room></resources></event>
-<event id="155628" timesort="15351805" colour="7FFF7F" ecs="33" ecc="12" er="2" sca="1" scb="3">
+<event id="155630" timesort="13001530" colour="7FFF7F" ecs="24" ecc="10" er="1" scb="2">
 <day>0</day>
-<prettytimes>15:35-18:05 </prettytimes>
-<starttime>15:35</starttime>
-<endtime>18:05</endtime>
+<prettytimes>13:00-15:30 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>15:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G2</item></group>
 <module title="Matière">
-<item>Introduction au big data</item></module>
+<item>Recherche Opérationnelle</item></module>
 <staff title="Personnel">
-<item>D.Sohier</item></staff>
+<item>I.Tseveendorj</item></staff>
 <room title="Salle">
 <item>214</item></room></resources></event>
 <event id="155628" timesort="15351805" colour="7FFF7F" ecs="33" ecc="12" er="2" sca="1" scb="3">
@@ -322,22 +305,22 @@
 <item>D.Sohier</item></staff>
 <room title="Salle">
 <item>214</item></room></resources></event>
-<event id="155631" timesort="15451815" colour="7FFF7F" ecs="33" ecc="12" er="3" sca="1" scb="3">
+<event id="155628" timesort="15351805" colour="7FFF7F" ecs="33" ecc="12" er="2" sca="1" scb="3">
 <day>0</day>
-<prettytimes>15:45-18:15 </prettytimes>
-<starttime>15:45</starttime>
-<endtime>18:15</endtime>
+<prettytimes>15:35-18:05 </prettytimes>
+<starttime>15:35</starttime>
+<endtime>18:05</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC4-G1</item></group>
+<item>IATIC4-G2</item></group>
 <module title="Matière">
-<item>Recherche Opérationnelle</item></module>
+<item>Introduction au big data</item></module>
 <staff title="Personnel">
-<item>I.Tseveendorj</item></staff>
+<item>D.Sohier</item></staff>
 <room title="Salle">
-<item>S11</item></room></resources></event>
+<item>214</item></room></resources></event>
 <event id="155631" timesort="15451815" colour="7FFF7F" ecs="33" ecc="12" er="3" sca="1" scb="3">
 <day>0</day>
 <prettytimes>15:45-18:15 </prettytimes>
@@ -361,6 +344,22 @@
 <endtime>18:15</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4-G1</item></group>
+<module title="Matière">
+<item>Recherche Opérationnelle</item></module>
+<staff title="Personnel">
+<item>I.Tseveendorj</item></staff>
+<room title="Salle">
+<item>S11</item></room></resources></event>
+<event id="155631" timesort="15451815" colour="7FFF7F" ecs="33" ecc="12" er="3" sca="1" scb="3">
+<day>0</day>
+<prettytimes>15:45-18:15 </prettytimes>
+<starttime>15:45</starttime>
+<endtime>18:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G1</item></group>
@@ -376,7 +375,7 @@
 <starttime>08:15</starttime>
 <endtime>10:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G2</item></group>
@@ -392,7 +391,7 @@
 <starttime>08:15</starttime>
 <endtime>10:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G2</item></group>
@@ -408,7 +407,7 @@
 <starttime>08:15</starttime>
 <endtime>10:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G2</item></group>
@@ -450,22 +449,22 @@
 <item>L.De Feo</item></staff>
 <room title="Salle">
 <item>116 PC</item></room></resources></event>
-<event id="157724" timesort="11001330" colour="7FFF7F" ecs="16" ecc="10" er="0" scb="2">
+<event id="155626" timesort="08151045" colour="7FFF7F" ecs="7" ecc="8" er="1" sca="3" scb="1">
 <day>1</day>
-<prettytimes>11:00-13:30 </prettytimes>
-<starttime>11:00</starttime>
-<endtime>13:30</endtime>
+<prettytimes>08:15-10:45 </prettytimes>
+<starttime>08:15</starttime>
+<endtime>10:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC4</item></group>
+<item>IATIC4-G1</item></group>
 <module title="Matière">
-<item>LV2 S8</item></module>
+<item>Applications Web et Sécurité</item></module>
 <staff title="Personnel">
-<item>F.Zah</item></staff>
+<item>L.De Feo</item></staff>
 <room title="Salle">
-<item>Amphi B</item></room></resources></event>
+<item>116 PC</item></room></resources></event>
 <event id="157724" timesort="11001330" colour="7FFF7F" ecs="16" ecc="10" er="0" scb="2">
 <day>1</day>
 <prettytimes>11:00-13:30 </prettytimes>
@@ -498,27 +497,22 @@
 <item>F.Zah</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="155633" timesort="14151615" colour="7FFF7F" ecs="31" ecc="6" er="0" sca="3" scb="3">
+<event id="157724" timesort="11001330" colour="7FFF7F" ecs="16" ecc="10" er="0" scb="2">
 <day>1</day>
-<prettytimes>14:15-16:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>16:15</endtime>
+<prettytimes>11:00-13:30 </prettytimes>
+<starttime>11:00</starttime>
+<endtime>13:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4</item></group>
 <module title="Matière">
 <item>LV2 S8</item></module>
 <staff title="Personnel">
-<item>C.Mihesso</item>
-<item>E.Potier</item>
-<item>Z.Tonghzen</item></staff>
-<room title="Salles">
-<item>211</item>
-<item>214</item>
-<item>S12</item></room></resources>
-<notes>ESPAGNOL en salle 214 (2 groupes). CHINOIS en salle s12 (groupe débutant seulement). ALLEMAND en salle 211 (2 groupes). NIVEAU DEBUTANT : les semaines 7, 9, 12, 14.  NIVEAU AVANCE : les semaines 8, 11, 13, 15. Les numéros de semaines sont celles d'un calendreir classique 2019.</notes></event>
+<item>F.Zah</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
 <event id="155633" timesort="14151615" colour="7FFF7F" ecs="31" ecc="6" er="0" sca="3" scb="1">
 <day>1</day>
 <prettytimes>14:15-16:15 </prettytimes>
@@ -561,6 +555,27 @@
 <item>214</item>
 <item>S12</item></room></resources>
 <notes>ESPAGNOL en salle 214 (2 groupes). CHINOIS en salle s12 (groupe débutant seulement). ALLEMAND en salle 211 (2 groupes). NIVEAU DEBUTANT : les semaines 7, 9, 12, 14.  NIVEAU AVANCE : les semaines 8, 11, 13, 15. Les numéros de semaines sont celles d'un calendreir classique 2019.</notes></event>
+<event id="155633" timesort="14151615" colour="7FFF7F" ecs="31" ecc="6" er="0" sca="3" scb="3">
+<day>1</day>
+<prettytimes>14:15-16:15 </prettytimes>
+<starttime>14:15</starttime>
+<endtime>16:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4</item></group>
+<module title="Matière">
+<item>LV2 S8</item></module>
+<staff title="Personnel">
+<item>C.Mihesso</item>
+<item>E.Potier</item>
+<item>Z.Tonghzen</item></staff>
+<room title="Salles">
+<item>211</item>
+<item>214</item>
+<item>S12</item></room></resources>
+<notes>ESPAGNOL en salle 214 (2 groupes). CHINOIS en salle s12 (groupe débutant seulement). ALLEMAND en salle 211 (2 groupes). NIVEAU DEBUTANT : les semaines 7, 9, 12, 14.  NIVEAU AVANCE : les semaines 8, 11, 13, 15. Les numéros de semaines sont celles d'un calendreir classique 2019.</notes></event>
 <event id="159437" timesort="16301830" colour="7FFF7F" ecs="38" ecc="8" er="0" scb="2">
 <day>1</day>
 <prettytimes>16:30-18:30 </prettytimes>
@@ -577,29 +592,13 @@
 <item>F.Zah</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="158106" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
-<day>2</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Architecture des Ordinateurs - Approfondissement</item></module>
-<staff title="Personnel">
-<item>W.Jalby</item></staff>
-<room title="Salle">
-<item>Amphi C</item></room></resources></event>
-<event id="156702" timesort="09451215" colour="7FFF7F" ecs="9" ecc="12" er="1" sca="1" scb="3">
+<event id="156702" timesort="09451215" colour="7FFF7F" ecs="9" ecc="12" er="0" sca="1" scb="3">
 <day>2</day>
 <prettytimes>09:45-12:15 </prettytimes>
 <starttime>09:45</starttime>
 <endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G2</item></group>
@@ -609,23 +608,6 @@
 <item>W.Jalby</item></staff>
 <room title="Salle">
 <item>214</item></room></resources></event>
-<event id="158122" timesort="09451800" colour="FF7FBF" ecs="9" ecc="35" er="2" sca="1">
-<day>2</day>
-<prettytimes>09:45-18:00 </prettytimes>
-<starttime>09:45</starttime>
-<endtime>18:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Bases de Données - Approfondissement</item></module>
-<staff title="Personnel">
-<item>B.Finance</item></staff>
-<room title="Salle">
-<item>S12</item></room></resources>
-<notes>Soutenance BDAToute absence en TD d'AOA pour aller faire une soutenance de BDA sera considérée comme injustifiée</notes></event>
 <event id="155322" timesort="09451300" colour="FFBFBF" ecs="9" ecc="15" er="0" sca="1">
 <day>2</day>
 <prettytimes>09:45-13:00 </prettytimes>
@@ -664,7 +646,7 @@
 <starttime>13:30</starttime>
 <endtime>16:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4-G1</item></group>
@@ -712,22 +694,6 @@
 <starttime>08:00</starttime>
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Architecture des Ordinateurs - Approfondissement</item></module>
-<staff title="Personnel">
-<item>W.Jalby</item></staff>
-<room title="Salle">
-<item>Amphi C</item></room></resources></event>
-<event id="158105" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
-<day>3</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
-<prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
@@ -754,6 +720,17 @@
 <item>W.Jalby</item></staff>
 <room title="Salle">
 <item>Amphi C</item></room></resources></event>
+<event id="159406" timesort="09001300" colour="7FFFFF" ecs="8" ecc="16" er="0">
+<day>3</day>
+<prettytimes>09:00-13:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>13:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC4</item></group></resources>
+<notes>Séminaire Devops à Guyancourt</notes></event>
 <event id="156692" timesort="09451215" colour="7FFF7F" ecs="9" ecc="12" er="1" sca="1" scb="3">
 <day>3</day>
 <prettytimes>09:45-12:15 </prettytimes>
@@ -786,22 +763,6 @@
 <item>W.Jalby</item></staff>
 <room title="Salle">
 <item>214</item></room></resources></event>
-<event id="158671" timesort="10001130" colour="FF7FFF" ecs="12" ecc="6" er="0" scb="2">
-<day>3</day>
-<prettytimes>10:00-11:30 </prettytimes>
-<starttime>10:00</starttime>
-<endtime>11:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Architecture des Réseaux</item></module>
-<staff title="Personnel">
-<item>K.Khawam</item></staff>
-<room title="Salle">
-<item>Amphi  A</item></room></resources></event>
 <event id="159503" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="1">
 <day>4</day>
 <prettytimes>08:00-09:15 </prettytimes>
@@ -818,22 +779,6 @@
 <item>W.Jalby</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" sca="2">
-<day>4</day>
-<prettytimes>09:30-12:00 </prettytimes>
-<starttime>09:30</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC4</item></group>
-<module title="Matière">
-<item>Droit des Entreprises et Informatique</item></module>
-<staff title="Personnel">
-<item>F.Rossignol</item></staff>
-<room title="Salle">
-<item>Amphi  A</item></room></resources></event>
 <event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" cellshare="1">
 <day>4</day>
 <prettytimes>09:30-12:00 </prettytimes>
@@ -866,20 +811,20 @@
 <item>F.Rossignol</item></staff>
 <room title="Salle">
 <item>Amphi  A</item></room></resources></event>
-<event id="157301" timesort="13301500" colour="FFBFBF" ecs="26" ecc="6" er="0" sca="2">
+<event id="155245" timesort="09301200" colour="FFBFBF" ecs="10" ecc="10" er="0" sca="2">
 <day>4</day>
-<prettytimes>13:30-15:00 </prettytimes>
-<starttime>13:30</starttime>
-<endtime>15:00</endtime>
+<prettytimes>09:30-12:00 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC4</item></group>
 <module title="Matière">
-<item>Applications Web et Sécurité</item></module>
+<item>Droit des Entreprises et Informatique</item></module>
 <staff title="Personnel">
-<item>L.De Feo</item></staff>
+<item>F.Rossignol</item></staff>
 <room title="Salle">
 <item>Amphi  A</item></room></resources></event>
 <event id="155615" timesort="14301600" colour="FFBFBF" ecs="30" ecc="6" er="0" sca="2">
@@ -914,19 +859,19 @@
 <item>L.De Feo</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="157302" timesort="15151745" colour="7FFF7F" ecs="35" ecc="8" er="0" sca="3" scb="1">
+<event id="155615" timesort="14301600" colour="FFBFBF" ecs="30" ecc="6" er="0" sca="2">
 <day>4</day>
-<prettytimes>15:15-17:45 </prettytimes>
-<starttime>15:15</starttime>
-<endtime>17:45</endtime>
+<prettytimes>14:30-16:00 </prettytimes>
+<starttime>14:30</starttime>
+<endtime>16:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC4-G1</item></group>
+<item>IATIC4</item></group>
 <module title="Matière">
 <item>Applications Web et Sécurité</item></module>
 <staff title="Personnel">
 <item>L.De Feo</item></staff>
 <room title="Salle">
-<item>116 PC</item></room></resources></event></timetable>
+<item>Amphi B</item></room></resources></event></timetable>

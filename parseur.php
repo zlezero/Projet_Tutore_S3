@@ -2,7 +2,7 @@
 
 require_once("config.php");
 
-$debug = False;
+$debug = FALSE;
 $debugDate = date_create("05-02-2019 8:00:01");
 
 function parserEtAfficher() {
@@ -329,7 +329,7 @@ function getCouleurByGroupeOld($groupe) { //On obtient la couleur associée à c
 		return $GLOBALS["config_tree"]["Couleurs"]["MMI"];
 	}
 	else {
-		return "#E6EAFA";
+		return $GLOBALS["config_tree"]["Couleurs"][$groupe];
 	}
 }
 
