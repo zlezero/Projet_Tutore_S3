@@ -60,9 +60,9 @@ echo "<script src='scripts/admin.js'></script>";
 
                             // on regarde dans les configurations, si le professeur
                             if ($GLOBALS['config_tree']['General']['afficherProf'])// est affiché
-                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true" checked>';
+                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true" checked required>';
                             else
-                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true">';
+                                echo '<input class="form-check-input" type="radio" name="prof" id="oui_prof" value="true" required>';
 
                             ?>
                             <label class="form-check-label" for="oui_prof">
@@ -74,9 +74,9 @@ echo "<script src='scripts/admin.js'></script>";
                             <?php
 
                             if ($GLOBALS['config_tree']['General']['afficherProf'])
-                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false">';
+                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false" required>';
                             else
-                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false" checked>';
+                                echo '<input class="form-check-input" type="radio" name="prof" id="non_prof" value="false" checked required>';
 
                             ?>
                             <label class="form-check-label" for="non_prof">
@@ -97,9 +97,9 @@ echo "<script src='scripts/admin.js'></script>";
 
                             // si la remarque est affichée => 'Oui' coché
                             if ($remarque_affichee)
-                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true" checked>';
+                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true" checked required>';
                             else
-                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true">';
+                                echo '<input class="form-check-input" type="radio" name="rem" id="oui_rem" value="true" required>';
 
                             ?>
                             <label class="form-check-label" for="oui_rem">
@@ -111,9 +111,9 @@ echo "<script src='scripts/admin.js'></script>";
                             <?php
 
                             if ($remarque_affichee)
-                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false">';
+                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false" required>';
                             else
-                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false" checked>';
+                                echo '<input class="form-check-input" type="radio" name="rem" id="non_rem" value="false" checked required>';
 
                             ?>
                             <label class="form-check-label" for="non_rem">
@@ -130,13 +130,13 @@ echo "<script src='scripts/admin.js'></script>";
 
                     <div class="form-row">
                         <div class="col">
-                            <input id="login_celcat" name="login" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']["Securite"]['Identifiant'] ?>" />
+                            <input id="login_celcat" name="login" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']["Securite"]['Identifiant'] ?>" required />
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="col">
-                            <input id="mdp_celcat" name="mdp" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']['Securite']['Mdp'] ?>" />
+                            <input id="mdp_celcat" name="mdp" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']['Securite']['Mdp'] ?>" required />
                         </div>
                     </div>
 
@@ -144,7 +144,7 @@ echo "<script src='scripts/admin.js'></script>";
 
                 <div class="col-md-4">
                     <h5>URL de Celcat</h5>
-                    <input id="url_celcat" name="url" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']['Securite']['Url'] ?>" />
+                    <input id="url_celcat" name="url" class="form-control" type="text" value="<?php echo $GLOBALS['config_tree']['Securite']['Url'] ?>" required />
                 </div>
 
             </div>
@@ -187,7 +187,7 @@ echo "<script src='scripts/admin.js'></script>";
 
 
                     <input class="form-control" type="text" id="champRecherche" placeholder="Recherche" autocomplete="off" />
-                    <div style="height:10em; overflow:auto" id="listeTelechargement">
+                    <div style="margin-top: 5px; padding-left: 3px;height:10em; overflow:auto" id="listeTelechargement">
                     <?php
 
                     // Pour tous les fichiers de Celcat
@@ -262,7 +262,7 @@ echo "<script src='scripts/admin.js'></script>";
                     <strong>Modifications enregistrées</strong>
                 </div>
 
-                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;margin-bottom:-20px;" align="center" >
+                <div class="alert alert-danger" role="alert" id="echec_enregistrement" style="display:none;margin-bottom:-20px;" align="center">
                     <strong>Une erreur est survenue lors de l'enregistrement</strong>
                 </div>
 

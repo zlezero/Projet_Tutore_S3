@@ -2,7 +2,7 @@
 
 require_once("config.php");
 
-$debug = FALSE;
+$debug = False;
 $debugDate = date_create("05-02-2019 8:00:01");
 
 function parserEtAfficher() {
@@ -31,7 +31,10 @@ function parserEtAfficher() {
 	}
 
 	foreach (glob("xml/*.xml") as $filename) {
-		
+		if (!in_array(explode(".", explode("/", $filename)[1])[0], $GLOBALS["config_tree"]["Active"])) {
+			continue;
+		}
+
 		$pointeur = fopen($filename, "r"); 
 		
 		$coursData = parser(fread($pointeur, filesize($filename)));

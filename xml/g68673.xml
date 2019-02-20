@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 19/02/2019 14:03:20 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 20/02/2019 18:52:05 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -173,7 +173,7 @@
 <item>D.Abouda</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159270" timesort="15001600" colour="FFBFBF" ecs="32" ecc="4" er="0">
+<event id="159772" timesort="15001600" colour="FFBFBF" ecs="32" ecc="4" er="0">
 <day>0</day>
 <prettytimes>15:00-16:00 </prettytimes>
 <starttime>15:00</starttime>
@@ -189,22 +189,24 @@
 <item>F.Calcado</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="159720" timesort="15001800" colour="FFBFBF" ecs="32" ecc="12" er="0">
+<event id="159579" timesort="15001730" colour="BF7FFF" ecs="32" ecc="10" er="0" cellshare="1">
 <day>0</day>
-<prettytimes>15:00-18:00 </prettytimes>
+<prettytimes>15:00-17:30 </prettytimes>
 <starttime>15:00</starttime>
-<endtime>18:00</endtime>
+<endtime>17:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupe">
-<item>IATIC3</item></group>
+<group title="Groupes">
+<item>IATIC3-TPA</item>
+<item>IATIC3-TPB</item></group>
 <module title="Matière">
 <item>Systèmes d'Exploitation - Bases</item></module>
 <staff title="Personnel">
 <item>F.Calcado</item></staff>
-<room title="Salle">
-<item>Amphi B</item></room></resources></event>
+<room title="Salles">
+<item>116 PC</item>
+<item>117 PC</item></room></resources></event>
 <event id="159720" timesort="15001800" colour="FFBFBF" ecs="32" ecc="12" er="0">
 <day>0</day>
 <prettytimes>15:00-18:00 </prettytimes>
@@ -239,6 +241,22 @@
 <room title="Salles">
 <item>116 PC</item>
 <item>117 PC</item></room></resources></event>
+<event id="159773" timesort="17301830" colour="FFBFBF" ecs="42" ecc="4" er="0" scb="2">
+<day>0</day>
+<prettytimes>17:30-18:30 </prettytimes>
+<starttime>17:30</starttime>
+<endtime>18:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3</item></group>
+<module title="Matière">
+<item>Systèmes d'Exploitation - Bases</item></module>
+<staff title="Personnel">
+<item>F.Calcado</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
 <event id="155643" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
 <day>1</day>
 <prettytimes>08:00-11:00 </prettytimes>
@@ -575,11 +593,11 @@
 <item>Z.Tonghzen</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159271" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
+<event id="159271" timesort="12301400" colour="FFBFBF" ecs="22" ecc="6" er="0" sca="2">
 <day>2</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
+<prettytimes>12:30-14:00 </prettytimes>
+<starttime>12:30</starttime>
+<endtime>14:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -771,7 +789,7 @@
 <room title="Salle">
 <item>111</item></room></resources>
 <notes>Anthony Lamotte</notes></event>
-<event id="159579" timesort="13151545" colour="BF7FFF" ecs="27" ecc="8" er="0" sca="3" scb="1">
+<event id="159771" timesort="13151545" colour="FFBFBF" ecs="27" ecc="8" er="0" sca="3" scb="1">
 <day>4</day>
 <prettytimes>13:15-15:45 </prettytimes>
 <starttime>13:15</starttime>
@@ -779,16 +797,14 @@
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupes">
-<item>IATIC3-TPA</item>
-<item>IATIC3-TPB</item></group>
+<group title="Groupe">
+<item>IATIC3</item></group>
 <module title="Matière">
 <item>Systèmes d'Exploitation - Bases</item></module>
 <staff title="Personnel">
 <item>F.Calcado</item></staff>
-<room title="Salles">
-<item>116 PC</item>
-<item>117 PC</item></room></resources></event>
+<room title="Salle">
+<item>Amphi  A</item></room></resources></event>
 <event id="155746" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="0" sca="3" scb="1">
 <day>4</day>
 <prettytimes>13:15-15:45 </prettytimes>
