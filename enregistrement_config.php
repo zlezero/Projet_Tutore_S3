@@ -135,11 +135,20 @@ if (file_exists($path_of_config_ini))
 	}*/
 
 	//On créer le tableau des groupes actifs
-	for($i = 0; $i != count($_POST['checkboxValue']); $i++) {
-		$active += [$_POST['checkboxValue'][$i] => $GLOBALS["config_tree"]["Fichiers"][$_POST["checkboxValue"][$i]]];
+	if (isset($_POST['checkboxValue'])) {
+		
+			for($i = 0; $i != count($_POST['checkboxValue']); $i++) {
+				$active += [$_POST['checkboxValue'][$i] => $GLOBALS["config_tree"]["Fichiers"][$_POST["checkboxValue"][$i]]];
+			}
+	
+			$array["Active"] = $active;
+
+	} 
+	else {
+		$array["Active"] = array();
 	}
 
-	$array["Active"] = $active;
+
 
     foreach ($GLOBALS["config_tree"]["Fichiers"] as $d => $u)
     {
