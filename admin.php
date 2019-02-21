@@ -332,6 +332,7 @@ echo "<script src='scripts/admin.js'></script>";
                     <div class="col-md-3"></div>
                     <div class="col-md-6">
                         <button type="submit" class="btn btn-success"> <i class="fa fa-sign-in"></i> Se connecter</button>
+                        <a href="index.php" class="btn btn-primary">Revenir à l'index</a>
                     </div>
                 </div>
 

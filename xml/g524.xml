@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 19/02/2019 18:13:05 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 21/02/2019 11:16:05 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -81,8 +81,7 @@
 <name>mardi</name>
 <row id="0" />
 <row id="1" />
-<row id="2" />
-<row id="3" /></day>
+<row id="2" /></day>
 <day id="2">
 <name>mercredi</name>
 <row id="0" />
@@ -482,7 +481,24 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
-<event id="159337" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
+<event id="156876" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
+<day>0</day>
+<prettytimes>13:00-14:15 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>14:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT1-FI-B</item>
+<item>RT1-FI-B1</item></group>
+<module title="Matière">
+<item>consol.meth. pour reus.u</item></module>
+<staff title="Personnel">
+<item>S.Le Moel</item></staff>
+<room title="Salle">
+<item>513</item></room></resources></event>
+<event id="159776" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="2" scb="2">
 <day>0</day>
 <prettytimes>13:00-14:15 </prettytimes>
 <starttime>13:00</starttime>
@@ -500,23 +516,6 @@
 <item>S.Soulayrol</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
-<event id="156876" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="2" scb="2">
-<day>0</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT1-FI-B</item>
-<item>RT1-FI-B1</item></group>
-<module title="Matière">
-<item>consol.meth. pour reus.u</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>513</item></room></resources></event>
 <event id="156883" timesort="14001515" colour="FFBFBF" ecs="28" ecc="5" er="2" scb="3">
 <day>0</day>
 <prettytimes>14:00-15:15 </prettytimes>
@@ -1137,22 +1136,6 @@
 <item>W.Guillemin</item></staff>
 <room title="Salle">
 <item>H31</item></room></resources></event>
-<event id="159324" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="3" sca="3" scb="3">
-<day>1</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT1-FI-B1</item></group>
-<module title="Matière">
-<item>bases des serv. reseaux</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H33</item></room></resources></event>
 <event id="156992" timesort="14151530" colour="BF7FFF" ecs="31" ecc="3" er="1" cellshare="1">
 <day>1</day>
 <prettytimes>14:15-15:30 </prettytimes>
@@ -2118,7 +2101,7 @@
 <staff title="Personnel">
 <item>S.Le Moel</item></staff>
 <room title="Salle">
-<item>Amphi C</item></room></resources></event>
+<item>Amphi  A</item></room></resources></event>
 <event id="159452" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
 <day>3</day>
 <prettytimes>13:00-14:15 </prettytimes>

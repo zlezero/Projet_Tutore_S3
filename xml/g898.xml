@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 20/02/2019 10:43:55 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 21/02/2019 15:17:43 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -849,6 +849,25 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
+<event id="158485" timesort="13001415" colour="FFBFBF" ecs="24" ecc="5" er="1" scb="2">
+<day>1</day>
+<prettytimes>13:00-14:15 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>14:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT2-FI-A1</item>
+<item>RT2-FI-A2</item>
+<item>RT2-FI-sem2</item></group>
+<module title="Matière">
+<item>infrastructur de securite</item></module>
+<staff title="Personnel">
+<item>S.Soulayrol</item></staff>
+<room title="Salle">
+<item>413</item></room></resources>
+<notes>reporté sem 8</notes></event>
 <event id="156961" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
 <day>1</day>
 <prettytimes>13:00-14:15 </prettytimes>
@@ -899,7 +918,7 @@
 <item>L.Marsan</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="158750" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" sca="3" scb="3">
+<event id="158750" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" scb="3">
 <day>1</day>
 <prettytimes>14:15-17:15 </prettytimes>
 <starttime>14:15</starttime>
@@ -1317,11 +1336,11 @@
 <item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="157029" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
+<event id="157029" timesort="13301445" colour="7FFF7F" ecs="26" ecc="5" er="0" sca="2" scb="1">
 <day>2</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
+<prettytimes>13:30-14:45 </prettytimes>
+<starttime>13:30</starttime>
+<endtime>14:45</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -1363,11 +1382,11 @@
 <item>pt:projet de spe dim pro.</item></module>
 <room title="Salle">
 <item>E50</item></room></resources></event>
-<event id="159137" timesort="14151530" colour="FFBFBF" ecs="31" ecc="3" er="0" scb="2">
+<event id="159137" timesort="14451600" colour="FFBFBF" ecs="29" ecc="7" er="1" sca="1">
 <day>2</day>
-<prettytimes>14:15-15:30 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:30</endtime>
+<prettytimes>14:45-16:00 </prettytimes>
+<starttime>14:45</starttime>
+<endtime>16:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
