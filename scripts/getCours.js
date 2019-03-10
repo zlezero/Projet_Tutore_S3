@@ -1,3 +1,5 @@
+montee = false;
+scrollEnCours = false;
 
 function getCours() {
 
@@ -9,6 +11,14 @@ function getCours() {
             if (this.status == 200) {
                 document.getElementById("reponse").innerHTML = this.responseText;
                 document.getElementById("reponse").style.color = 'white';
+
+                if (window.innerWidth > document.documentElement.clientWidth) {
+                    if (!scrollEnCours) {
+                        scrollEnCours = true;
+                        pageScroll();
+                    }
+                }
+
             }
             else {
                 document.getElementById("reponse").innerHTML = "<div class='alert alert-danger' role='alert'>" +
@@ -22,11 +32,41 @@ function getCours() {
 
     xmlhttp.open("GET", "parseur.php", true);
     xmlhttp.send(null);
+
 }
 
 function updateData() {
+    
     getCours();
-	afficherHeure();
+    afficherHeure();
+
+}
+
+function pageScroll() {
+
+        if (!montee) { //Si on descend
+            window.scrollBy(0,1);
+       
+            $(window).scroll(function() {
+                if($(window).scrollTop() + $(window).height() == $(document).height()) { //On regarde si on est en bas
+                    montee = true;
+                }
+            });
+        
+        } 
+        else {
+        
+            window.scrollBy(0,-1);
+        
+            $(window).scroll(function() { //On regarde si on est en haut
+                if($(window).scrollTop() == 0) {
+                    montee = false;
+                }
+            });
+        }
+
+        scrolldelay = setTimeout(pageScroll, 50);
+
 }
 
 window.onload = updateData;

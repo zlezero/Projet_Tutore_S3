@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 20/02/2019 18:52:05 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 04/03/2019 01:42:19 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -39,52 +39,7 @@
 <period id="8" col="36" times="16:00 - 17:00" />
 <period id="9" col="40" times="17:00 - 18:00" />
 <period id="10" col="44" times="18:00 - 19:00" />
-<span id="0" date="18/02/2019" rawix="26" rawlen="1">
-<description>Semaine 8, Semaine commençant le 18/02/2019</description>
-<title>8</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" /></day></span>
-<span id="1" date="25/02/2019" rawix="27" rawlen="1">
-<description>Semaine 9, Semaine commençant le 25/02/2019</description>
-<title>9</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" />
-<row id="1" /></day></span>
-<span id="2" date="04/03/2019" rawix="28" rawlen="1">
+<span id="0" date="04/03/2019" rawix="28" rawlen="1">
 <description>Semaine 10_congé, Semaine commençant le 04/03/2019</description>
 <title>10_congé</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -103,7 +58,7 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="3" date="11/03/2019" rawix="29" rawlen="1">
+<span id="1" date="11/03/2019" rawix="29" rawlen="1">
 <description>Semaine 11, Semaine commençant le 11/03/2019</description>
 <title>11</title>
 <alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
@@ -125,38 +80,50 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<event id="158856" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
-<day>0</day>
-<prettytimes>08:00-09:30 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC3</item></group>
-<module title="Matière">
-<item>Programmation Objet</item></module>
-<staff title="Personnel">
-<item>D.Abouda</item></staff>
-<room title="Salle">
-<item>Amphi  A</item></room></resources></event>
-<event id="159273" timesort="08001200" colour="FFBFBF" ecs="4" ecc="16" er="0">
-<day>0</day>
-<prettytimes>08:00-12:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC3</item></group>
-<module title="Matière">
-<item>Outils d'Ingénierie</item></module>
-<staff title="Personnel">
-<item>K.Lahlou</item></staff>
-<room title="Salle">
-<item>Amphi  A</item></room></resources></event>
+<span id="2" date="18/03/2019" rawix="30" rawlen="1">
+<description>Semaine 12, Semaine commençant le 18/03/2019</description>
+<title>12</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="3" date="25/03/2019" rawix="31" rawlen="1">
+<description>Semaine 13, Semaine commençant le 25/03/2019</description>
+<title>13</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
 <event id="159272" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>0</day>
 <prettytimes>08:00-09:30 </prettytimes>
@@ -173,40 +140,38 @@
 <item>D.Abouda</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159772" timesort="15001600" colour="FFBFBF" ecs="32" ecc="4" er="0">
+<event id="159272" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>0</day>
-<prettytimes>15:00-16:00 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>16:00</endtime>
+<prettytimes>08:00-09:30 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
 <module title="Matière">
-<item>Systèmes d'Exploitation - Bases</item></module>
+<item>Programmation Objet</item></module>
 <staff title="Personnel">
-<item>F.Calcado</item></staff>
+<item>D.Abouda</item></staff>
 <room title="Salle">
-<item>Amphi B</item></room></resources></event>
-<event id="159579" timesort="15001730" colour="BF7FFF" ecs="32" ecc="10" er="0" cellshare="1">
+<item>S11</item></room></resources></event>
+<event id="159272" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>0</day>
-<prettytimes>15:00-17:30 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>17:30</endtime>
+<prettytimes>08:00-09:30 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupes">
-<item>IATIC3-TPA</item>
-<item>IATIC3-TPB</item></group>
+<group title="Groupe">
+<item>IATIC3</item></group>
 <module title="Matière">
-<item>Systèmes d'Exploitation - Bases</item></module>
+<item>Programmation Objet</item></module>
 <staff title="Personnel">
-<item>F.Calcado</item></staff>
-<room title="Salles">
-<item>116 PC</item>
-<item>117 PC</item></room></resources></event>
+<item>D.Abouda</item></staff>
+<room title="Salle">
+<item>S11</item></room></resources></event>
 <event id="159720" timesort="15001800" colour="FFBFBF" ecs="32" ecc="12" er="0">
 <day>0</day>
 <prettytimes>15:00-18:00 </prettytimes>
@@ -223,31 +188,13 @@
 <item>F.Calcado</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="158803" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
+<event id="159720" timesort="15001800" colour="FFBFBF" ecs="32" ecc="12" er="0">
 <day>0</day>
-<prettytimes>16:00-18:30 </prettytimes>
-<starttime>16:00</starttime>
-<endtime>18:30</endtime>
+<prettytimes>15:00-18:00 </prettytimes>
+<starttime>15:00</starttime>
+<endtime>18:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>IATIC3-TPA</item>
-<item>IATIC3-TPC</item></group>
-<module title="Matière">
-<item>Systèmes d'Exploitation - Bases</item></module>
-<staff title="Personnel">
-<item>F.Calcado</item></staff>
-<room title="Salles">
-<item>116 PC</item>
-<item>117 PC</item></room></resources></event>
-<event id="159773" timesort="17301830" colour="FFBFBF" ecs="42" ecc="4" er="0" scb="2">
-<day>0</day>
-<prettytimes>17:30-18:30 </prettytimes>
-<starttime>17:30</starttime>
-<endtime>18:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -257,20 +204,20 @@
 <item>F.Calcado</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="155643" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
-<day>1</day>
-<prettytimes>08:00-11:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>11:00</endtime>
+<event id="159720" timesort="15001800" colour="FFBFBF" ecs="32" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:00-18:00 </prettytimes>
+<starttime>15:00</starttime>
+<endtime>18:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
 <module title="Matière">
-<item>Anglais S2</item></module>
+<item>Systèmes d'Exploitation - Bases</item></module>
 <staff title="Personnel">
-<item>F.Zah</item></staff>
+<item>F.Calcado</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
 <event id="155643" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
@@ -289,20 +236,36 @@
 <item>F.Zah</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
-<event id="159274" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
+<event id="155643" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
 <day>1</day>
 <prettytimes>08:00-11:00 </prettytimes>
 <starttime>08:00</starttime>
 <endtime>11:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
 <module title="Matière">
-<item>Bases de données 1</item></module>
+<item>Anglais S2</item></module>
 <staff title="Personnel">
-<item>K.Lahlou</item></staff>
+<item>F.Zah</item></staff>
+<room title="Salle">
+<item>Amphi B</item></room></resources></event>
+<event id="155643" timesort="08001100" colour="FFBFBF" ecs="4" ecc="12" er="0">
+<day>1</day>
+<prettytimes>08:00-11:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>11:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3</item></group>
+<module title="Matière">
+<item>Anglais S2</item></module>
+<staff title="Personnel">
+<item>F.Zah</item></staff>
 <room title="Salle">
 <item>Amphi B</item></room></resources></event>
 <event id="159470" timesort="11151245" colour="FFBFBF" ecs="19" ecc="4" er="0" sca="3" scb="1">
@@ -311,7 +274,7 @@
 <starttime>11:15</starttime>
 <endtime>12:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -327,7 +290,7 @@
 <starttime>11:15</starttime>
 <endtime>12:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -359,7 +322,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -375,7 +338,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -391,7 +354,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -407,7 +370,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD2</item></group>
@@ -423,7 +386,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD2</item></group>
@@ -439,7 +402,7 @@
 <starttime>13:45</starttime>
 <endtime>16:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD2</item></group>
@@ -455,7 +418,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -471,7 +434,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -487,7 +450,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -503,7 +466,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -519,7 +482,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -535,7 +498,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -551,7 +514,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -567,7 +530,7 @@
 <starttime>16:30</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -577,62 +540,43 @@
 <item>Z.Tonghzen</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="155747" timesort="16301830" colour="FFBFBF" ecs="38" ecc="8" er="2" sca="2" scb="2">
-<day>1</day>
-<prettytimes>16:30-18:30 </prettytimes>
-<starttime>16:30</starttime>
-<endtime>18:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>IATIC3</item></group>
-<module title="Matière">
-<item>LV2 S2</item></module>
-<staff title="Personnel">
-<item>Z.Tonghzen</item></staff>
-<room title="Salle">
-<item>S11</item></room></resources></event>
-<event id="159271" timesort="12301400" colour="FFBFBF" ecs="22" ecc="6" er="0" sca="2">
+<event id="159514" timesort="08001030" colour="BF7FFF" ecs="4" ecc="10" er="0" scb="2">
 <day>2</day>
-<prettytimes>12:30-14:00 </prettytimes>
-<starttime>12:30</starttime>
-<endtime>14:00</endtime>
+<prettytimes>08:00-10:30 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC3</item></group>
+<item>IATIC3-TPA</item></group>
 <module title="Matière">
 <item>Programmation Objet</item></module>
-<staff title="Personnel">
-<item>D.Abouda</item></staff>
 <room title="Salle">
-<item>Amphi C</item></room></resources></event>
-<event id="159068" timesort="15301800" colour="BF7FFF" ecs="34" ecc="10" er="0" sca="2">
+<item>112 PC</item></room></resources>
+<notes>rattrapage tp nicolas 15 mars</notes></event>
+<event id="159515" timesort="08001030" colour="BF7FFF" ecs="4" ecc="10" er="0" scb="2">
 <day>2</day>
-<prettytimes>15:30-18:00 </prettytimes>
-<starttime>15:30</starttime>
-<endtime>18:00</endtime>
+<prettytimes>08:00-10:30 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>10:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC3-TPC</item></group>
+<item>IATIC3-TPA</item></group>
 <module title="Matière">
 <item>Programmation Objet</item></module>
-<staff title="Personnel">
-<item>D.Abouda</item></staff>
 <room title="Salle">
-<item>116 PC</item></room></resources>
-<notes>Rattrapage Tp Nicolas du 22 février</notes></event>
+<item>112 PC</item></room></resources>
+<notes>rattrapage tp nicolas 22 mars</notes></event>
 <event id="155650" timesort="08000930" colour="FFBFBF" ecs="4" ecc="6" er="0" scb="2">
 <day>3</day>
 <prettytimes>08:00-09:30 </prettytimes>
 <starttime>08:00</starttime>
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -648,7 +592,7 @@
 <starttime>08:00</starttime>
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -664,7 +608,7 @@
 <starttime>08:00</starttime>
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -680,7 +624,7 @@
 <starttime>09:45</starttime>
 <endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -696,7 +640,7 @@
 <starttime>09:45</starttime>
 <endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -712,7 +656,7 @@
 <starttime>09:45</starttime>
 <endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -728,7 +672,7 @@
 <starttime>08:00</starttime>
 <endtime>09:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3</item></group>
@@ -744,7 +688,7 @@
 <starttime>09:45</starttime>
 <endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD2</item></group>
@@ -754,24 +698,6 @@
 <item>J-N.Juniel</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159580" timesort="10001230" colour="BF7FFF" ecs="12" ecc="10" er="0" scb="2">
-<day>4</day>
-<prettytimes>10:00-12:30 </prettytimes>
-<starttime>10:00</starttime>
-<endtime>12:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>IATIC3-TPB</item>
-<item>IATIC3-TPC</item></group>
-<module title="Matière">
-<item>Systèmes d'Exploitation - Bases</item></module>
-<staff title="Personnel">
-<item>F.Calcado</item></staff>
-<room title="Salles">
-<item>116 PC</item>
-<item>117 PC</item></room></resources></event>
 <event id="155649" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="0" sca="3" scb="1">
 <day>4</day>
 <prettytimes>13:15-15:45 </prettytimes>
@@ -789,29 +715,47 @@
 <room title="Salle">
 <item>111</item></room></resources>
 <notes>Anthony Lamotte</notes></event>
-<event id="159771" timesort="13151545" colour="FFBFBF" ecs="27" ecc="8" er="0" sca="3" scb="1">
+<event id="155649" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="0" sca="3" scb="1">
 <day>4</day>
 <prettytimes>13:15-15:45 </prettytimes>
 <starttime>13:15</starttime>
 <endtime>15:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>IATIC3</item></group>
+<item>IATIC3-TD2</item></group>
 <module title="Matière">
-<item>Systèmes d'Exploitation - Bases</item></module>
+<item>Algo - Approfondissement</item></module>
 <staff title="Personnel">
-<item>F.Calcado</item></staff>
+<item>A.Lamotte</item></staff>
 <room title="Salle">
-<item>Amphi  A</item></room></resources></event>
-<event id="155746" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="0" sca="3" scb="1">
+<item>111</item></room></resources>
+<notes>Anthony Lamotte</notes></event>
+<event id="155649" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="0" sca="3" scb="1">
 <day>4</day>
 <prettytimes>13:15-15:45 </prettytimes>
 <starttime>13:15</starttime>
 <endtime>15:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>IATIC3-TD2</item></group>
+<module title="Matière">
+<item>Algo - Approfondissement</item></module>
+<staff title="Personnel">
+<item>A.Lamotte</item></staff>
+<room title="Salle">
+<item>111</item></room></resources>
+<notes>Anthony Lamotte</notes></event>
+<event id="155746" timesort="13151545" colour="7FFF7F" ecs="27" ecc="8" er="1" sca="3" scb="1">
+<day>4</day>
+<prettytimes>13:15-15:45 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>15:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>IATIC3-TD1</item></group>
@@ -821,31 +765,13 @@
 <item>J-N.Juniel</item></staff>
 <room title="Salle">
 <item>S11</item></room></resources></event>
-<event id="159069" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
-<day>4</day>
-<prettytimes>16:00-18:30 </prettytimes>
-<starttime>16:00</starttime>
-<endtime>18:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>IATIC3-TPA</item>
-<item>IATIC3-TPB</item></group>
-<module title="Matière">
-<item>Programmation Objet</item></module>
-<staff title="Personnel">
-<item>D.Abouda</item></staff>
-<room title="Salles">
-<item>116 PC</item>
-<item>117 PC</item></room></resources></event>
 <event id="159513" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
 <day>4</day>
 <prettytimes>16:00-18:30 </prettytimes>
 <starttime>16:00</starttime>
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>IATIC3-TPA</item>
@@ -866,6 +792,25 @@
 <endtime>18:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>IATIC3-TPA</item>
+<item>IATIC3-TPB</item>
+<item>IATIC3-TPC</item></group>
+<module title="Matière">
+<item>Programmation Objet</item></module>
+<staff title="Personnel">
+<item>D.Abouda</item></staff>
+<room title="Salles">
+<item>116 PC</item>
+<item>117 PC</item></room></resources></event>
+<event id="159512" timesort="16001830" colour="BF7FFF" ecs="36" ecc="10" er="0" scb="2">
+<day>4</day>
+<prettytimes>16:00-18:30 </prettytimes>
+<starttime>16:00</starttime>
+<endtime>18:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>IATIC3-TPA</item>

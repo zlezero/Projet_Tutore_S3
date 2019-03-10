@@ -2,8 +2,8 @@
 
 require_once("config.php");
 
-$debug = FALSE;
-$debugDate = date_create("05-02-2019 8:00:01");
+$debug = False;
+$debugDate = date_create("12-03-2019 8:00:00");
 
 function parserEtAfficher() {
 
