@@ -21,7 +21,7 @@
 <custom1>statut équipement</custom1>
 <custom2>Custom 2</custom2>
 <custom3>Custom 3</custom3>
-<footer>Publié 06/03/2019 23:31:30 - Universite de Versailles Saint-Quentin<br />Créé par 
+<footer>Publié 18/03/2019 22:14:14 - Universite de Versailles Saint-Quentin<br />Créé par 
 <a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
 <dept>Département</dept>
 <evcat>Catégorie d'événement</evcat>
@@ -39,10 +39,88 @@
 <period id="8" col="36" times="16:00 - 17:00" />
 <period id="9" col="40" times="17:00 - 18:00" />
 <period id="10" col="44" times="18:00 - 19:00" />
-<span id="0" date="04/03/2019" rawix="28" rawlen="1">
-<description>Semaine 10_congé, Semaine commençant le 04/03/2019</description>
-<title>10_congé</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<span id="0" date="18/03/2019" rawix="30" rawlen="1">
+<description>Semaine 12, Semaine commençant le 18/03/2019</description>
+<title>12</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" />
+<row id="3" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="1" date="25/03/2019" rawix="31" rawlen="1">
+<description>Semaine 13, Semaine commençant le 25/03/2019</description>
+<title>13</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day></span>
+<span id="2" date="01/04/2019" rawix="32" rawlen="1">
+<description>Semaine 14, Semaine commençant le 01/04/2019</description>
+<title>14</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" />
+<row id="1" />
+<row id="2" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="3" date="08/04/2019" rawix="33" rawlen="1">
+<description>Semaine 15, Semaine commençant le 08/04/2019</description>
+<title>15</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</alleventweeks>
 <day id="0">
 <name>lundi</name>
 <row id="0" /></day>
@@ -58,103 +136,13 @@
 <day id="4">
 <name>vendredi</name>
 <row id="0" /></day></span>
-<span id="1" date="11/03/2019" rawix="29" rawlen="1">
-<description>Semaine 11, Semaine commençant le 11/03/2019</description>
-<title>11</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" />
-<row id="4" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day></span>
-<span id="2" date="18/03/2019" rawix="30" rawlen="1">
-<description>Semaine 12, Semaine commençant le 18/03/2019</description>
-<title>12</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" />
-<row id="4" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day></span>
-<span id="3" date="25/03/2019" rawix="31" rawlen="1">
-<description>Semaine 13, Semaine commençant le 25/03/2019</description>
-<title>13</title>
-<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
-<day id="0">
-<name>lundi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day>
-<day id="1">
-<name>mardi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" />
-<row id="3" /></day>
-<day id="2">
-<name>mercredi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="3">
-<name>jeudi</name>
-<row id="0" />
-<row id="1" /></day>
-<day id="4">
-<name>vendredi</name>
-<row id="0" />
-<row id="1" />
-<row id="2" /></day></span>
 <event id="147606" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>0</day>
 <prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FA-A1</item>
@@ -165,7 +153,7 @@
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FA-A1</item>
@@ -218,11 +206,22 @@
 <item>S.Soulayrol</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="159706" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="1">
+<event id="156147" timesort="08001900" colour="DFDFDF" ecs="4" ecc="44" er="0">
 <day>0</day>
-<prettytimes>08:00-11:00 </prettytimes>
+<prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
-<endtime>11:00</endtime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group></resources>
+<notes>Voyage St Petersbourg</notes></event>
+<event id="159706" timesort="09001200" colour="BF7FFF" ecs="8" ecc="12" er="1">
+<day>0</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -234,38 +233,22 @@
 <item>E.Huot</item></staff>
 <room title="Salle">
 <item>H11</item></room></resources></event>
-<event id="158823" timesort="09151215" colour="BF7FFF" ecs="11" ecc="10" er="0" sca="3" scb="3">
+<event id="159707" timesort="09001200" colour="BF7FFF" ecs="8" ecc="12" er="1">
 <day>0</day>
-<prettytimes>09:15-12:15 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>12:15</endtime>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>telephonie sur ip</item></module>
-<staff title="Personnel">
-<item>S.MARTY</item></staff>
-<room title="Salle">
-<item>E47</item></room></resources></event>
-<event id="159438" timesort="09151215" colour="BF7FFF" ecs="11" ecc="10" er="1" sca="3" scb="3">
-<day>0</day>
-<prettytimes>09:15-12:15 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>12:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>RT2-FI-A1</item></group>
 <module title="Matière">
-<item>infrastructur de securite</item></module>
+<item>appli.info. dediee aux rt</item></module>
 <staff title="Personnel">
-<item>S.Soulayrol</item></staff>
+<item>E.Huot</item></staff>
 <room title="Salle">
-<item>H32</item></room></resources></event>
+<item>H11</item></room></resources></event>
 <event id="156146" timesort="09151030" colour="FFBFBF" ecs="11" ecc="3" er="0" scb="2">
 <day>0</day>
 <prettytimes>09:15-10:30 </prettytimes>
@@ -282,25 +265,6 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156962" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="3" sca="1">
-<day>0</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salles">
-<item>315</item>
-<item>513</item></room></resources></event>
 <event id="157006" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
 <day>0</day>
 <prettytimes>10:45-12:00 </prettytimes>
@@ -317,24 +281,25 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="158897" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
+<event id="156962" timesort="11001215" colour="7FFF7F" ecs="16" ecc="5" er="1" scb="3">
 <day>0</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
+<prettytimes>11:00-12:15 </prettytimes>
+<starttime>11:00</starttime>
+<endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FI-A1</item>
 <item>RT2-FI-A2</item>
 <item>RT2-FI-sem2</item></group>
 <module title="Matière">
-<item>ppp : monde de l'entrep.</item></module>
+<item>algorithmique avancee</item></module>
 <staff title="Personnel">
-<item>O.Courbier</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
+<item>E.Huot</item></staff>
+<room title="Salles">
+<item>315</item>
+<item>513</item></room></resources></event>
 <event id="158897" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
 <day>0</day>
 <prettytimes>13:00-14:15 </prettytimes>
@@ -371,86 +336,40 @@
 <item>O.Courbier</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156196" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
+<event id="158897" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
 <day>0</day>
 <prettytimes>13:00-14:15 </prettytimes>
 <starttime>13:00</starttime>
 <endtime>14:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<group title="Groupes">
+<item>RT2-FI-A1</item>
+<item>RT2-FI-A2</item>
+<item>RT2-FI-sem2</item></group>
 <module title="Matière">
-<item>telephonie sur ip</item></module>
+<item>ppp : monde de l'entrep.</item></module>
 <staff title="Personnel">
-<item>S.MARTY</item></staff>
+<item>O.Courbier</item></staff>
 <room title="Salle">
-<item>410</item></room></resources></event>
-<event id="157743" timesort="13001415" colour="BF7FFF" ecs="24" ecc="5" er="1" scb="3">
+<item>315</item></room></resources></event>
+<event id="157018" timesort="13151430" colour="BF7FFF" ecs="27" ecc="3" er="1" sca="3">
 <day>0</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
+<prettytimes>13:15-14:30 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>14:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>RT2-FA-A1</item></group>
 <module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>514</item></room></resources></event>
-<event id="156826" timesort="14151530" colour="BF7FFF" ecs="31" ecc="3" er="0" scb="2">
-<day>0</day>
-<prettytimes>14:15-15:30 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
 <item>anglais:inser.profession.</item></module>
 <staff title="Personnel">
 <item>J. Fancett</item></staff>
 <room title="Salle">
 <item>Labo</item></room></resources></event>
-<event id="156975" timesort="14151545" colour="BF7FFF" ecs="31" ecc="4" er="1" scb="1">
-<day>0</day>
-<prettytimes>14:15-15:45 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>con.entre.(eco-dr.-gest)</item></module>
-<staff title="Personnel">
-<item>L.Dalmas</item></staff>
-<room title="Salle">
-<item>512</item></room></resources></event>
-<event id="156198" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="2" sca="3" scb="3">
-<day>0</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>telephonie sur ip</item></module>
-<staff title="Personnel">
-<item>S.MARTY</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
 <event id="156827" timesort="14151530" colour="BF7FFF" ecs="31" ecc="3" er="1" scb="2">
 <day>0</day>
 <prettytimes>14:15-15:30 </prettytimes>
@@ -483,27 +402,43 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
-<event id="157018" timesort="14151530" colour="BF7FFF" ecs="31" ecc="3" er="0" cellshare="1">
+<event id="160410" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="0" scb="3">
 <day>0</day>
-<prettytimes>14:15-15:30 </prettytimes>
+<prettytimes>14:15-17:15 </prettytimes>
 <starttime>14:15</starttime>
-<endtime>15:30</endtime>
+<endtime>17:15</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<item>RT2-FI-A2</item></group>
 <module title="Matière">
-<item>anglais:inser.profession.</item></module>
+<item>algorithmique avancee</item></module>
 <staff title="Personnel">
-<item>J. Fancett</item></staff>
+<item>E.Huot</item></staff>
 <room title="Salle">
-<item>Labo</item></room></resources></event>
-<event id="159152" timesort="15301645" colour="7FFF7F" ecs="34" ecc="5" er="0" scb="1">
+<item>H11</item></room></resources></event>
+<event id="156978" timesort="14151545" colour="BF7FFF" ecs="31" ecc="4" er="1" scb="1">
 <day>0</day>
-<prettytimes>15:30-16:45 </prettytimes>
-<starttime>15:30</starttime>
-<endtime>16:45</endtime>
+<prettytimes>14:15-15:45 </prettytimes>
+<starttime>14:15</starttime>
+<endtime>15:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>con.entre.(eco-dr.-gest)</item></module>
+<staff title="Personnel">
+<item>L.Dalmas</item></staff>
+<room title="Salle">
+<item>513</item></room></resources></event>
+<event id="159152" timesort="14301545" colour="7FFF7F" ecs="30" ecc="5" er="1" scb="1">
+<day>0</day>
+<prettytimes>14:30-15:45 </prettytimes>
+<starttime>14:30</starttime>
+<endtime>15:45</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -515,55 +450,7 @@
 <item>S.Soulayrol</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156785" timesort="15451700" colour="BF7FFF" ecs="33" ecc="7" er="3" sca="1">
-<day>0</day>
-<prettytimes>15:45-17:00 </prettytimes>
-<starttime>15:45</starttime>
-<endtime>17:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>anglais:inser.profession.</item></module>
-<staff title="Personnel">
-<item>J. Fancett</item></staff>
-<room title="Salle">
-<item>Labo</item></room></resources></event>
-<event id="156967" timesort="15451715" colour="BF7FFF" ecs="33" ecc="8" er="4" sca="1" scb="3">
-<day>0</day>
-<prettytimes>15:45-17:15 </prettytimes>
-<starttime>15:45</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
-<item>con.entre.(eco-dr.-gest)</item></module>
-<staff title="Personnel">
-<item>L.Dalmas</item></staff>
-<room title="Salle">
-<item>512</item></room></resources></event>
-<event id="156786" timesort="15451700" colour="BF7FFF" ecs="33" ecc="7" er="3" sca="1">
-<day>0</day>
-<prettytimes>15:45-17:00 </prettytimes>
-<starttime>15:45</starttime>
-<endtime>17:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>anglais:inser.profession.</item></module>
-<staff title="Personnel">
-<item>J. Fancett</item></staff>
-<room title="Salle">
-<item>Labo</item></room></resources></event>
-<event id="156968" timesort="15451715" colour="BF7FFF" ecs="33" ecc="8" er="4" sca="1" scb="3">
+<event id="156968" timesort="15451715" colour="BF7FFF" ecs="33" ecc="8" er="3" sca="1" scb="3">
 <day>0</day>
 <prettytimes>15:45-17:15 </prettytimes>
 <starttime>15:45</starttime>
@@ -579,109 +466,45 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
-<event id="147607" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>1</day>
-<prettytimes>08:00-19:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>19:00</endtime>
+<event id="156970" timesort="15451715" colour="BF7FFF" ecs="33" ecc="8" er="2" sca="1" scb="3">
+<day>0</day>
+<prettytimes>15:45-17:15 </prettytimes>
+<starttime>15:45</starttime>
+<endtime>17:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FA-A1</item>
-<item>RT2-FA-A2</item></group></resources></event>
-<event id="147607" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>1</day>
-<prettytimes>08:00-19:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>19:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FA-A1</item>
-<item>RT2-FA-A2</item></group></resources></event>
-<event id="159393" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="0">
-<day>1</day>
-<prettytimes>08:00-11:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>11:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="159393" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="1">
-<day>1</day>
-<prettytimes>08:00-11:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>11:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="159393" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="0">
-<day>1</day>
-<prettytimes>08:00-11:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>11:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="157775" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="1" cellshare="1">
-<day>1</day>
-<prettytimes>08:00-09:15 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>infrastructur de securite</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="159712" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="2">
-<day>1</day>
-<prettytimes>08:00-11:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>11:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>RT2-FI-A1</item></group>
 <module title="Matière">
-<item>telephonie sur ip</item></module>
+<item>con.entre.(eco-dr.-gest)</item></module>
 <staff title="Personnel">
-<item>S.MARTY</item></staff>
+<item>L.Dalmas</item></staff>
 <room title="Salle">
-<item>E47</item></room></resources></event>
-<event id="159713" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="2">
+<item>513</item></room></resources></event>
+<event id="147607" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
+<day>1</day>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT2-FA-A1</item>
+<item>RT2-FA-A2</item></group></resources></event>
+<event id="147607" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
+<day>1</day>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT2-FA-A1</item>
+<item>RT2-FA-A2</item></group></resources></event>
+<event id="159713" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="1">
 <day>1</day>
 <prettytimes>08:00-11:00 </prettytimes>
 <starttime>08:00</starttime>
@@ -697,7 +520,23 @@
 <item>S.MARTY</item></staff>
 <room title="Salle">
 <item>E47</item></room></resources></event>
-<event id="157019" timesort="08000915" colour="BF7FFF" ecs="4" ecc="5" er="1" scb="2">
+<event id="160409" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="2">
+<day>1</day>
+<prettytimes>08:00-11:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>11:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>algorithmique avancee</item></module>
+<staff title="Personnel">
+<item>E.Huot</item></staff>
+<room title="Salle">
+<item>H11</item></room></resources></event>
+<event id="157019" timesort="08000915" colour="BF7FFF" ecs="4" ecc="5" er="0" scb="2">
 <day>1</day>
 <prettytimes>08:00-09:15 </prettytimes>
 <starttime>08:00</starttime>
@@ -713,7 +552,51 @@
 <item>J. Fancett</item></staff>
 <room title="Salle">
 <item>Labo</item></room></resources></event>
-<event id="156002" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="1" scb="2">
+<event id="160411" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="1">
+<day>1</day>
+<prettytimes>08:00-11:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>11:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>algorithmique avancee</item></module>
+<staff title="Personnel">
+<item>E.Huot</item></staff>
+<room title="Salle">
+<item>H11</item></room></resources></event>
+<event id="156148" timesort="08001900" colour="DFDFDF" ecs="4" ecc="44" er="0">
+<day>1</day>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group></resources>
+<notes>Voyage St Petersbourg</notes></event>
+<event id="160487" timesort="09001030" colour="FF7FFF" ecs="8" ecc="6" er="1" scb="2">
+<day>1</day>
+<prettytimes>09:00-10:30 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>10:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT2-FI-A1</item>
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>algorithmique avancee</item></module>
+<staff title="Personnel">
+<item>E.Huot</item></staff>
+<room title="Salle">
+<item>510</item></room></resources></event>
+<event id="156002" timesort="09151030" colour="7FFF7F" ecs="11" ecc="3" er="0" scb="2">
 <day>1</day>
 <prettytimes>09:15-10:30 </prettytimes>
 <starttime>09:15</starttime>
@@ -727,40 +610,6 @@
 <item>algorithmique avancee</item></module>
 <staff title="Personnel">
 <item>L.Marsan</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="157017" timesort="09451100" colour="BF7FFF" ecs="9" ecc="7" er="1" cellshare="1">
-<day>1</day>
-<prettytimes>09:45-11:00 </prettytimes>
-<starttime>09:45</starttime>
-<endtime>11:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>anglais:inser.profession.</item></module>
-<staff title="Personnel">
-<item>J. Fancett</item></staff>
-<room title="Salle">
-<item>Labo</item></room></resources></event>
-<event id="159709" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="3" sca="1">
-<day>1</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
 <event id="156015" timesort="10451200" colour="FFBFBF" ecs="13" ecc="7" er="2" sca="1">
@@ -779,58 +628,6 @@
 <item>L.Marsan</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="159710" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="3" sca="1">
-<day>1</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="155997" timesort="11001215" colour="FFBFBF" ecs="16" ecc="5" er="0" scb="3">
-<day>1</day>
-<prettytimes>11:00-12:15 </prettytimes>
-<starttime>11:00</starttime>
-<endtime>12:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>L.Marsan</item></staff>
-<room title="Salle">
-<item>510</item></room></resources></event>
-<event id="156805" timesort="11001215" colour="7FFF7F" ecs="16" ecc="5" er="1" scb="3">
-<day>1</day>
-<prettytimes>11:00-12:15 </prettytimes>
-<starttime>11:00</starttime>
-<endtime>12:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>410</item></room></resources></event>
 <event id="156806" timesort="11001215" colour="7FFF7F" ecs="16" ecc="5" er="1" scb="3">
 <day>1</day>
 <prettytimes>11:00-12:15 </prettytimes>
@@ -849,24 +646,42 @@
 <item>E.Huot</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156961" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
+<event id="159710" timesort="11001215" colour="7FFF7F" ecs="16" ecc="5" er="0" scb="3">
 <day>1</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
+<prettytimes>11:00-12:15 </prettytimes>
+<starttime>11:00</starttime>
+<endtime>12:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FI-A1</item>
 <item>RT2-FI-A2</item>
 <item>RT2-FI-sem2</item></group>
 <module title="Matière">
-<item>algorithmique avancee</item></module>
+<item>matrices &amp; graphes</item></module>
 <staff title="Personnel">
-<item>E.Huot</item></staff>
+<item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
+<event id="159709" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="2">
+<day>1</day>
+<prettytimes>13:00-14:15 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>14:15</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>RT2-FI-A1</item>
+<item>RT2-FI-A2</item>
+<item>RT2-FI-sem2</item></group>
+<module title="Matière">
+<item>matrices &amp; graphes</item></module>
+<staff title="Personnel">
+<item>S.Le Moel</item></staff>
+<room title="Salle">
+<item>315</item></room></resources></event>
 <event id="156014" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
 <day>1</day>
 <prettytimes>13:00-14:15 </prettytimes>
@@ -899,52 +714,6 @@
 <item>S.Soulayrol</item></staff>
 <room title="Salle">
 <item>H32</item></room></resources></event>
-<event id="156013" timesort="13151430" colour="7FFF7F" ecs="27" ecc="3" er="1" sca="3" scb="1">
-<day>1</day>
-<prettytimes>13:15-14:30 </prettytimes>
-<starttime>13:15</starttime>
-<endtime>14:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>algorithmique avancee</item></module>
-<staff title="Personnel">
-<item>L.Marsan</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156777" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="0" scb="1">
-<day>1</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>pt:projet de spe dim pro.</item></module>
-<room title="Salle">
-<item>E50</item></room></resources></event>
-<event id="159704" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" scb="3">
-<day>1</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
-<item>appli.info. dediee aux rt</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
 <event id="157744" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="0" scb="3">
 <day>1</day>
 <prettytimes>14:15-17:15 </prettytimes>
@@ -961,22 +730,23 @@
 <item>E.Huot</item></staff>
 <room title="Salle">
 <item>H11</item></room></resources></event>
-<event id="156011" timesort="14301545" colour="7FFF7F" ecs="30" ecc="5" er="2" sca="2" scb="1">
+<event id="156843" timesort="14201535" colour="BF7FFF" ecs="31" ecc="4" er="1" scb="1">
 <day>1</day>
-<prettytimes>14:30-15:45 </prettytimes>
-<starttime>14:30</starttime>
-<endtime>15:45</endtime>
+<prettytimes>14:20-15:35 </prettytimes>
+<starttime>14:20</starttime>
+<endtime>15:35</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<item>RT2-FI-A2</item></group>
 <module title="Matière">
-<item>algorithmique avancee</item></module>
+<item>ec: mettre en val compet.</item></module>
 <staff title="Personnel">
-<item>L.Marsan</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
+<item>M-B.Bat</item></staff>
+<room title="Salles">
+<item>H24a</item>
+<item>H24b</item></room></resources></event>
 <event id="156977" timesort="14301600" colour="BF7FFF" ecs="30" ecc="6" er="2" sca="2">
 <day>1</day>
 <prettytimes>14:30-16:00 </prettytimes>
@@ -993,22 +763,6 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
-<event id="156143" timesort="16001715" colour="7FFF7F" ecs="36" ecc="5" er="2" scb="3">
-<day>1</day>
-<prettytimes>16:00-17:15 </prettytimes>
-<starttime>16:00</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>con.entre.(eco-dr.-gest)</item></module>
-<staff title="Personnel">
-<item>L.Dalmas</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
 <event id="156969" timesort="16001730" colour="BF7FFF" ecs="36" ecc="6" er="1" scb="2">
 <day>1</day>
 <prettytimes>16:00-17:30 </prettytimes>
@@ -1025,34 +779,6 @@
 <item>L.Dalmas</item></staff>
 <room title="Salle">
 <item>513</item></room></resources></event>
-<event id="158590" timesort="17301845" colour="FFBFBF" ecs="42" ecc="5" er="0" scb="1">
-<day>1</day>
-<prettytimes>17:30-18:45 </prettytimes>
-<starttime>17:30</starttime>
-<endtime>18:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>appli.info. dediee aux rt</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>Amphi B</item></room></resources></event>
-<event id="147608" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>2</day>
-<prettytimes>08:00-19:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>19:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FA-A1</item>
-<item>RT2-FA-A2</item></group></resources></event>
 <event id="147608" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>2</day>
 <prettytimes>08:00-19:00 </prettytimes>
@@ -1064,23 +790,17 @@
 <group title="Groupes">
 <item>RT2-FA-A1</item>
 <item>RT2-FA-A2</item></group></resources></event>
-<event id="159715" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="2">
+<event id="147608" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>2</day>
-<prettytimes>08:00-09:15 </prettytimes>
+<prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
-<endtime>09:15</endtime>
+<endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>appli.info. dediee aux rt</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
+<item>RT2-FA-A1</item>
+<item>RT2-FA-A2</item></group></resources></event>
 <event id="156197" timesort="08000915" colour="7FFF7F" ecs="4" ecc="5" er="0" scb="2">
 <day>2</day>
 <prettytimes>08:00-09:15 </prettytimes>
@@ -1097,24 +817,17 @@
 <item>S.MARTY</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156793" timesort="09001015" colour="FFBFBF" ecs="8" ecc="5" er="1" cellshare="1">
+<event id="156149" timesort="08001900" colour="DFDFDF" ecs="4" ecc="44" er="0">
 <day>2</day>
-<prettytimes>09:00-10:15 </prettytimes>
-<starttime>09:00</starttime>
-<endtime>10:15</endtime>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group></resources>
+<notes>Voyage St Petersbourg</notes></event>
 <event id="156794" timesort="09001015" colour="FFBFBF" ecs="8" ecc="5" er="1" cellshare="1">
 <day>2</day>
 <prettytimes>09:00-10:15 </prettytimes>
@@ -1132,41 +845,7 @@
 <staff title="Personnel">
 <item>S.Le Moel</item></staff>
 <room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156792" timesort="09151030" colour="FFBFBF" ecs="11" ecc="3" er="0" scb="2">
-<day>2</day>
-<prettytimes>09:15-10:30 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>10:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="157020" timesort="09151030" colour="BF7FFF" ecs="11" ecc="3" er="1" sca="3" scb="2">
-<day>2</day>
-<prettytimes>09:15-10:30 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>10:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
+<item>316</item></room></resources></event>
 <event id="156199" timesort="09151215" colour="BF7FFF" ecs="11" ecc="10" er="0" scb="3">
 <day>2</day>
 <prettytimes>09:15-12:15 </prettytimes>
@@ -1183,41 +862,23 @@
 <item>S.MARTY</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="157016" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
+<event id="156786" timesort="09301045" colour="BF7FFF" ecs="10" ecc="5" er="1" sca="2" scb="1">
 <day>2</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
+<prettytimes>09:30-10:45 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>10:45</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<item>RT2-FI-A2</item></group>
 <module title="Matière">
 <item>anglais:inser.profession.</item></module>
 <staff title="Personnel">
 <item>J. Fancett</item></staff>
 <room title="Salle">
-<item>512</item></room></resources></event>
-<event id="159717" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="3" sca="1">
-<day>2</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="159718" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="1" cellshare="1">
+<item>Labo</item></room></resources></event>
+<event id="159718" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
 <day>2</day>
 <prettytimes>10:45-12:00 </prettytimes>
 <starttime>10:45</starttime>
@@ -1252,28 +913,45 @@
 <staff title="Personnel">
 <item>S.Le Moel</item></staff>
 <room title="Salle">
-<item>315</item></room></resources></event>
-<event id="159137" timesort="13001415" colour="FFBFBF" ecs="24" ecc="5" er="0" scb="2">
+<item>316</item></room></resources></event>
+<event id="156793" timesort="13001415" colour="FFBFBF" ecs="24" ecc="5" er="1" scb="2">
 <day>2</day>
 <prettytimes>13:00-14:15 </prettytimes>
 <starttime>13:00</starttime>
 <endtime>14:15</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<group title="Groupes">
+<item>RT2-FI-A1</item>
+<item>RT2-FI-A2</item>
+<item>RT2-FI-sem2</item></group>
 <module title="Matière">
 <item>matrices &amp; graphes</item></module>
 <staff title="Personnel">
 <item>S.Le Moel</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="157745" timesort="13151430" colour="7FFF7F" ecs="27" ecc="3" er="0" sca="3">
+<event id="160527" timesort="13001330" colour="FFBFDF" ecs="24" ecc="2" er="0" cellshare="1">
 <day>2</day>
-<prettytimes>13:15-14:30 </prettytimes>
-<starttime>13:15</starttime>
-<endtime>14:30</endtime>
+<prettytimes>13:00-13:30 </prettytimes>
+<starttime>13:00</starttime>
+<endtime>13:30</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group>
+<staff title="Personnel">
+<item>C.Maingreaud</item>
+<item>E.Catala</item>
+<item>W.Guillemin</item></staff></resources>
+<notes>REUNION ST PETERSBOURG</notes></event>
+<event id="157745" timesort="13301445" colour="7FFF7F" ecs="26" ecc="5" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-14:45 </prettytimes>
+<starttime>13:30</starttime>
+<endtime>14:45</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -1285,23 +963,7 @@
 <item>E.Huot</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="157021" timesort="14151530" colour="7FFF7F" ecs="31" ecc="3" er="0" scb="2">
-<day>2</day>
-<prettytimes>14:15-15:30 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>514</item></room></resources></event>
-<event id="156801" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" sca="3" scb="3">
+<event id="156801" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" scb="3">
 <day>2</day>
 <prettytimes>14:15-17:15 </prettytimes>
 <starttime>14:15</starttime>
@@ -1315,11 +977,11 @@
 <item>pt:projet de spe dim pro.</item></module>
 <room title="Salle">
 <item>E50</item></room></resources></event>
-<event id="159138" timesort="14301545" colour="FFBFBF" ecs="30" ecc="5" er="0" scb="1">
+<event id="159138" timesort="14451715" colour="FFBFBF" ecs="29" ecc="12" er="1" sca="1" scb="3">
 <day>2</day>
-<prettytimes>14:30-15:45 </prettytimes>
-<starttime>14:30</starttime>
-<endtime>15:45</endtime>
+<prettytimes>14:45-17:15 </prettytimes>
+<starttime>14:45</starttime>
+<endtime>17:15</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -1337,7 +999,7 @@
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FA-A1</item>
@@ -1348,30 +1010,12 @@
 <starttime>08:00</starttime>
 <endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FA-A1</item>
 <item>RT2-FA-A2</item></group></resources></event>
-<event id="159708" timesort="08000915" colour="7FFF7F" ecs="4" ecc="5" er="0" scb="2">
-<day>3</day>
-<prettytimes>08:00-09:15 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>09:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>S.Le Moel</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156200" timesort="08000930" colour="FF7FFF" ecs="4" ecc="6" er="0" scb="2">
+<event id="156200" timesort="08000930" colour="FF7FFF" ecs="4" ecc="6" er="0" cellshare="1">
 <day>3</day>
 <prettytimes>08:00-09:30 </prettytimes>
 <starttime>08:00</starttime>
@@ -1387,73 +1031,34 @@
 <item>S.MARTY</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="157776" timesort="09151215" colour="BF7FFF" ecs="11" ecc="10" er="0" scb="3">
+<event id="156150" timesort="08001900" colour="DFDFDF" ecs="4" ecc="44" er="0">
 <day>3</day>
-<prettytimes>09:15-12:15 </prettytimes>
-<starttime>09:15</starttime>
-<endtime>12:15</endtime>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group></resources>
+<notes>Voyage St Petersbourg</notes></event>
+<event id="157743" timesort="09301045" colour="BF7FFF" ecs="10" ecc="5" er="0" scb="1">
+<day>3</day>
+<prettytimes>09:30-10:45 </prettytimes>
+<starttime>09:30</starttime>
+<endtime>10:45</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
 <item>RT2-FA-A1</item></group>
 <module title="Matière">
-<item>infrastructur de securite</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources></event>
-<event id="156842" timesort="09301045" colour="BF7FFF" ecs="10" ecc="5" er="1" sca="2" scb="1">
-<day>3</day>
-<prettytimes>09:30-10:45 </prettytimes>
-<starttime>09:30</starttime>
-<endtime>10:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
 <item>ec: mettre en val compet.</item></module>
 <staff title="Personnel">
 <item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="156850" timesort="09301045" colour="BF7FFF" ecs="10" ecc="5" er="1" sca="2" scb="1">
-<day>3</day>
-<prettytimes>09:30-10:45 </prettytimes>
-<starttime>09:30</starttime>
-<endtime>10:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="158628" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
-<day>3</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
-<module title="Matière">
-<item>telephonie sur ip</item></module>
-<staff title="Personnel">
-<item>S.MARTY</item></staff>
 <room title="Salle">
 <item>514</item></room></resources></event>
-<event id="157742" timesort="10451200" colour="BF7FFF" ecs="13" ecc="7" er="0" sca="1">
+<event id="157742" timesort="10451200" colour="BF7FFF" ecs="13" ecc="7" er="1" sca="1">
 <day>3</day>
 <prettytimes>10:45-12:00 </prettytimes>
 <starttime>10:45</starttime>
@@ -1467,54 +1072,6 @@
 <item>ec: mettre en val compet.</item></module>
 <staff title="Personnel">
 <item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156843" timesort="11001215" colour="BF7FFF" ecs="16" ecc="5" er="1" scb="3">
-<day>3</day>
-<prettytimes>11:00-12:15 </prettytimes>
-<starttime>11:00</starttime>
-<endtime>12:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="156849" timesort="13001415" colour="BF7FFF" ecs="24" ecc="5" er="0" scb="2">
-<day>3</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
-<item>ec: mettre en val compet.</item></module>
-<staff title="Personnel">
-<item>M-B.Bat</item></staff>
-<room title="Salle">
-<item>H11</item></room></resources></event>
-<event id="159128" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="1" scb="3">
-<day>3</day>
-<prettytimes>13:00-14:15 </prettytimes>
-<starttime>13:00</starttime>
-<endtime>14:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>E.Vannier</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
 <event id="159133" timesort="13001415" colour="7FFF7F" ecs="24" ecc="5" er="0" scb="2">
@@ -1560,22 +1117,22 @@
 <room title="Salle">
 <item>Amphi C</item></room></resources>
 <notes>SOUTENANCES PROJETS FI 2 OBLIGATOIRES POUR LES FI 1</notes></event>
-<event id="157028" timesort="14151530" colour="FFBFBF" ecs="31" ecc="3" er="0" cellshare="1">
+<event id="156850" timesort="13151430" colour="BF7FFF" ecs="27" ecc="3" er="1" sca="3">
 <day>3</day>
-<prettytimes>14:15-15:30 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:30</endtime>
+<prettytimes>13:15-14:30 </prettytimes>
+<starttime>13:15</starttime>
+<endtime>14:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<item>RT2-FI-A1</item></group>
 <module title="Matière">
-<item>appli.info. dediee aux rt</item></module>
+<item>ec: mettre en val compet.</item></module>
 <staff title="Personnel">
-<item>E.Huot</item></staff>
+<item>M-B.Bat</item></staff>
 <room title="Salle">
-<item>514</item></room></resources></event>
+<item>H11</item></room></resources></event>
 <event id="159129" timesort="14151530" colour="7FFF7F" ecs="31" ecc="3" er="0" scb="2">
 <day>3</day>
 <prettytimes>14:15-15:30 </prettytimes>
@@ -1592,11 +1149,11 @@
 <item>E.Vannier</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="159439" timesort="15001800" colour="BF7FFF" ecs="32" ecc="12" er="1">
+<event id="159439" timesort="14301730" colour="BF7FFF" ecs="30" ecc="12" er="1" scb="2">
 <day>3</day>
-<prettytimes>15:00-18:00 </prettytimes>
-<starttime>15:00</starttime>
-<endtime>18:00</endtime>
+<prettytimes>14:30-17:30 </prettytimes>
+<starttime>14:30</starttime>
+<endtime>17:30</endtime>
 <prettyweeks></prettyweeks>
 <rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
@@ -1608,33 +1165,6 @@
 <item>S.Soulayrol</item></staff>
 <room title="Salle">
 <item>H32</item></room></resources></event>
-<event id="157029" timesort="15301645" colour="7FFF7F" ecs="34" ecc="5" er="0" scb="1">
-<day>3</day>
-<prettytimes>15:30-16:45 </prettytimes>
-<starttime>15:30</starttime>
-<endtime>16:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>appli.info. dediee aux rt</item></module>
-<staff title="Personnel">
-<item>E.Huot</item></staff>
-<room title="Salle">
-<item>514</item></room></resources></event>
-<event id="147610" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
-<day>4</day>
-<prettytimes>08:00-19:00 </prettytimes>
-<starttime>08:00</starttime>
-<endtime>19:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupes">
-<item>RT2-FA-A1</item>
-<item>RT2-FA-A2</item></group></resources></event>
 <event id="147610" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>4</day>
 <prettytimes>08:00-19:00 </prettytimes>
@@ -1646,22 +1176,17 @@
 <group title="Groupes">
 <item>RT2-FA-A1</item>
 <item>RT2-FA-A2</item></group></resources></event>
-<event id="156144" timesort="08000915" colour="7FFF7F" ecs="4" ecc="5" er="0" scb="1">
+<event id="147610" timesort="08001900" colour="FFBF9F" ecs="4" ecc="44" er="0">
 <day>4</day>
-<prettytimes>08:00-09:15 </prettytimes>
+<prettytimes>08:00-19:00 </prettytimes>
 <starttime>08:00</starttime>
-<endtime>09:15</endtime>
+<endtime>19:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>con.entre.(eco-dr.-gest)</item></module>
-<staff title="Personnel">
-<item>L.Dalmas</item></staff>
-<room title="Salle">
-<item>313</item></room></resources></event>
+<group title="Groupes">
+<item>RT2-FA-A1</item>
+<item>RT2-FA-A2</item></group></resources></event>
 <event id="159120" timesort="08000915" colour="FFBFBF" ecs="4" ecc="5" er="0" scb="2">
 <day>4</day>
 <prettytimes>08:00-09:15 </prettytimes>
@@ -1678,22 +1203,62 @@
 <item>J.Zigault</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="156709" timesort="09001030" colour="FF7FFF" ecs="8" ecc="6" er="1" scb="2">
+<event id="159444" timesort="08001100" colour="BF7FFF" ecs="4" ecc="12" er="1">
+<day>4</day>
+<prettytimes>08:00-11:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>11:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>infrastructur de securite</item></module>
+<staff title="Personnel">
+<item>S.Soulayrol</item></staff>
+<room title="Salle">
+<item>H32</item></room></resources></event>
+<event id="156151" timesort="08001900" colour="DFDFDF" ecs="4" ecc="44" er="0">
+<day>4</day>
+<prettytimes>08:00-19:00 </prettytimes>
+<starttime>08:00</starttime>
+<endtime>19:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FA-A1</item></group></resources>
+<notes>Voyage St Petersbourg</notes></event>
+<event id="156778" timesort="09001200" colour="BF7FFF" ecs="8" ecc="12" er="1">
+<day>4</day>
+<prettytimes>09:00-12:00 </prettytimes>
+<starttime>09:00</starttime>
+<endtime>12:00</endtime>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupe">
+<item>RT2-FI-A2</item></group>
+<module title="Matière">
+<item>pt:projet de spe dim pro.</item></module>
+<room title="Salle">
+<item>E50</item></room></resources></event>
+<event id="160488" timesort="09001030" colour="FF7FFF" ecs="8" ecc="6" er="1" scb="2">
 <day>4</day>
 <prettytimes>09:00-10:30 </prettytimes>
 <starttime>09:00</starttime>
 <endtime>10:30</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupes">
 <item>RT2-FI-A1</item>
-<item>RT2-FI-A2</item>
-<item>RT2-FI-sem2</item></group>
+<item>RT2-FI-A2</item></group>
 <module title="Matière">
-<item>fibres optiques</item></module>
+<item>appli.info. dediee aux rt</item></module>
 <staff title="Personnel">
-<item>J.Zigault</item></staff>
+<item>E.Huot</item></staff>
 <room title="Salle">
 <item>510</item></room></resources></event>
 <event id="159121" timesort="09151030" colour="FFBFBF" ecs="11" ecc="3" er="0" scb="2">
@@ -1712,39 +1277,7 @@
 <item>J.Zigault</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="159132" timesort="09301045" colour="7FFF7F" ecs="10" ecc="5" er="0" scb="1">
-<day>4</day>
-<prettytimes>09:30-10:45 </prettytimes>
-<starttime>09:30</starttime>
-<endtime>10:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>matrices &amp; graphes</item></module>
-<staff title="Personnel">
-<item>E.Vannier</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156159" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
-<day>4</day>
-<prettytimes>10:45-12:00 </prettytimes>
-<starttime>10:45</starttime>
-<endtime>12:00</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>con.entre.(eco-dr.-gest)</item></module>
-<staff title="Personnel">
-<item>L.Dalmas</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="159122" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="1" sca="1">
+<event id="159122" timesort="10451200" colour="7FFF7F" ecs="13" ecc="7" er="2" sca="1">
 <day>4</day>
 <prettytimes>10:45-12:00 </prettytimes>
 <starttime>10:45</starttime>
@@ -1760,22 +1293,22 @@
 <item>J.Zigault</item></staff>
 <room title="Salle">
 <item>315</item></room></resources></event>
-<event id="159115" timesort="13001415" colour="FFBFBF" ecs="24" ecc="5" er="0" scb="2">
+<event id="159443" timesort="13001600" colour="BF7FFF" ecs="24" ecc="12" er="1">
 <day>4</day>
-<prettytimes>13:00-14:15 </prettytimes>
+<prettytimes>13:00-16:00 </prettytimes>
 <starttime>13:00</starttime>
-<endtime>14:15</endtime>
+<endtime>16:00</endtime>
 <prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
 <resources>
 <group title="Groupe">
-<item>RT2-FA-A1</item></group>
+<item>RT2-FI-A2</item></group>
 <module title="Matière">
-<item>fibres optiques</item></module>
+<item>infrastructur de securite</item></module>
 <staff title="Personnel">
-<item>J.Zigault</item></staff>
+<item>S.Soulayrol</item></staff>
 <room title="Salle">
-<item>315</item></room></resources></event>
+<item>H32</item></room></resources></event>
 <event id="157704" timesort="13001600" colour="FF7FBF" ecs="24" ecc="12" er="0">
 <day>4</day>
 <prettytimes>13:00-16:00 </prettytimes>
@@ -1816,112 +1349,4 @@
 <item>J. Fancett</item></staff>
 <room title="Salle">
 <item>Amphi C</item></room></resources>
-<notes>Examen TOEIC - Merci de me contacter si vous avez besoin de l'amphi C -&gt; samuel.marty@uvsq.fr</notes></event>
-<event id="156778" timesort="13051605" colour="BF7FFF" ecs="27" ecc="10" er="1" sca="3" scb="3">
-<day>4</day>
-<prettytimes>13:05-16:05 </prettytimes>
-<starttime>13:05</starttime>
-<endtime>16:05</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>pt:projet de spe dim pro.</item></module>
-<room title="Salle">
-<item>E50</item></room></resources></event>
-<event id="159117" timesort="14151530" colour="FFBFBF" ecs="31" ecc="3" er="0" cellshare="1">
-<day>4</day>
-<prettytimes>14:15-15:30 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>15:30</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>fibres optiques</item></module>
-<staff title="Personnel">
-<item>J.Zigault</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event>
-<event id="156800" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="1" sca="3" scb="3">
-<day>4</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A1</item></group>
-<module title="Matière">
-<item>pt:projet de spe dim pro.</item></module>
-<room title="Salle">
-<item>E50</item></room></resources></event>
-<event id="159442" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="2" sca="3" scb="3">
-<day>4</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>infrastructur de securite</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources></event>
-<event id="159443" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="2" sca="3" scb="3">
-<day>4</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>infrastructur de securite</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources></event>
-<event id="159444" timesort="14151715" colour="BF7FFF" ecs="31" ecc="10" er="2" sca="3" scb="3">
-<day>4</day>
-<prettytimes>14:15-17:15 </prettytimes>
-<starttime>14:15</starttime>
-<endtime>17:15</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FI-A2</item></group>
-<module title="Matière">
-<item>infrastructur de securite</item></module>
-<staff title="Personnel">
-<item>S.Soulayrol</item></staff>
-<room title="Salle">
-<item>H32</item></room></resources></event>
-<event id="159119" timesort="15301645" colour="7FFF7F" ecs="34" ecc="5" er="0" scb="1">
-<day>4</day>
-<prettytimes>15:30-16:45 </prettytimes>
-<starttime>15:30</starttime>
-<endtime>16:45</endtime>
-<prettyweeks></prettyweeks>
-<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
-<resources>
-<group title="Groupe">
-<item>RT2-FA-A1</item></group>
-<module title="Matière">
-<item>fibres optiques</item></module>
-<staff title="Personnel">
-<item>J.Zigault</item></staff>
-<room title="Salle">
-<item>315</item></room></resources></event></timetable>
+<notes>Examen TOEIC - Merci de me contacter si vous avez besoin de l'amphi C -&gt; samuel.marty@uvsq.fr</notes></event></timetable>

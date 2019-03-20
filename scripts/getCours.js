@@ -28,6 +28,7 @@ function getCours() {
                 document.getElementById("reponse").style.color = 'black';
             }
         }
+        
     };
 
     xmlhttp.open("GET", "parseur.php", true);
@@ -70,5 +71,5 @@ function pageScroll() {
 }
 
 window.onload = updateData;
-//timer = window.setInterval("getCours()", 900000); //15 minutes
-timer = window.setInterval("getCours()", 9000); //Refresh rapide
+timer = window.setTimeout(getCours, 900000); //15 minutes
+//timer = window.setTimeout(getCours, 9000); //Refresh rapide

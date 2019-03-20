@@ -3,7 +3,7 @@
 require_once("config.php");
 
 $debug = False;
-$debugDate = date_create("12-03-2019 8:00:00");
+$debugDate = date_create("13-03-2019 8:15:01");
 
 function parserEtAfficher() {
 
